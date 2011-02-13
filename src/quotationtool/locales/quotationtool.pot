@@ -1,0 +1,191 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Foundation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Sun Feb 13 16:25:44 2011\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: /home/clueck/src/quotationtool.bibliography/src/quotationtool/bibliography/browser/nav.zcml:54
+#. Default: "Add Entry"
+msgid "subnav-bibliography-add"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.bibliography/src/quotationtool/bibliography/browser/nav.zcml:65
+#. Default: "Search"
+msgid "subnav-bibliography-search"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.bibliography/src/quotationtool/bibliography/browser/nav.zcml:8
+#. Default: "Bibliography"
+msgid "mainnav-bibliography"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.bibliography/src/quotationtool/bibliography/permissions.zcml:10
+#. Default: "Edit a bibliographic entry"
+msgid "edit-entry-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.bibliography/src/quotationtool/bibliography/permissions.zcml:5
+#. Default: "Add an entry to the bibliography"
+msgid "add-entry-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/nav.zcml:87
+#. Default: "Add Category Set"
+msgid "catogoryset-add-navigation"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/nav.zcml:9
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/nav.zcml:76
+#. Default: "Classification"
+msgid "catgoriescontainer-navigation"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/nav.zcml:98
+#. Default: "Categorizable Items"
+msgid "catgorizableitemdescriptions-navigation"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/tabs.zcml:19
+#. Default: "Edit"
+msgid "categoryset-edit-tab"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/tabs.zcml:29
+#. Default: "Add Category"
+msgid "category-add-tab"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/tabs.zcml:50
+#. Default: "Edit"
+msgid "category-edit-tab"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/tabs.zcml:61
+#. Default: "Classification"
+msgid "classification"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/tabs.zcml:9
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/browser/tabs.zcml:40
+#. Default: "Categories"
+msgid "categoryset-tab"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/permissions.zcml:11
+#. Default: "Add a category or set of categories"
+msgid "add-category-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/permissions.zcml:17
+#. Default: "Edit categories"
+msgid "edit-category-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/permissions.zcml:23
+#. Default: "Manage categorizations on a Zope3 level"
+msgid "manage-categorization-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.categorization/src/quotationtool/categorization/permissions.zcml:5
+#. Default: "Attribute categories to an item."
+msgid "do-attribution-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.commentary/src/quotationtool/commentary/browser/tabs.zcml:8
+#. Default: "Comments"
+msgid "itemtabs-commentable-comments"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.commentary/src/quotationtool/commentary/permissions.zcml:11
+#. Default: "Edit commentaries"
+msgid "edit-comment-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.commentary/src/quotationtool/commentary/permissions.zcml:5
+#. Default: "Write a commentary"
+msgid "add-comment-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.figuresng/src/quotationtool/figuresng/browser/example_nav.zcml:73
+#. Default: "Search"
+msgid "examplecontainer-search-navigation"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.figuresng/src/quotationtool/figuresng/browser/example_nav.zcml:9
+#: /home/clueck/src/quotationtool.figuresng/src/quotationtool/figuresng/browser/example_nav.zcml:51
+#. Default: "Examples"
+msgid "examplecontainer-navigation"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.figuresng/src/quotationtool/figuresng/browser/example_tabs.zcml:19
+#. Default: "Edit"
+msgid "example-edit-tabs"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.figuresng/src/quotationtool/figuresng/browser/example_tabs.zcml:30
+#. Default: "Examples"
+msgid "entry-examples"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.figuresng/src/quotationtool/figuresng/permissions.zcml:10
+msgid "Edit a figure e.g. example item."
+msgstr ""
+
+#: /home/clueck/src/quotationtool.figuresng/src/quotationtool/figuresng/permissions.zcml:5
+msgid "Add a figures e.g. examples to the database."
+msgstr ""
+
+#: /home/clueck/src/quotationtool.search/src/quotationtool/search/browser/configure.zcml:21
+#. Default: "Search"
+msgid "quotationtool-search-navigation"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.security/src/quotationtool/security/roles.zcml:11
+#. Default: "An Editor of the quotationtool website"
+msgid "editor-role-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.security/src/quotationtool/security/roles.zcml:17
+#. Default: "A member of the quotationtool website"
+msgid "member-role-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.security/src/quotationtool/security/roles.zcml:23
+#. Default: "The creator of a content item"
+msgid "creator-role-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.security/src/quotationtool/security/roles.zcml:5
+#. Default: "Visitor of the quotationtool website"
+msgid "visitor-role-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.user/src/quotationtool/user/permissions.zcml:11
+#. Default: "Change a principal's password."
+msgid "changepassword-permission-title"
+msgstr ""
+
+#: /home/clueck/src/quotationtool.user/src/quotationtool/user/permissions.zcml:5
+#. Default: "Sign up as a user to the site."
+msgid "signup-permission-title"
+msgstr ""
+

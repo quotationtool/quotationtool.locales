@@ -1,0 +1,20 @@
+*~
+*.pyc
+.installed.cfg
+
+bin
+eggs
+extends-cache/*
+develop-eggs
+parts
+src/*.egg-info
+
+var/filestorage/*
+var/log/*
+var/beispiel-data/*
+var
+
+*.tgz
+
+# TODO: remove
+src/beispiel/browser.OLD
