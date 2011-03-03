@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quotationtool\n"
-"POT-Creation-Date: Fri Mar 20 12:58:55 2009\n"
-"PO-Revision-Date: 2009-03-20 13:08+0000\n"
+"POT-Creation-Date: Wed Mar  2 23:58:07 2011\n"
+"PO-Revision-Date: 2011-03-03 00:02+0100\n"
 "Last-Translator: Christian Lück <christian.lueck@rub.de>\n"
 "Language-Team: german http://beispiel.germanistik.rub.de\n"
 "MIME-Version: 1.0\n"
@@ -23,248 +23,1808 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: zope/app/locales/extract.py\n"
 
-#: src/quotationtool/beispiel/welcome.pt:4
-msgid "Welcome to <i>Archiv des Beispiels</i>"
-msgstr "Willkommen im <i>Archiv des Beispiels</i>"
+#: quotationtool/biblatex/browser/add.py:103
+msgid "You have to choose an entry type."
+msgstr "Sie müssen einen Publikations-Typ auswählen."
 
-#: src/quotationtool/beispiel/welcome.pt:6
-msgid ""
-"You can now log in using the login name and password you entered during the "
-"sign-up process."
+#: quotationtool/biblatex/browser/add.py:109
+#: quotationtool/biblatex/browser/add.py:195
+msgid "Invalid entry type."
+msgstr "Ungültiger Publikations-Typ."
+
+#. Default: "Add bibliographic entry"
+#: quotationtool/biblatex/browser/add.py:152
+msgid "zblx-addwizard-label"
+msgstr "Erstellen eines bibliographischen Eintrags"
+
+#: quotationtool/biblatex/browser/add.py:168
+msgid "zblx-addwizard-requiredstep-labelRequired"
+msgstr "Notw."
+
+#: quotationtool/biblatex/browser/add.py:189
+msgid "You have to choose an entry type. "
+msgstr "Sie müssen einen Publikations-Typ wählen."
+
+#: quotationtool/biblatex/browser/add.py:220
+msgid "zblx-addwizard-optionalstep-labelOptional"
+msgstr "Optional"
+
+#: quotationtool/biblatex/browser/add.py:39
+msgid "Add Entry"
+msgstr "Eintrag hinzufügen"
+
+#. Default: "Add Entry"
+#: quotationtool/biblatex/browser/add.py:52
+msgid "biblatexentry-simpleaddform-label"
+msgstr "Erstellen eines bibliographischen Eintrags"
+
+#. Default: "Add '$TYPE' entry."
+#: quotationtool/biblatex/browser/add.py:90
+msgid "zblx-addrequiredform-label"
+msgstr "Erstellen eines '$TYPE'-Eintrags"
+
+#: quotationtool/biblatex/browser/config.py:16
+msgid "Run LaTeX on all bibliographic items"
 msgstr ""
-"Sie können sich jetzt mit Ihrem Benutzernamen und Passwort in System "
-"anmelden."
 
-#. Default: "Location:"
-#: src/quotationtool/bochum/breadcrumbs.pt:2
-msgid "breadcrumbs-label"
-msgstr "Standort:"
+#: quotationtool/biblatex/browser/config.py:18
+msgid ""
+"This is a very expensive task. So you should only do it if it is really "
+"required."
+msgstr ""
 
-#. Default: "Navigation"
-#: src/quotationtool/bochum/layout.pt:41
-msgid "navigation-label"
-msgstr "Navigation"
+#: quotationtool/biblatex/browser/config.py:33
+msgid "Run LaTeX"
+msgstr ""
 
-#. Default: "Search"
-#: src/quotationtool/catalog/browser/choose_search_target.pt:16
-msgid "search-button-label"
-msgstr "Suchen"
+#. Default: "Publication Facts"
+#: quotationtool/biblatex/browser/edit.py:107
+msgid "zblx-editpublicationfactsstep-label"
+msgstr "Publikat."
 
-#. Default: "Search"
-#: src/quotationtool/catalog/browser/choose_search_target.pt:4
-msgid "choose-search-target-label"
-msgstr "Suche"
+#. Default: "Roles"
+#: quotationtool/biblatex/browser/edit.py:114
+msgid "zblx-editrolesstep-label"
+msgstr "Rollen"
 
-#. Default: "Choose the search target!"
-#: src/quotationtool/catalog/browser/choose_search_target.pt:6
-msgid "choose-search-target-prompt"
-msgstr "Wonach wollen Sie suchen?"
+#. Default: "Shortening"
+#: quotationtool/biblatex/browser/edit.py:121
+msgid "zblx-editshorteningstep-label"
+msgstr "Abkürzungen"
 
-#. Default: "Search"
-#: src/quotationtool/catalog/browser/configure.zcml:19
-msgid "quotationtool-search-navigation"
-msgstr "Suche"
+#. Default: "Sorting"
+#: quotationtool/biblatex/browser/edit.py:128
+msgid "zblx-editsortingstep-label"
+msgstr "Sortierung"
 
-#. Default: "Search"
-#: src/quotationtool/catalog/browser/configure.zcml:31
-msgid "quotationtool-search-tabs"
-msgstr "Suche"
+#. Default: "Linking"
+#: quotationtool/biblatex/browser/edit.py:135
+msgid "zblx-editlinkingstep-label"
+msgstr "Links"
 
-#. Default: "Index ${index} not found!"
-#: src/quotationtool/catalog/browser/search.py:114
-msgid "search-invalid-index-error"
-msgstr "Such-Index ${index} nicht vorhanden!"
+#. Default: "Compat"
+#: quotationtool/biblatex/browser/edit.py:142
+msgid "zblx-editcompatstep-label"
+msgstr "Kompatibilität"
 
-#. Default: "Invalid query for ${index}"
-#: src/quotationtool/catalog/browser/search.py:121
-msgid "search-query-type-error"
-msgstr "Ungültige Such-Anfrage für ${index}!"
+#. Default: "General"
+#: quotationtool/biblatex/browser/edit.py:149
+msgid "zblx-editgeneralstep-label"
+msgstr "Allgem."
 
-#. Default: "Please choose a search target!"
-#: src/quotationtool/catalog/browser/search.py:189
-msgid "choose-search-target"
-msgstr "Suche"
+#. Default: "Edit Bibliographic Entry"
+#: quotationtool/biblatex/browser/edit.py:165
+msgid "zblx-editwizard-label"
+msgstr "Ändern eines bibliographischen Eintrags"
 
-#. Default: "Find!"
-#: src/quotationtool/catalog/browser/search_form.pt:47
-msgid "find-button-label"
-msgstr "Suchen!"
+#. Default: "Entry Type"
+#: quotationtool/biblatex/browser/edit.py:35
+msgid "zblx-editentrytypestep-label"
+msgstr "Typ"
 
-#. Default: "About search options"
-#: src/quotationtool/catalog/browser/search_form.pt:54
-msgid "search-options-label"
-msgstr "Optionen bei der Suche"
-
-#. Default: "Jokers"
-#: src/quotationtool/catalog/browser/search_form.pt:56
-msgid "search-jokers-label"
-msgstr "Jokerzeichen/Trunkierung"
-
-#. Default: "Replaces arbitrary many characters"
-#: src/quotationtool/catalog/browser/search_form.pt:61
-msgid "asterix-joker-desc"
-msgstr "Ersetzt beliebig viele Zeichen"
-
-#. Default: "Replaces exactly one character"
-#: src/quotationtool/catalog/browser/search_form.pt:66
-msgid "questionmark-joker-desc"
-msgstr "Ersetzt genau ein Zeichen"
-
-#. Default: "Indices"
-#: src/quotationtool/catalog/browser/search_form.pt:70
-msgid "search-indices-label"
-msgstr "Such-Indices"
-
-#. Default: "Find!"
-#: src/quotationtool/catalog/browser/search_quick.pt:20
-msgid "value find-button-label"
-msgstr "Suchen!"
-
-#. Default: "full-fledged search form"
-#: src/quotationtool/catalog/browser/search_quick.pt:24
-msgid "full-fledged-search-link"
-msgstr "Erweiterte Suche"
-
-#. Default: "Quick Search"
-#: src/quotationtool/catalog/browser/search_quick.pt:3
-msgid "quick-search-label"
-msgstr "Schnellsuche"
-
-#. Default: "Search query:"
-#: src/quotationtool/catalog/browser/search_result_page.pt:10
-msgid "search-query"
-msgstr "Such-Anfrage"
-
-#. Default: "Search Result"
-#: src/quotationtool/catalog/browser/search_result_page.pt:5
-msgid "search-result-label"
-msgstr "Such-Ergebnisse"
-
-#. Default: "Conjunction"
-#: src/quotationtool/catalog/interfaces.py:13
-msgid "iquery-conjunction-title"
-msgstr "Konjunktion"
-
-#. Default: "and / or"
-#: src/quotationtool/catalog/interfaces.py:15
-msgid "iquery-conjunction-desc"
-msgstr "Logische Verknüpfung."
-
-#. Default: "Quality"
-#: src/quotationtool/catalog/interfaces.py:23
-msgid "iquery-quality-title"
-msgstr "Logische Qualität"
-
-#. Default: "(yes) / not; Position or Negation"
-#: src/quotationtool/catalog/interfaces.py:25
-msgid "iquery-quality-desc"
-msgstr "Position oder Negation"
-
-#. Default: "Index"
-#: src/quotationtool/catalog/interfaces.py:35
-msgid "iquery-index-title"
-msgstr "Such-Index"
-
-#. Default: "The name of the index to be searched."
-#: src/quotationtool/catalog/interfaces.py:37
-msgid "iquery-index-desc"
-msgstr "Durchsuchten Index auswählen."
-
-#. Default: "Target"
-#: src/quotationtool/catalog/interfaces.py:67
-msgid "imultiindexquery-catalog-title"
-msgstr "Such-Ergebnis"
-
-#. Default: "What are you searching for?"
-#: src/quotationtool/catalog/interfaces.py:69
-msgid "imultiindexquery-catalog-desc"
-msgstr "Wonach soll gesucht werden?"
-
-#. Default: "Queries"
-#: src/quotationtool/catalog/interfaces.py:76
-msgid "imultiindexquery-queries-title"
-msgstr "Suchanfragen"
-
-#. Default: "A List of query objects."
-#: src/quotationtool/catalog/interfaces.py:78
-msgid "imultiindexquery-queries-desc"
-msgstr "Liste kombinierter Suchanfragen."
-
-#. Default: "Query"
-#: src/quotationtool/catalog/interfaces.py:80
-msgid "imultiindexquery-queries-object-title"
-msgstr "Anfrage"
+#. Default: "Required"
+#: quotationtool/biblatex/browser/edit.py:60
+msgid "zblx-editrequiredstep-label"
+msgstr "Notw."
 
 #. Default: ""
-#.  "The form below asks for a categorization of this item. The\n"
-#.  "\t  categories (classes) given in the form were defined by users of this\n"
-#.  "\t  website."
-#: src/quotationtool/categorization/browser/attribution.pt:18
+#: quotationtool/biblatex/browser/edit.py:75
+msgid "Wrong entry type: ${TYPE}"
+msgstr "Ungültiger Publikations-Typ: ${TYPE}"
+
+#. Default: "Optional"
+#: quotationtool/biblatex/browser/edit.py:94
+msgid "zblx-editoptionalstep-label"
+msgstr "Optional"
+
+#: quotationtool/biblatex/browser/view.py:121
+msgid "(Ed.)"
+msgstr "(Hg.)"
+
+#: quotationtool/biblatex/browser/view.py:123
+msgid "(Eds.)"
+msgstr "(Hgg.)"
+
+#. Default: "Bibliographic Entry: $name"
+#: quotationtool/biblatex/browser/view.py:77
+msgid "biblatexentry-labelview"
+msgstr "Bibliographischer Eintrag: $name"
+
+#. Default: "title"
+#: quotationtool/biblatex/entrytypes.py:181
+msgid "zblx--title"
+msgstr ""
+
+#. Default: "description"
+#: quotationtool/biblatex/entrytypes.py:184
+msgid "zblx--desc"
+msgstr ""
+
+#. Default: "required-description"
+#: quotationtool/biblatex/entrytypes.py:187
+msgid "zblx--required"
+msgstr ""
+
+#. Default: "example"
+#: quotationtool/biblatex/entrytypes.py:190
+msgid "zblx--example"
+msgstr ""
+
+#. Default: "Name"
+#: quotationtool/biblatex/field.py:153
+msgid "zblx-nameitem-title"
+msgstr "Name"
+
+#. Default: "LAST name, FIRST name -- This is important for sorting the bibliography. Each name goes into a seperate line."
+#: quotationtool/biblatex/field.py:164
+msgid "zblx-field-name-format"
+msgstr ""
+"VORname, NACHname -- Das ist wichtig für die Sortierung der Bibliographie. "
+"Für jeden Namen bitte ein eigenes Feld verwenden."
+
+#. Default: "Kant, Immanuel"
+#: quotationtool/biblatex/field.py:166
+msgid "zblx-field-name-example"
+msgstr "Kant, Immanuel"
+
+#. Default: "YYYY-MM-DD/YYYY-MM--DD. YYYY must always be 4 digits and may be preceded by a - (minus). MM and DD are optional and the range seperator / is optional, too."
+#: quotationtool/biblatex/field.py:243
+msgid "zblx-field-date-format"
+msgstr ""
+"YYYY-MM-DD/YYYY-MM--DD. Die Jahresangabe YYYY muss immer 4 Ziffern lang sein "
+"und darf ein vorangestellted - (Minus) haben. MM (Monat) und DD (Tag) sind "
+"optional. Zeitspannen können durch / gefolgt von einem weiteren Datum "
+"angegeben werden."
+
+#. Default: "'-0384/-0322', '0012' and '1790' are valid values, but '-384' is invalid."
+#: quotationtool/biblatex/field.py:245
+msgid "zblx-field-date-example"
+msgstr ""
+"'-0384/-0322' und '0012' und '1790' sind gültige Eingaben, aber '-384' ist "
+"ungültig."
+
+#. Default: "Booktitle"
+#: quotationtool/biblatex/ientry.py:102
+msgid "zblx-booktitle-tit"
+msgstr ""
+
+#. Default: ""
+#.  "If the title field indicates the title of a work which is part of a larger publication,\n"
+#.  "the title of the main work is given in this field. See also title."
+#: quotationtool/biblatex/ientry.py:103
+msgid "zblx-booktitle-desc"
+msgstr ""
+
+#. Default: "Booktitleaddon"
+#: quotationtool/biblatex/ientry.py:110
+msgid "zblx-booktitleaddon-tit"
+msgstr ""
+
+#. Default: "An annex to the booktitle, to be printed in a different font."
+#: quotationtool/biblatex/ientry.py:111
+msgid "zblx-booktitleaddon-desc"
+msgstr ""
+
+#. Default: "Chapter"
+#: quotationtool/biblatex/ientry.py:116
+msgid "zblx-chapter-tit"
+msgstr ""
+
+#. Default: "A chapter or section or any other unit of a work."
+#: quotationtool/biblatex/ientry.py:117
+msgid "zblx-chapter-desc"
+msgstr ""
+
+#. Default: "Commentator"
+#: quotationtool/biblatex/ientry.py:122
+msgid "zblx-commentator-tit"
+msgstr ""
+
+#. Default: ""
+#.  "The author(s) of a commentary to the work. Note that this field is intended for\n"
+#.  "commented editions which have a commentator in addition to the author. If the\n"
+#.  "work is a stand-alone commentary, the commentator should be given in the author\n"
+#.  "field. If the commentator is identical to the editor and/or translator, the standard styles will automatically concatenate these fields in the bibliography. See also\n"
+#.  "annotator."
+#: quotationtool/biblatex/ientry.py:123
+msgid "zblx-commentator-desc"
+msgstr ""
+
+#. Default: "Date"
+#: quotationtool/biblatex/ientry.py:134
+msgid "zblx-date-tit"
+msgstr ""
+
+#. Default: "The publication date."
+#: quotationtool/biblatex/ientry.py:135
+msgid "zblx-date-desc"
+msgstr ""
+
+#. Default: "DOI"
+#: quotationtool/biblatex/ientry.py:140
+msgid "zblx-doi-tit"
+msgstr ""
+
+#. Default: "The Digital Object Identifier of the work."
+#: quotationtool/biblatex/ientry.py:141
+msgid "zblx-doi-desc"
+msgstr ""
+
+#. Default: "Edition"
+#: quotationtool/biblatex/ientry.py:146
+msgid "zblx-edition-tit"
+msgstr ""
+
+#. Default: "The edition of a printed publication. This must be an integer, not an ordinal. Don't say \"First\" or \"1st\" but \"1\". The bibliography style converts this to a language dependent ordinal. It is also possible to give the edition as a literal string, for example \"Third, revised and expanded edition\"."
+#: quotationtool/biblatex/ientry.py:147
+msgid "zblx-edition-desc"
+msgstr ""
+
+#. Default: "Editor"
+#: quotationtool/biblatex/ientry.py:152
+msgid "zblx-editor-tit"
+msgstr ""
+
+#. Default: "The editor(s) of the title, booktitle, or maintitle, depending on the entry type. Use the editortype field to specifiy the role if it is different from 'editor'."
+#: quotationtool/biblatex/ientry.py:153
+msgid "zblx-editor-desc"
+msgstr ""
+
+#. Default: "Editor A"
+#: quotationtool/biblatex/ientry.py:160
+msgid "zblx-editora-tit"
+msgstr ""
+
+#. Default: "A secondary editor performing a different editorial role, such as compiling, redacting, etc. Use the editoratype field to specifiy the role."
+#: quotationtool/biblatex/ientry.py:161
+msgid "zblx-editora-desc"
+msgstr ""
+
+#. Default: "Editor B"
+#: quotationtool/biblatex/ientry.py:168
+msgid "zblx-editorb-tit"
+msgstr ""
+
+#. Default: "A secondary editor performing a different editorial role, such as compiling, redacting, etc. Use the Editor B Type field to specifiy the role."
+#: quotationtool/biblatex/ientry.py:169
+msgid "zblx-editorb-desc"
+msgstr ""
+
+#. Default: "Editor C"
+#: quotationtool/biblatex/ientry.py:176
+msgid "zblx-editorc-tit"
+msgstr ""
+
+#. Default: "A secondary editor performing a different editorial role, such as compiling, redacting, etc. Use the Editor C Type field to specifiy the role."
+#: quotationtool/biblatex/ientry.py:177
+msgid "zblx-editorc-desc"
+msgstr ""
+
+#. Default: "Abstract"
+#: quotationtool/biblatex/ientry.py:18
+msgid "zblx-abstract-tit"
+msgstr ""
+
+#. Default: "Editor Type"
+#: quotationtool/biblatex/ientry.py:184
+msgid "zblx-editortype-tit"
+msgstr ""
+
+#. Default: "The type of editorial role performed by the editor. Roles supported by default are editor, compiler, founder, continuator, redactor, collaborator. The role \"editor\" is the default. In this case, the field is omissible."
+#: quotationtool/biblatex/ientry.py:185
+msgid "zblx-editortype-desc"
+msgstr ""
+
+#. Default: "This field is intended for recording abstracts."
+#: quotationtool/biblatex/ientry.py:19
+msgid "zblx-abstract-desc"
+msgstr ""
+
+#. Default: "Editor A Type"
+#: quotationtool/biblatex/ientry.py:191
+msgid "zblx-editoratype-tit"
+msgstr ""
+
+#. Default: "Similar to Editor Type but referring to the editora field."
+#: quotationtool/biblatex/ientry.py:192 quotationtool/biblatex/ientry.py:199
+#: quotationtool/biblatex/ientry.py:206
+msgid "zblx-editoratype-desc"
+msgstr ""
+
+#. Default: "Editor B Type"
+#: quotationtool/biblatex/ientry.py:198
+msgid "zblx-editorbtype-tit"
+msgstr ""
+
+#. Default: "Editor C Type"
+#: quotationtool/biblatex/ientry.py:205
+msgid "zblx-editorctype-tit"
+msgstr ""
+
+#. Default: "EID"
+#: quotationtool/biblatex/ientry.py:213
+msgid "zblx-eid-tit"
+msgstr ""
+
+#. Default: "The electronic identifier of an Article."
+#: quotationtool/biblatex/ientry.py:214
+msgid "zblx-eid-desc"
+msgstr ""
+
+#. Default: "Eprint"
+#: quotationtool/biblatex/ientry.py:219
+msgid "zblx-eprint-tit"
+msgstr ""
+
+#. Default: "The electronic identifier of an online publication. This is roughly comparable to a DOI but specific to a certain archive, repository, service, or system. Also see eprinttype and eprintclass."
+#: quotationtool/biblatex/ientry.py:220
+msgid "zblx-eprint-desc"
+msgstr ""
+
+#. Default: "Eprint Class"
+#: quotationtool/biblatex/ientry.py:225
+msgid "zblx-eprintclass-tit"
+msgstr ""
+
+#. Default: "Additional information related to the resource indicated by the eprinttype field. This could be a section of an archive, a path indicating a service, a classification of some sort, etc. Also see Eprint and Eprint Type."
+#: quotationtool/biblatex/ientry.py:226
+msgid "zblx-eprintclass-desc"
+msgstr ""
+
+#. Default: "Eprint Type"
+#: quotationtool/biblatex/ientry.py:231
+msgid "zblx-eprinttype-tit"
+msgstr ""
+
+#. Default: "The type of eprint identifier, e. g., the name of the archive, repository, service, or system the eprint field refers to. Also see eprint and eprintclass."
+#: quotationtool/biblatex/ientry.py:232
+msgid "zblx-eprinttype-desc"
+msgstr ""
+
+#. Default: "Event Date"
+#: quotationtool/biblatex/ientry.py:237
+msgid "zblx-eventdate-tit"
+msgstr ""
+
+#. Default: "The date of a conference, a symposium, or some other event in Proceedings and InProceedings entries. See also eventtitle and venue as well as 2.3.8."
+#: quotationtool/biblatex/ientry.py:238
+msgid "zblx-eventdate-desc"
+msgstr ""
+
+#. Default: "Addendum"
+#: quotationtool/biblatex/ientry.py:24
+msgid "zblx-addendum-tit"
+msgstr ""
+
+#. Default: "Event Title"
+#: quotationtool/biblatex/ientry.py:243
+msgid "zblx-eventtitle-tit"
+msgstr ""
+
+#. Default: "The title of a conference, a symposium, or some other event in @proceedings and InProceedings entries. Note that this field holds the plain title of the event. Things like \"Proceedings of the Fifth XYZ Conference\" go into the titleaddon or Book Titleaddon field, respectively. See also Event Date and Venue."
+#: quotationtool/biblatex/ientry.py:244
+msgid "zblx-eventtitle-desc"
+msgstr ""
+
+#. Default: "File"
+#: quotationtool/biblatex/ientry.py:249
+msgid "zblx-file-tit"
+msgstr ""
+
+#. Default: "Miscellaneous bibliographic data to be printed at the end of the entry. This is similar to the note field except that it is printed at the end of the bibliography entry."
+#: quotationtool/biblatex/ientry.py:25
+msgid "zblx-addendum-desc"
+msgstr ""
+
+#. Default: "A local link to a PDF or other version of the work. Not used by the standard bibliography styles."
+#: quotationtool/biblatex/ientry.py:250
+msgid "zblx-file-desc"
+msgstr ""
+
+#. Default: "Foreword"
+#: quotationtool/biblatex/ientry.py:255
+msgid "zblx-foreword-tit"
+msgstr ""
+
+#. Default: "The author(s) of a foreword to the work. If the author of the foreword is identical to the Editor and/or Translator, the standard styles will automatically concatenate these fields in the bibliography. See also Introduction and Afterword."
+#: quotationtool/biblatex/ientry.py:256
+msgid "zblx-foreword-desc"
+msgstr ""
+
+#. Default: "Holder"
+#: quotationtool/biblatex/ientry.py:263
+msgid "zblx-holder-tit"
+msgstr ""
+
+#. Default: "The holder(s) of a Patent, if different from the author. Not that corporate holders need to be wrapped in an additional set of braces, see 2.3.3 for details."
+#: quotationtool/biblatex/ientry.py:264
+msgid "zblx-holder-desc"
+msgstr ""
+
+#. Default: "How Published"
+#: quotationtool/biblatex/ientry.py:271
+msgid "zblx-howpublished-tit"
+msgstr ""
+
+#. Default: "A publication notice for unusual publications which do not fit into any of the common categories."
+#: quotationtool/biblatex/ientry.py:272
+msgid "zblx-howpublished-desc"
+msgstr ""
+
+#. Default: "Index Title"
+#: quotationtool/biblatex/ientry.py:277
+msgid "zblx-indextitle-tit"
+msgstr ""
+
+#. Default: "A title to use for indexing instead of the regular title field. This field may be useful if you have an entry with a title like \"An Introduction to ...\" and want that indexed as \"Introduction to ... An\". Style authors should note that biblatex automatically copies the value of the title field to indextitle if the latter field is undefined."
+#: quotationtool/biblatex/ientry.py:278
+msgid "zblx-indextitle-desc"
+msgstr ""
+
+#. Default: "Institution"
+#: quotationtool/biblatex/ientry.py:283
+msgid "zblx-institution-tit"
+msgstr ""
+
+#. Default: "The name of a university or some other institution, depending on the entry type. Traditional BibTeX uses the field name school for theses, which is supported as an alias. See also 2.2.5 and 2.3.4."
+#: quotationtool/biblatex/ientry.py:284
+msgid "zblx-institution-desc"
+msgstr ""
+
+#. Default: "Introduction"
+#: quotationtool/biblatex/ientry.py:289
+msgid "zblx-introduction-tit"
+msgstr ""
+
+#. Default: "The author(s) of an introduction to the work. If the author of the introduction is identical to the editor and/or translator, the standard styles will automatically concatenate these fields in the bibliography. See also foreword and afterword."
+#: quotationtool/biblatex/ientry.py:290
+msgid "zblx-introduction-desc"
+msgstr ""
+
+#. Default: "ISAN"
+#: quotationtool/biblatex/ientry.py:297
+msgid "zblx-isan-tit"
+msgstr ""
+
+#. Default: "The International Standard Audiovisual Number of an audiovisual work. Not used by the standard bibliography styles."
+#: quotationtool/biblatex/ientry.py:298
+msgid "zblx-isan-desc"
+msgstr ""
+
+#. Default: "ISBN"
+#: quotationtool/biblatex/ientry.py:303
+msgid "zblx-isbn-tit"
+msgstr ""
+
+#. Default: "The International Standard Book Number of a book."
+#: quotationtool/biblatex/ientry.py:304
+msgid "zblx-isbn-desc"
+msgstr ""
+
+#. Default: "ISMN"
+#: quotationtool/biblatex/ientry.py:309
+msgid "zblx-ismn-tit"
+msgstr ""
+
+#. Default: "Afterword"
+#: quotationtool/biblatex/ientry.py:31
+msgid "zblx-afterword-tit"
+msgstr ""
+
+#. Default: "The International Standard Music Number for printed music such as musical scores. Not used by the standard bibliography styles."
+#: quotationtool/biblatex/ientry.py:310
+msgid "zblx-ismn-desc"
+msgstr ""
+
+#. Default: "ISRN"
+#: quotationtool/biblatex/ientry.py:315
+msgid "zblx-isrn-tit"
+msgstr ""
+
+#. Default: "The International Standard Technical Report Number of a technical report."
+#: quotationtool/biblatex/ientry.py:316
+msgid "zblx-isrn-desc"
+msgstr ""
+
+#. Default: "The author(s) of an afterword to the work. If the author of the afterword is identical to the editor and/or translator, the standard styles will automatically concatenate these fields in the bibliography. See also introduction and foreword."
+#: quotationtool/biblatex/ientry.py:32
+msgid "zblx-afterword-desc"
+msgstr ""
+
+#. Default: "ISSN"
+#: quotationtool/biblatex/ientry.py:321
+msgid "zblx-issn-tit"
+msgstr ""
+
+#. Default: "The International Standard Serial Number of a periodical."
+#: quotationtool/biblatex/ientry.py:322
+msgid "zblx-issn-desc"
+msgstr ""
+
+#. Default: "Issue"
+#: quotationtool/biblatex/ientry.py:327
+msgid "zblx-issue-tit"
+msgstr ""
+
+#. Default: "The issue of a journal. This field is intended for journals whose individual issues are identified by a designation such as \"Spring\" or \"Summer\" rather than the month or a number. Since the placement of issue is similar to month and number, this field may also be useful with double issues and other special cases. See also month, number, and 2.3.9."
+#: quotationtool/biblatex/ientry.py:328
+msgid "zblx-issue-desc"
+msgstr ""
+
+#. Default: "Issue Subtitle"
+#: quotationtool/biblatex/ientry.py:333
+msgid "zblx-issuesubtitle-tit"
+msgstr ""
+
+#. Default: "The subtitle of a specific issue of a journal or other periodical."
+#: quotationtool/biblatex/ientry.py:334
+msgid "zblx-issuesubtitle-desc"
+msgstr ""
+
+#. Default: "Issue Title"
+#: quotationtool/biblatex/ientry.py:339
+msgid "zblx-issuetitle-tit"
+msgstr ""
+
+#. Default: "The title of a specific issue of a journal or other periodical."
+#: quotationtool/biblatex/ientry.py:340
+msgid "zblx-issuetitle-desc"
+msgstr ""
+
+#. Default: "ISWC"
+#: quotationtool/biblatex/ientry.py:345
+msgid "zblx-iswc-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:346
+msgid "zblx-iswc-desc"
+msgstr ""
+
+#. Default: "Journal Subtitle"
+#: quotationtool/biblatex/ientry.py:351
+msgid "zblx-journalsubtitle-tit"
+msgstr ""
+
+#. Default: "The subtitle of a journal, a newspaper, or some other periodical."
+#: quotationtool/biblatex/ientry.py:352
+msgid "zblx-journalsubtitle-desc"
+msgstr ""
+
+#. Default: "Journal Title"
+#: quotationtool/biblatex/ientry.py:357
+msgid "zblx-journaltitle-tit"
+msgstr ""
+
+#. Default: "The name of a journal, a newspaper, or some other periodical."
+#: quotationtool/biblatex/ientry.py:358
+msgid "zblx-journaltitle-desc"
+msgstr ""
+
+#. Default: "Label"
+#: quotationtool/biblatex/ientry.py:363
+msgid "zblx-label-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:364
+msgid "zblx-label-desc"
+msgstr "<i>Nachname, Vorname</i> eingeben."
+
+#. Default: "Language"
+#: quotationtool/biblatex/ientry.py:369
+msgid "zblx-language-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:370
+msgid "zblx-language-desc"
+msgstr ""
+
+#. Default: "Library"
+#: quotationtool/biblatex/ientry.py:377
+msgid "zblx-library-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:378
+msgid "zblx-library-desc"
+msgstr ""
+
+#. Default: "Location"
+#: quotationtool/biblatex/ientry.py:383
+msgid "zblx-location-tit"
+msgstr ""
+
+#. Default: "The place(s) of publication, i. e., the location of the publisher or institution, depending on the entry type."
+#: quotationtool/biblatex/ientry.py:384
+msgid "zblx-location-desc"
+msgstr ""
+
+#. Default: "Main Subtitle"
+#: quotationtool/biblatex/ientry.py:389
+msgid "zblx-mainsubtitle-tit"
+msgstr ""
+
+#. Default: "The subtitle related to the maintitle. See also subtitle."
+#: quotationtool/biblatex/ientry.py:390
+msgid "zblx-mainsubtitle-desc"
+msgstr ""
+
+#. Default: "Main Title"
+#: quotationtool/biblatex/ientry.py:395
+msgid "zblx-maintitle-tit"
+msgstr ""
+
+#. Default: "The main title of a multi-volume book, such as 'Collected Works'. If the title or booktitle field indicates the title of a single volume which is part of multi-volume book, the title of the complete work is given in this field."
+#: quotationtool/biblatex/ientry.py:396
+msgid "zblx-maintitle-desc"
+msgstr ""
+
+#. Default: "Annotation"
+#: quotationtool/biblatex/ientry.py:40
+msgid "zblx-annotation-tit"
+msgstr ""
+
+#. Default: "Main Title Addon"
+#: quotationtool/biblatex/ientry.py:401
+msgid "zblx-maintitleaddon-tit"
+msgstr ""
+
+#. Default: "An annex to the maintitle, to be printed in a different font."
+#: quotationtool/biblatex/ientry.py:402
+msgid "zblx-maintitleaddon-desc"
+msgstr ""
+
+#. Default: "Month"
+#: quotationtool/biblatex/ientry.py:407
+msgid "zblx-month-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:408
+msgid "zblx-month-desc"
+msgstr ""
+
+#. Default: ""
+#.  "This field may be useful when implementing a style for annotated bibliographies.\n"
+#.  "It is not used by all standard bibliography styles. Note that this field is completely\n"
+#.  "unrelated to annotator. The annotator is the author of annotations which are\n"
+#.  "part of the work cited."
+#: quotationtool/biblatex/ientry.py:41
+msgid "zblx-annotation-desc"
+msgstr ""
+
+#. Default: "Name Addon"
+#: quotationtool/biblatex/ientry.py:414
+msgid "zblx-nameaddon-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:415
+msgid "zblx-nameaddon-desc"
+msgstr ""
+
+#. Default: "Note"
+#: quotationtool/biblatex/ientry.py:420
+msgid "zblx-note-tit"
+msgstr ""
+
+#. Default: "Miscellaneous bibliographic data which does not fit into any other field. The note field may be used to record bibliographic data in a free format. Publication facts such as 'Reprint of the edition London 1831' are typical candidates for the note field. See also addendum."
+#: quotationtool/biblatex/ientry.py:421
+msgid "zblx-note-desc"
+msgstr ""
+
+#. Default: "Number"
+#: quotationtool/biblatex/ientry.py:427
+msgid "zblx-number-tit"
+msgstr ""
+
+#. Default: "The number of a journal or the volume/number of a book in a series. See also issue. With @patent entries, this is the number or record token of a patent or patent request."
+#: quotationtool/biblatex/ientry.py:428
+msgid "zblx-number-desc"
+msgstr ""
+
+#. Default: "Organization"
+#: quotationtool/biblatex/ientry.py:433
+msgid "zblx-organization-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:434
+msgid "zblx-organization-desc"
+msgstr ""
+
+#. Default: "Original Date"
+#: quotationtool/biblatex/ientry.py:439
+msgid "zblx-origdate-tit"
+msgstr ""
+
+#. Default: "Publication date of the original edition."
+#: quotationtool/biblatex/ientry.py:440
+msgid "zblx-origdate-desc"
+msgstr ""
+
+#. Default: "Original Language"
+#: quotationtool/biblatex/ientry.py:445
+msgid "zblx-origlanguage-tit"
+msgstr ""
+
+#. Default: "If the work is a translation, the language of the original work. See also language."
+#: quotationtool/biblatex/ientry.py:446
+msgid "zblx-origlanguage-desc"
+msgstr ""
+
+#. Default: "Original Location"
+#: quotationtool/biblatex/ientry.py:453
+msgid "zblx-origlocation-tit"
+msgstr ""
+
+#. Default: "If the work is a translation, a reprint, or something similar, the location of the original edition. Not used by the standard bibliography styles."
+#: quotationtool/biblatex/ientry.py:454
+msgid "zblx-origlocation-desc"
+msgstr ""
+
+#. Default: "Original Publisher"
+#: quotationtool/biblatex/ientry.py:459
+msgid "zblx-origpublisher-tit"
+msgstr ""
+
+#. Default: "If the work is a translation, a reprint, or something similar, the publisher of the original edition. Not used by the standard bibliography styles."
+#: quotationtool/biblatex/ientry.py:460
+msgid "zblx-origpublisher-desc"
+msgstr ""
+
+#. Default: "Original Title"
+#: quotationtool/biblatex/ientry.py:465
+msgid "zblx-origtitle-tit"
+msgstr ""
+
+#. Default: "If the work is a translation, the title of the original work."
+#: quotationtool/biblatex/ientry.py:466
+msgid "zblx-origtitle-desc"
+msgstr ""
+
+#. Default: "Pages"
+#: quotationtool/biblatex/ientry.py:471
+msgid "zblx-pages-tit"
+msgstr ""
+
+#. Default: "One or more page numbers or page ranges. If the work is published as part of another one, such as an article in a journal or a collection, this field holds the relevant page range in that other work. It may also be used to limit the reference to a specific part of a work (a chapter in a book, for example)."
+#: quotationtool/biblatex/ientry.py:472
+msgid "zblx-pages-desc"
+msgstr ""
+
+#. Default: "Page Total"
+#: quotationtool/biblatex/ientry.py:477
+msgid "zblx-pagetotal-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:478
+msgid "zblx-pagetotal-desc"
+msgstr ""
+
+#. Default: "Pagination"
+#: quotationtool/biblatex/ientry.py:483
+msgid "zblx-pagination-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:484
+msgid "zblx-pagination-desc"
+msgstr ""
+
+#. Default: "Part"
+#: quotationtool/biblatex/ientry.py:491
+msgid "zblx-part-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:492
+msgid "zblx-part-desc"
+msgstr ""
+
+#. Default: "Publisher"
+#: quotationtool/biblatex/ientry.py:497
+msgid "zblx-publisher-tit"
+msgstr ""
+
+#. Default: "The name(s) of the publisher(s)."
+#: quotationtool/biblatex/ientry.py:498
+msgid "zblx-publisher-desc"
+msgstr ""
+
+#. Default: "Annotator"
+#: quotationtool/biblatex/ientry.py:50
+msgid "zblx-annotator-tit"
+msgstr ""
+
+#. Default: "Publication State"
+#: quotationtool/biblatex/ientry.py:503
+msgid "zblx-pubstate-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:504
+msgid "zblx-pubstate-desc"
+msgstr ""
+
+#. Default: ""
+#.  "The author(s) of annotations to the work. If the annotator is identical to the editor\n"
+#.  "and/or translator, the standard styles will automatically concatenate these fields\n"
+#.  "in the bibliography. See also commentator."
+#: quotationtool/biblatex/ientry.py:51
+msgid "zblx-annotator-desc"
+msgstr ""
+
+#. Default: "Reprint Title"
+#: quotationtool/biblatex/ientry.py:511
+msgid "zblx-reprinttitle-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:512
+msgid "zblx-reprinttitle-desc"
+msgstr ""
+
+#. Default: "Series"
+#: quotationtool/biblatex/ientry.py:517
+msgid "zblx-series-tit"
+msgstr ""
+
+#. Default: "The name of a publication series, such as 'Studies in ...', or the number of a journal series. Books in a publication series are usually numbered. The number or"
+#: quotationtool/biblatex/ientry.py:518
+msgid "zblx-series-desc"
+msgstr ""
+
+#. Default: "Short Author"
+#: quotationtool/biblatex/ientry.py:523
+msgid "zblx-shortauthor-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:524
+msgid "zblx-shortauthor-desc"
+msgstr ""
+
+#. Default: "Short Editor"
+#: quotationtool/biblatex/ientry.py:531
+msgid "zblx-shorteditor-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:532
+msgid "zblx-shorteditor-desc"
+msgstr ""
+
+#. Default: "Shorthand"
+#: quotationtool/biblatex/ientry.py:539
+msgid "zblx-shorthand-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:540
+msgid "zblx-shorthand-desc"
+msgstr ""
+
+#. Default: "Shorthand Intro"
+#: quotationtool/biblatex/ientry.py:545
+msgid "zblx-shorthandintro-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:546
+msgid "zblx-shorthandintro-desc"
+msgstr ""
+
+#. Default: "Short Journal"
+#: quotationtool/biblatex/ientry.py:551
+msgid "zblx-shortjournal-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:552
+msgid "zblx-shortjournal-desc"
+msgstr ""
+
+#. Default: "Short Series"
+#: quotationtool/biblatex/ientry.py:557
+msgid "zblx-shortseries-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:558
+msgid "zblx-shortseries-desc"
+msgstr ""
+
+#. Default: "Short Title"
+#: quotationtool/biblatex/ientry.py:563
+msgid "zblx-shorttitle-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:564
+msgid "zblx-shorttitle-desc"
+msgstr ""
+
+#. Default: "Subtitle"
+#: quotationtool/biblatex/ientry.py:569
+msgid "zblx-subtitle-tit"
+msgstr ""
+
+#. Default: "The subtitle of the work."
+#: quotationtool/biblatex/ientry.py:570
+msgid "zblx-subtitle-desc"
+msgstr ""
+
+#. Default: "Title"
+#: quotationtool/biblatex/ientry.py:575
+msgid "zblx-title-tit"
+msgstr ""
+
+#. Default: "The title of the work."
+#: quotationtool/biblatex/ientry.py:576
+msgid "zblx-title-desc"
+msgstr ""
+
+#. Default: "Title Addon"
+#: quotationtool/biblatex/ientry.py:581
+msgid "zblx-titleaddon-tit"
+msgstr ""
+
+#. Default: "An annex to the title, to be printed in a different font."
+#: quotationtool/biblatex/ientry.py:582
+msgid "zblx-titleaddon-desc"
+msgstr ""
+
+#. Default: "Translator"
+#: quotationtool/biblatex/ientry.py:587
+msgid "zblx-translator-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:588
+msgid "zblx-translator-desc"
+msgstr ""
+
+#. Default: "Type"
+#: quotationtool/biblatex/ientry.py:595
+msgid "zblx-type-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:596
+msgid "zblx-type-desc"
+msgstr ""
+
+#. Default: "URL"
+#: quotationtool/biblatex/ientry.py:603
+msgid "zblx-url-tit"
+msgstr ""
+
+#. Default: "The URL of an online publication."
+#: quotationtool/biblatex/ientry.py:604
+msgid "zblx-url-desc"
+msgstr ""
+
+#. Default: "Author"
+#: quotationtool/biblatex/ientry.py:61
+msgid "zblx-author-tit"
+msgstr ""
+
+#. Default: "URL Date"
+#: quotationtool/biblatex/ientry.py:610
+msgid "zblx-urldate-tit"
+msgstr ""
+
+#. Default: "The access date of the address specified in the URL field."
+#: quotationtool/biblatex/ientry.py:611
+msgid "zblx-urldate-desc"
+msgstr ""
+
+#. Default: "Venue"
+#: quotationtool/biblatex/ientry.py:616
+msgid "zblx-venue-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:617
+msgid "zblx-venue-desc"
+msgstr ""
+
+#. Default: "The author(s) of the title."
+#: quotationtool/biblatex/ientry.py:62
+msgid "zblx-author-desc"
+msgstr ""
+
+#. Default: "Version"
+#: quotationtool/biblatex/ientry.py:622
+msgid "zblx-version-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:623
+msgid "zblx-version-desc"
+msgstr ""
+
+#. Default: "Volume"
+#: quotationtool/biblatex/ientry.py:627
+msgid "zblx-volume-tit"
+msgstr ""
+
+#. Default: "The volume of a multi-volume book or a periodical. See also part."
+#: quotationtool/biblatex/ientry.py:628
+msgid "zblx-volume-desc"
+msgstr ""
+
+#. Default: "Volumes"
+#: quotationtool/biblatex/ientry.py:633
+msgid "zblx-volumes-tit"
+msgstr ""
+
+#. Default: "The total number of volumes of a multi-volume work. Depending on the entry type, this field refers to title or maintitle."
+#: quotationtool/biblatex/ientry.py:634
+msgid "zblx-volumes-desc"
+msgstr ""
+
+#. Default: "Year"
+#: quotationtool/biblatex/ientry.py:639
+msgid "zblx-year-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:640
+msgid "zblx-year-desc"
+msgstr ""
+
+#. Default: "Crossref"
+#: quotationtool/biblatex/ientry.py:647
+msgid "zblx-crossref-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:648
+msgid "zblx-crossref-desc"
+msgstr ""
+
+#. Default: "Entry Set"
+#: quotationtool/biblatex/ientry.py:653
+msgid "zblx-entryset-tit"
+msgstr ""
+
+#. Default: "This field is specific to @set parent entries and the child entries of the reference set. In the parent entry, it is a comma-separated list of entry keys which make up a reference set. In the child entries, it is the entry key of the parent. See 3.10.5 for details."
+#: quotationtool/biblatex/ientry.py:654
+msgid "zblx-entryset-desc"
+msgstr ""
+
+#. Default: "Comma-seperated values"
+#: quotationtool/biblatex/ientry.py:655
+msgid "zblx-entryset-format"
+msgstr ""
+
+#. Default: "Entry Subtype"
+#: quotationtool/biblatex/ientry.py:660
+msgid "zblx-entrysubtype-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:661
+msgid "zblx-entrysubtype-desc"
+msgstr ""
+
+#. Default: "Execute"
+#: quotationtool/biblatex/ientry.py:668
+msgid "zblx-execute-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:669
+msgid "zblx-execute-desc"
+msgstr ""
+
+#. Default: "Gender"
+#: quotationtool/biblatex/ientry.py:674
+msgid "zblx-gender-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:675
+msgid "zblx-gender-desc"
+msgstr ""
+
+#. Default: "Hyphenation"
+#: quotationtool/biblatex/ientry.py:682
+msgid "zblx-hyphenation-tit"
+msgstr ""
+
+#. Default: "The language of the bibliography entry."
+#: quotationtool/biblatex/ientry.py:683
+msgid "zblx-hyphenation-desc"
+msgstr ""
+
+#. Default: "Authortype"
+#: quotationtool/biblatex/ientry.py:69
+msgid "zblx-authortype-tit"
+msgstr ""
+
+#. Default: "Index Sort Title"
+#: quotationtool/biblatex/ientry.py:690
+msgid "zblx-indexsorttitle-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:691
+msgid "zblx-indexsorttitle-desc"
+msgstr ""
+
+#. Default: "Keywords"
+#: quotationtool/biblatex/ientry.py:696
+msgid "zblx-keywords-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:697
+msgid "zblx-keywords-desc"
+msgstr ""
+
+#. Default: ""
+#.  "The type of author. This field will affect the string (if any) used to introduce the\n"
+#.  "author. Not used by the standard bibliography styles."
+#: quotationtool/biblatex/ientry.py:70
+msgid "zblx-authortype-desc"
+msgstr ""
+
+#. Default: "Options"
+#: quotationtool/biblatex/ientry.py:702
+msgid "zblx-options-tit"
+msgstr ""
+
+#. Default: "A list of entry options in key = value notation. This field is used to set options on a per-entry basis. See 3.1.4 for details. Note that citation and bibliography styles may define additional entry options."
+#: quotationtool/biblatex/ientry.py:703
+msgid "zblx-options-desc"
+msgstr ""
+
+#. Default: "Presort"
+#: quotationtool/biblatex/ientry.py:709
+msgid "zblx-presort-tit"
+msgstr ""
+
+#. Default: "A field used to modify the sorting order of the bibliography. This field is the first thing the sorting algorithm considers when sorting the bibliography, hence it may be used to drastically change the sorting order. This field is only used internally by BibTeX. The default value of this string is mm, hence you may use the values aa through ml to move an entry towards the top of the list and mn through zz to move it towards the bottom. This may be useful when creating subdivided bibliographies with the bibliography filters. Please refer to 3.4 for an in-depth explanation of the sorting process."
+#: quotationtool/biblatex/ientry.py:710
+msgid "zblx-presort-desc"
+msgstr ""
+
+#. Default: "Sort Key"
+#: quotationtool/biblatex/ientry.py:716
+msgid "zblx-sortkey-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:717
+msgid "zblx-sortkey-desc"
+msgstr ""
+
+#. Default: "Sort Name"
+#: quotationtool/biblatex/ientry.py:722
+msgid "zblx-sortname-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:723
+msgid "zblx-sortname-desc"
+msgstr ""
+
+#. Default: "Sort Title"
+#: quotationtool/biblatex/ientry.py:730
+msgid "zblx-sorttitle-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:731
+msgid "zblx-sorttitle-desc"
+msgstr ""
+
+#. Default: "Sort Year"
+#: quotationtool/biblatex/ientry.py:736
+msgid "zblx-sortyear-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:737
+msgid "zblx-sortyear-desc"
+msgstr ""
+
+#. Default: "XRef"
+#: quotationtool/biblatex/ientry.py:742
+msgid "zblx-xref-tit"
+msgstr ""
+
+#. Default: "TODO"
+#: quotationtool/biblatex/ientry.py:743
+msgid "zblx-xref-desc"
+msgstr ""
+
+#. Default: "Bookauthor"
+#: quotationtool/biblatex/ientry.py:79
+msgid "zblx-bookauthor-tit"
+msgstr ""
+
+#. Default: "The author(s) of the booktitle."
+#: quotationtool/biblatex/ientry.py:80
+msgid "zblx-bookauthor-desc"
+msgstr ""
+
+#. Default: "Bookpagination"
+#: quotationtool/biblatex/ientry.py:87
+msgid "zblx-bookpagination-tit"
+msgstr ""
+
+#. Default: "If the work is published as part of another one, this is the pagination scheme of the enclosing work, i. e., bookpagination relates to pagination like booktitle to title. The value of this field will affect the formatting of the pages and pagetotal fields. See also pagination."
+#: quotationtool/biblatex/ientry.py:88
+msgid "zblx-bookpagination-desc"
+msgstr ""
+
+#. Default: "Book Subtitle"
+#: quotationtool/biblatex/ientry.py:95
+msgid "zblx-booksubtitle-tit"
+msgstr ""
+
+#. Default: "The subtitle related to the booktitle. If the subtitle field refers to a work which is part of a larger publication, a possible subtitle of the main work is given in this field. See also subtitle."
+#: quotationtool/biblatex/ientry.py:96
+msgid "zblx-booksubtitle-desc"
+msgstr ""
+
+#. Default: "A required field is missing!"
+#: quotationtool/biblatex/interfaces.py:143
+msgid "zblx-requirednotpresent"
+msgstr "Fehlende Eingabe zu einem bei diesem Publikationstyp notwendigen Feld"
+
+#. Default: "Type"
+#: quotationtool/biblatex/interfaces.py:161
+msgid "ibiblatexentrytype-entrytype-title"
+msgstr "Typ"
+
+#. Default: "Choose a type from the list."
+#: quotationtool/biblatex/interfaces.py:163
+msgid "ibiblatexentrytype-entrytype-desc"
+msgstr "Wählen Sie aus der Liste einen Publikationstyp aus."
+
+#: quotationtool/biblatex/interfaces.py:275
+msgid "Babel Languages"
+msgstr "Babel-Sprachen"
+
+#: quotationtool/biblatex/interfaces.py:277
+msgid "Languages available to the babel latex package."
+msgstr "Sprachen, die dem LaTeX-Paket 'babel' zur Verfügung stehen."
+
+#: quotationtool/biblatex/interfaces.py:291
+msgid "Formatting Languages"
+msgstr "Formatierte Sprachen"
+
+#: quotationtool/biblatex/interfaces.py:293
+msgid ""
+"All languages in which the formatted bibliography will be available to the "
+"user."
+msgstr ""
+"Alle Sprachen, in denen die formatierte Bibliographie für die Nutzer "
+"vorhanden sein soll."
+
+#: quotationtool/biblatex/interfaces.py:317
+msgid "Default Citation and Bibliography Style"
+msgstr "Standard-Stil"
+
+#: quotationtool/biblatex/interfaces.py:319
+msgid ""
+"The default citation style and default bibliography style. There must be a "
+"cbx and a bbx file which LaTeX can find."
+msgstr ""
+"Der Standard-Stil (default) für Zitationen und die Bibliographie. Es müssen "
+"cbx- und bbx-Dateien für den Stil im LaTeX-Pfad vorhanden sein."
+
+#: quotationtool/biblatex/interfaces.py:326
+msgid "Available Styles"
+msgstr "Verfügbare Stile"
+
+#: quotationtool/biblatex/interfaces.py:328
+msgid ""
+"All the Bibliography Styles that the users will be able to use. There must "
+"be bbx and cbx files that LaTeX can find."
+msgstr ""
+"Alle Bibliographie-Stile, die die Benutzer abrufen können. Es müssen bbx- "
+"und cbx-Dateien für die Stile vorhanden sein."
+
+#: quotationtool/biblatex/interfaces.py:331
+msgid "Style"
+msgstr "Stil"
+
+#. Default: ""
+#.  "Failed to generate formatted output.\n"
+#.  "$msg"
+#: quotationtool/biblatex/interfaces.py:431
+msgid "biblatex-formattingentry-exception"
+msgstr "Fehler bei der automatischen Formatierung des Eintrags.\\n"
+
+#. Default: "Manual"
+#: quotationtool/biblatex/vocabulary.py:104
+msgid "zblx-typevocabulary-manual"
+msgstr ""
+
+#. Default: "Patent"
+#: quotationtool/biblatex/vocabulary.py:106
+msgid "zblx-typevocabulary-patent"
+msgstr ""
+
+#. Default: "Report"
+#: quotationtool/biblatex/vocabulary.py:108
+msgid "zblx-typevocabulary-report"
+msgstr ""
+
+#. Default: "Thesis"
+#: quotationtool/biblatex/vocabulary.py:110
+msgid "zblx-typevocabulary-thesis"
+msgstr ""
+
+#. Default: "feminine singular"
+#: quotationtool/biblatex/vocabulary.py:125
+msgid "zblx-gendervocabulary-sf"
+msgstr ""
+
+#. Default: "masculine singular"
+#: quotationtool/biblatex/vocabulary.py:127
+msgid "zblx-gendervocabulary-sm"
+msgstr ""
+
+#. Default: "neuter singular"
+#: quotationtool/biblatex/vocabulary.py:129
+msgid "zblx-gendervocabulary-sn"
+msgstr ""
+
+#. Default: "feminine plural"
+#: quotationtool/biblatex/vocabulary.py:131
+msgid "zblx-gendervocabulary-pf"
+msgstr ""
+
+#. Default: "masculine plural"
+#: quotationtool/biblatex/vocabulary.py:133
+msgid "zblx-gendervocabulary-pm"
+msgstr ""
+
+#. Default: "neuter plural"
+#: quotationtool/biblatex/vocabulary.py:135
+msgid "zblx-gendervocabulary-pn"
+msgstr ""
+
+#. Default: "plural, mixed"
+#: quotationtool/biblatex/vocabulary.py:137
+msgid "zblx-gendervocabulary-pp"
+msgstr ""
+
+#. Default: "English"
+#: quotationtool/biblatex/vocabulary.py:154
+msgid "zblx-languagevocabulary-english"
+msgstr ""
+
+#. Default: "German (new orthography)"
+#: quotationtool/biblatex/vocabulary.py:156
+msgid "zblx-languagevocabulary-ngerman"
+msgstr ""
+
+#. Default: "German (old orthography)"
+#: quotationtool/biblatex/vocabulary.py:158
+msgid "zblx-languagevocabulary-german"
+msgstr ""
+
+#. Default: "Page"
+#: quotationtool/biblatex/vocabulary.py:16
+msgid "zblx-paginationvocabulary-page"
+msgstr ""
+
+#. Default: "French"
+#: quotationtool/biblatex/vocabulary.py:160
+msgid "zblx-languagevocabulary-french"
+msgstr ""
+
+#. Default: "Greek"
+#: quotationtool/biblatex/vocabulary.py:162
+msgid "zblx-languagevocabulary-greek"
+msgstr ""
+
+#. Default: "Dutch"
+#: quotationtool/biblatex/vocabulary.py:164
+msgid "zblx-languagevocabulary-dutch"
+msgstr ""
+
+#. Default: "Italian"
+#: quotationtool/biblatex/vocabulary.py:166
+msgid "zblx-languagevocabulary-italian"
+msgstr ""
+
+#. Default: "Portuguese"
+#: quotationtool/biblatex/vocabulary.py:168
+msgid "zblx-languagevocabulary-portuguese"
+msgstr ""
+
+#. Default: "Danish"
+#: quotationtool/biblatex/vocabulary.py:170
+msgid "zblx-languagevocabulary-danish"
+msgstr ""
+
+#. Default: "Finnish"
+#: quotationtool/biblatex/vocabulary.py:172
+msgid "zblx-languagevocabulary-finnish"
+msgstr ""
+
+#. Default: "Norwegian"
+#: quotationtool/biblatex/vocabulary.py:174
+msgid "zblx-languagevocabulary-norsk"
+msgstr ""
+
+#. Default: "Swedish"
+#: quotationtool/biblatex/vocabulary.py:176
+msgid "zblx-languagevocabulary-swedish"
+msgstr ""
+
+#. Default: "Latin"
+#: quotationtool/biblatex/vocabulary.py:178
+msgid "zblx-languagevocabulary-latin"
+msgstr ""
+
+#. Default: "Column"
+#: quotationtool/biblatex/vocabulary.py:18
+msgid "zblx-paginationvocabulary-column"
+msgstr ""
+
+#. Default: "Line"
+#: quotationtool/biblatex/vocabulary.py:20
+msgid "zblx-paginationvocabulary-line"
+msgstr ""
+
+#. Default: "Verse"
+#: quotationtool/biblatex/vocabulary.py:22
+msgid "zblx-paginationvocabulary-verse"
+msgstr ""
+
+#. Default: "Section"
+#: quotationtool/biblatex/vocabulary.py:24
+msgid "zblx-paginationvocabulary-section"
+msgstr ""
+
+#. Default: "Paragraph"
+#: quotationtool/biblatex/vocabulary.py:26
+msgid "zblx-paginationvocabulary-paragraph"
+msgstr ""
+
+#. Default: "None"
+#: quotationtool/biblatex/vocabulary.py:28
+msgid "zblx-paginationvocabulary-none"
+msgstr ""
+
+#. Default: "Editor"
+#: quotationtool/biblatex/vocabulary.py:60
+msgid "zblz-editorrolevocabulary-editor"
+msgstr ""
+
+#. Default: "Compiler"
+#: quotationtool/biblatex/vocabulary.py:62
+msgid "zblz-editorrolevocabulary-compiler"
+msgstr ""
+
+#. Default: "Founder"
+#: quotationtool/biblatex/vocabulary.py:64
+msgid "zblz-editorrolevocabulary-founder"
+msgstr ""
+
+#. Default: "Continuator"
+#: quotationtool/biblatex/vocabulary.py:66
+msgid "zblz-editorrolevocabulary-continuator"
+msgstr ""
+
+#. Default: "Redactor"
+#: quotationtool/biblatex/vocabulary.py:68
+msgid "zblz-editorrolevocabulary-redactor"
+msgstr ""
+
+#. Default: "Collaborator"
+#: quotationtool/biblatex/vocabulary.py:70
+msgid "zblz-editorrolevocabulary-collaborator"
+msgstr ""
+
+#. Default: "in press"
+#: quotationtool/biblatex/vocabulary.py:86
+msgid "zblx-pubstatevocabulary-inpress"
+msgstr ""
+
+#. Default: "submitted"
+#: quotationtool/biblatex/vocabulary.py:88
+msgid "zblx-pubstatevocabulary-submitted"
+msgstr ""
+
+#. Default: "Add bibliographic entry"
+#: quotationtool/bibliography/browser/add_entry.pt:3
+msgid "bibliography-add-entry-head"
+msgstr "Bibliographischen Eintrag erstellen"
+
+#. Default: "Bibliography"
+#: quotationtool/bibliography/browser/bibliography.py:15
+msgid "bibliography-labelview"
+msgstr "Bibliographie"
+
+#: quotationtool/bibliography/browser/config.pt:3
+msgid "Bibliography Configuration"
+msgstr "Konfiguration der Bibliographie"
+
+#: quotationtool/bibliography/browser/config.pt:5
+msgid ""
+"You should only change the configuration of the bibliography if you really "
+"know what you're doing."
+msgstr ""
+
+#. Default: "flags"
+#: quotationtool/bibliography/browser/container.pt:12
+msgid "bibliography-container-flags-col"
+msgstr "<span lang=\"en\" xml:lang=\"en\">flags</span>"
+
+#. Default: "Title"
+#: quotationtool/bibliography/browser/container.pt:6
+msgid "bibliography-container-title-col"
+msgstr "Titel"
+
+#. Default: "Add Entry"
+#: quotationtool/bibliography/browser/nav.zcml:54
+msgid "subnav-bibliography-add"
+msgstr "Eintrag erstellen"
+
+#. Default: "Search"
+#: quotationtool/bibliography/browser/nav.zcml:65
+msgid "subnav-bibliography-search"
+msgstr "Suchen"
+
+#. Default: "Bibliography"
+#: quotationtool/bibliography/browser/nav.zcml:8
+msgid "mainnav-bibliography"
+msgstr "Bibliographie"
+
+#. Default: "Config"
+#: quotationtool/bibliography/browser/nav.zcml:95
+msgid "subnav-bibliography-configuration"
+msgstr "Konfiguration"
+
+#. Default: "Search for a bibliographic entry by author/editor, title, year etc."
+#: quotationtool/bibliography/browser/search.py:12
+msgid "entries-search-target-description"
+msgstr "Suche nach bibliographischen Eintrag mittels Autor, Titel, Jahr usw."
+
+#. Default: "Search for bibliographic entries"
+#: quotationtool/bibliography/browser/search.py:23
+msgid "bibliography-search-form-label"
+msgstr "Bibliographische Suche"
+
+#. Default: "Bibliographic Entries"
+#: quotationtool/bibliography/browser/search.py:9
+msgid "entries-search-target-label"
+msgstr "Bibliographische Einträge"
+
+#. Default: "Any field / free"
+#: quotationtool/bibliography/interfaces.py:117
+#: quotationtool/figuresng/interfaces.py:108
+msgid "catalog-any-title"
+msgstr "Freitext"
+
+#. Default: "Free text."
+#: quotationtool/bibliography/interfaces.py:119
+#: quotationtool/figuresng/interfaces.py:110
+msgid "catalog-any-desc"
+msgstr "freie Eingabe, Suche in allen Feldern"
+
+#. Default: "Author / Editor"
+#: quotationtool/bibliography/interfaces.py:126
+msgid "ibibliographycatalog-author-title"
+msgstr "Autor / Herausgeber"
+
+#. Default: "Search by author or editor."
+#: quotationtool/bibliography/interfaces.py:128
+msgid "ibibliographycatalog-author-desc"
+msgstr "Suche im Feld 'Autor' bzw. 'Herausgeber."
+
+#. Default: "Title / Uniform Title"
+#: quotationtool/bibliography/interfaces.py:135
+msgid "ibibliographycatalog-title-title"
+msgstr "Titel / Einheitssachtitle"
+
+#. Default: "Search by title or uniform title."
+#: quotationtool/bibliography/interfaces.py:137
+msgid "ireferenceindexercatalog-title-desc"
+msgstr "Suche im Feld 'Titel' bzw. 'Einheitssachtitel'."
+
+#. Default: "Published/Written After"
+#: quotationtool/bibliography/interfaces.py:145
+msgid "ibibliographycatalog-post-title"
+msgstr "Veröffentlicht/Verfasst nach ..."
+
+#. Default: "Matches, if published after."
+#: quotationtool/bibliography/interfaces.py:147
+msgid "ibibliographycatalog-post-desc"
+msgstr "Findet alles nach dem angegebenen Zeitpunkt Veröffentlichte."
+
+#. Default: "Published/Writter Before"
+#: quotationtool/bibliography/interfaces.py:153
+msgid "ibibliographycatalog-ante-title"
+msgstr "Veröffentlicht vor ..."
+
+#. Default: "Matsches, if published before."
+#: quotationtool/bibliography/interfaces.py:155
+msgid "ibibliographycatalog-ante-desc"
+msgstr "Findet alles vor dem angegebenen Zeitpunkt Veröffentlichte."
+
+#. Default: "Year first published"
+#: quotationtool/bibliography/interfaces.py:161
+msgid "ibibliographycatalog-year-title"
+msgstr "Jahr (Erstveröffentlichung)"
+
+#. Default: "Matches the exact year of origin."
+#: quotationtool/bibliography/interfaces.py:163
+msgid "ibibliographycatalog-year-desc"
+msgstr "Findet alles in dem Jahr Veröffentlichte."
+
+#. Default: "Language / Original Language"
+#: quotationtool/bibliography/interfaces.py:169
+msgid "ibibliographycatalog-language-title"
+msgstr "Sprache"
+
+#. Default: "Search for items by language."
+#: quotationtool/bibliography/interfaces.py:171
+msgid "ibibliographycatalog-language-desc"
+msgstr "Suche nach Sprache."
+
+#. Default: "Year of edition"
+#: quotationtool/bibliography/interfaces.py:178
+msgid "irefenceindexer-editionyear-title"
+msgstr "Jahr der Ausgabe"
+
+#. Default: "Matches the year of the edition."
+#: quotationtool/bibliography/interfaces.py:180
+msgid "ibibliographycatalog-edtionyear-desc"
+msgstr "Suche nach Ausgaben, die in diesem Jahr veröffentlicht wurden."
+
+#. Default: "Publisher"
+#: quotationtool/bibliography/interfaces.py:186
+msgid "ibibliographycatalog-publisher-title"
+msgstr "Verlag"
+
+#. Default: "Search by publisher."
+#: quotationtool/bibliography/interfaces.py:188
+msgid "ibibliographycatalog-publisher-desc"
+msgstr "Suche nach Verleger oder Verlagshaus."
+
+#. Default: "Location"
+#: quotationtool/bibliography/interfaces.py:195
+msgid "ibibliographycatalog-location-title"
+msgstr "Ort"
+
+#. Default: "Search by place of publication."
+#: quotationtool/bibliography/interfaces.py:197
+msgid "ibibliographycatalog-location-desc"
+msgstr "Suche nach Veröffentlichungsort."
+
+#. Default: "Database Key"
+#: quotationtool/bibliography/interfaces.py:56
+msgid "ientry-name-title"
+msgstr "Datenbank-ID"
+
+#. Default: "The unique key of the entry in the database. Typically this should be of the form &lt;name&gt;&lt;year&gt;&lt;counting letter&gt;, e.g. Adelung1808b."
+#: quotationtool/bibliography/interfaces.py:58
+msgid "ientry-name-desc"
+msgstr ""
+"Die ID des Eintrags in der Datenbank. Typischer Weise sollte er die Form &lt;"
+"NAME&gt;&lt;JAHR&gt;&lt;buchstabe&gt; haben, z.B. 'Adelung1808a'."
+
+#: quotationtool/bibliography/interfaces.py:86
+#: quotationtool/bibliography/interfaces.py:102
+#: quotationtool/biblatex/interfaces.py:281
+#: quotationtool/biblatex/interfaces.py:297
+#: quotationtool/biblatex/interfaces.py:307
+msgid "Language"
+msgstr "Sprache"
+
+#: quotationtool/bibliography/interfaces.py:88
+#: quotationtool/biblatex/interfaces.py:309
+msgid "The default language of the bibliography"
+msgstr "Die Standard-Sprache (default) der Bibliographie"
+
+#: quotationtool/bibliography/interfaces.py:96
+msgid "Available Languages"
+msgstr "Verfügbare Sprachen"
+
+#: quotationtool/bibliography/interfaces.py:98
+msgid ""
+"All languages in that the formatted bibliography entries will be available "
+"to the user."
+msgstr ""
+"Sprachen, in denen die Bibliographie den Nutzern zur Verfügung stehen soll. "
+"Dies betrifft die Sprache bibliographischer Zeichenketten wie (Hg.)/(ed.)."
+
+#. Default: "Edit a bibliographic entry"
+#: quotationtool/bibliography/permissions.zcml:10
+msgid "edit-entry-permission-title"
+msgstr "Ändern bibliographischer Einträge"
+
+#. Default: "Manage the bibliography configuration"
+#: quotationtool/bibliography/permissions.zcml:15
+msgid "manage-bibliography-permission-title"
+msgstr "Verwalten der Bibliographie (ZOPE-Level)"
+
+#. Default: "Add an entry to the bibliography"
+#: quotationtool/bibliography/permissions.zcml:5
+msgid "add-entry-permission-title"
+msgstr "Bibliographische Einträge erstellen"
+
+#. Default: "The form below asks for a categorization of this item. The categories (classes) given in the form were defined by users of this website."
+#: quotationtool/categorization/browser/attribution.pt:18
 msgid "attribution-desc"
 msgstr ""
 "Das folgende Formular fragt nach einer Klassierung. Die angebotenen Klassen "
 "bzw. Kategorien wurden von den Benutzern dieser <span xml:lang=\"en\" lang="
 "\"en\">Website</span> angelegt."
 
-#. Default: "[more]"
-#: src/quotationtool/categorization/browser/attribution.pt:23
-#: src/quotationtool/categorization/browser/attribution.pt:51
-#: src/quotationtool/referatory/browser/referatory_container.pt:11
-#: src/quotationtool/referatory/browser/uniformtitle_references.pt:15
-#: src/quotationtool/referatory/browser/uniformtitlecontainer_container.pt:11
-#: src/quotationtool/beispiel/day.pt:16
-#: src/quotationtool/commentary/browser/aboutreference_@@list.pt:15
-#: src/quotationtool/commentary/browser/comments_about_commentable.pt:39
-#: src/quotationtool/commentary/browser/comments_about_commentable.pt:57
-#: src/quotationtool/commentary/browser/comment_@@list.pt:15
-msgid "more-link"
-msgstr "[mehr]"
-
 #. Default: "Edit Categorization"
-#: src/quotationtool/categorization/browser/attribution.py:43
+#: quotationtool/categorization/browser/attribution.py:46
 msgid "attribution-edit-label"
 msgstr "Klassierung bearbeiten"
 
 #. Default: "Categorization"
-#: src/quotationtool/categorization/browser/attribution.py:53
+#: quotationtool/categorization/browser/attribution.py:58
 msgid "attribution-label"
 msgstr "Klassierung"
 
 #. Default: "Edit Categorization"
-#: src/quotationtool/categorization/browser/attribution_display.pt:18
-#: src/quotationtool/categorization/browser/attribution_display.pt:33
+#: quotationtool/categorization/browser/attribution_display.pt:18
+#: quotationtool/categorization/browser/attribution_display.pt:33
 msgid "edit-attribution-link"
 msgstr "Klassierung bearbeiten"
 
 #. Default: "Add a new Category Set"
-#: src/quotationtool/categorization/browser/categoriescontainer.pt:116
+#: quotationtool/categorization/browser/categoriescontainer.pt:115
 msgid "add-categoryset"
 msgstr "Kategorienklasse hinzufügen"
 
 #. Default: "Category Set"
-#: src/quotationtool/categorization/browser/categoriescontainer.pt:25
+#: quotationtool/categorization/browser/categoriescontainer.pt:24
 msgid "categoriescontainer-categoryset-column-label"
 msgstr "Kategorienklasse"
 
 #. Default: "Classification System"
-#: src/quotationtool/categorization/browser/categoriescontainer.pt:4
+#: quotationtool/categorization/browser/categoriescontainer.pt:3
 msgid "categoriescontainer-container-label"
 msgstr "Klassifikationssystem"
 
-#. Default: ""
-#.  "The classification system is defined and evolved by the\n"
-#.  "    users. They can add categories (classes) and group them together\n"
-#.  "    into category sets (classes of classes). <br /><b>category\n"
-#.  "    sets</b>: Related categories are bundled into category\n"
-#.  "    sets. <br /><b>mode</b>: The categories in each set are ether\n"
-#.  "    mutually exclusive or non-exclusive, i.e. ether only one category\n"
-#.  "    of a set can be attributed to an item (exclusive) or many can be\n"
-#.  "    attributed (non-exclusive). Exclusiveness or non-exclusiveness is\n"
-#.  "    set in the ``mode'' field of a category set. <br /><b>weight</b>:\n"
-#.  "    For ordered classification forms (relevance, importance,\n"
-#.  "    unlikelihood) both, category sets and categories, have a\n"
-#.  "    ``weight'' field. They are ordered by ascending ``weight''."
-#: src/quotationtool/categorization/browser/categoriescontainer.pt:7
+#: quotationtool/categorization/browser/categoriescontainer.pt:34
+#: quotationtool/categorization/browser/categoryset.pt:3
+msgid "Categories"
+msgstr "Kategorien"
+
+#. Default: "The classification system is defined and evolved by the users. They can add categories (classes) and group them together into category sets (classes of classes). <br /><b>category sets</b>: Related categories are bundled into category sets. <br /><b>mode</b>: The categories in each set are ether mutually exclusive or non-exclusive, i.e. ether only one category of a set can be attributed to an item (exclusive) or many can be attributed (non-exclusive). Exclusiveness or non-exclusiveness is set in the ``mode'' field of a category set. <br /><b>weight</b>: For ordered classification forms (relevance, importance, unlikelihood) both, category sets and categories, have a ``weight'' field. They are ordered by ascending ``weight''."
+#: quotationtool/categorization/browser/categoriescontainer.pt:6
 msgid "categoriescontainer-desc"
 msgstr ""
 "Das Klassifikationssystem wird von den Benutzern definiert und laufend "
@@ -284,193 +1844,180 @@ msgstr ""
 "unten im Klassierungsformular steht die Klasse bzw. Kategorie."
 
 #. Default: "Classification"
-#: src/quotationtool/categorization/browser/categoriescontainer_@@breadcrumb.pt:1
-msgid "categoriescontainer-breadcrumb"
+#: quotationtool/categorization/browser/categoriescontainer.py:14
+msgid "categoriescontainer-label"
 msgstr "Klassifikation"
 
+#. Default: "Categorizable items"
+#: quotationtool/categorization/browser/categorizableitemdescription.py:22
+msgid "categorizableitemdescriptions-label"
+msgstr "Klassifizierbare Items"
+
 #. Default: "Add a Item Class for Categorization"
-#: src/quotationtool/categorization/browser/categorizableitemdescription.py:39
+#: quotationtool/categorization/browser/categorizableitemdescription.py:47
 msgid "categorizableitemdescription-add-label"
 msgstr "Klassifizierbaren Typ hinzufügen"
 
 #. Default: "Interface already defined."
-#: src/quotationtool/categorization/browser/categorizableitemdescription.py:57
+#: quotationtool/categorization/browser/categorizableitemdescription.py:74
 msgid "categorizableitemdescrption-add-duplication-error"
 msgstr "Interface bereits freigegeben."
 
 #. Default: "Edit Description of Categorizable Item Class"
-#: src/quotationtool/categorization/browser/categorizableitemdescription.py:67
+#: quotationtool/categorization/browser/categorizableitemdescription.py:84
 msgid "categorizabelitemdescription-edit-label"
 msgstr "Benutzerfrundliche Beschreibung ändern"
 
 #. Default: "Categorizable Item Classes"
-#: src/quotationtool/categorization/browser/categorizableitemdescriptions.pt:3
+#: quotationtool/categorization/browser/categorizableitemdescriptions.pt:3
 msgid "categorizableitemdescriptions-container-label"
 msgstr "Klassifizierbare Klassen"
 
 #. Default: "Add a Categorizable Item Class"
-#: src/quotationtool/categorization/browser/categorizableitemdescriptions.pt:44
+#: quotationtool/categorization/browser/categorizableitemdescriptions.pt:44
 msgid "add-categorizableitemdescription"
 msgstr "Klassifizierbare Klasse hinzufügen"
 
+#. Default: "Edit Category"
+#: quotationtool/categorization/browser/category.py:103
+msgid "category-edit-label"
+msgstr "Kategorie bearbeiten"
+
 #. Default: "Category"
-#: src/quotationtool/categorization/browser/category.py:100
-msgid "category-display-label"
+#: quotationtool/categorization/browser/category.py:26
+msgid "category-details-label"
 msgstr "Kategorie"
 
+#. Default: "Category: $CATEGORY"
+#: quotationtool/categorization/browser/category.py:41
+msgid "category-label"
+msgstr "Kategorie: $CATEGORY"
+
 #. Default: "Add a new Category"
-#: src/quotationtool/categorization/browser/category.py:47
+#: quotationtool/categorization/browser/category.py:65
 msgid "category-add-label"
 msgstr "Kategorie hinzufügen"
 
 #. Default: "Category named ${title} already exists."
-#: src/quotationtool/categorization/browser/category.py:65
+#: quotationtool/categorization/browser/category.py:88
 msgid "addcategory-duplication-error"
 msgstr "Ein Kategorie mit namens ${title} existiert bereits!"
 
-#. Default: "Edit Category"
-#: src/quotationtool/categorization/browser/category.py:81
-msgid "category-edit-label"
-msgstr "Kategorie bearbeiten"
-
 #. Default: "Add a new Category"
-#: src/quotationtool/categorization/browser/categoryset.pt:55
+#: quotationtool/categorization/browser/categoryset.pt:46
 msgid "add-category"
 msgstr "Kategorie hinzufügen"
 
-#: src/quotationtool/categorization/browser/categoryset.pt:8
-#: src/quotationtool/categorization/browser/categoriescontainer.pt:35
-msgid "Categories"
-msgstr "Kategorien"
+#. Default: "Category Set named ${title} already exists!"
+#: quotationtool/categorization/browser/categoryset.py:108
+msgid "categoryset-duplication-error"
+msgstr "Es existiert bereits ein Kategorienklasse mit dem Namen ${title}!"
 
 #. Default: "Edit Category Set"
-#: src/quotationtool/categorization/browser/categoryset.py:104
+#: quotationtool/categorization/browser/categoryset.py:122
 msgid "categoryset-edit-label"
 msgstr "Kategorienklasse bearbeiten"
 
 #. Default: "Category Set"
-#: src/quotationtool/categorization/browser/categoryset.py:120
-msgid "categoryset-display-label"
+#: quotationtool/categorization/browser/categoryset.py:25
+msgid "categoryset-details-label"
 msgstr "Kategorienklasse"
 
+#. Default: "Category Set: $CATEGORYSET"
+#: quotationtool/categorization/browser/categoryset.py:39
+msgid "categoryset-label"
+msgstr "Kategorienklasse: $CATEGORYSET"
+
 #. Default: "Add a new Category Set"
-#: src/quotationtool/categorization/browser/categoryset.py:72
+#: quotationtool/categorization/browser/categoryset.py:83
 msgid "categoryset-add-label"
 msgstr "Kategorienklasse hinzufügen"
 
-#. Default: "Category Set named ${title} already exists!"
-#: src/quotationtool/categorization/browser/categoryset.py:92
-msgid "categoryset-duplication-error"
-msgstr "Es existiert bereits ein Kategorienklasse mit dem Namen ${title}!"
-
 #. Default: "Attributions of Category Set"
-#: src/quotationtool/categorization/browser/categoryset_attributions.pt:3
+#: quotationtool/categorization/browser/categoryset_attributions.pt:3
 msgid "categoryset-attribution-label"
 msgstr "Attributionen"
 
-#. Default: "Category Set"
-#: src/quotationtool/categorization/browser/menu.zcml:121
-#: src/quotationtool/categorization/browser/menu.zcml:135
-msgid "categoryset-navigation"
-msgstr "Kategorienklasse"
-
-#. Default: "Edit"
-#: src/quotationtool/categorization/browser/menu.zcml:149
-#: src/quotationtool/categorization/browser/menu.zcml:162
-msgid "categoryset-edit-navigation"
-msgstr "Ändern"
-
-#. Default: "Add Category"
-#: src/quotationtool/categorization/browser/menu.zcml:176
-#: src/quotationtool/categorization/browser/menu.zcml:189
-msgid "category-add-navigation"
-msgstr "Hinzufügen"
-
-#. Default: "Category"
-#: src/quotationtool/categorization/browser/menu.zcml:203
-msgid "category-navigation"
-msgstr "Kategorie"
-
-#. Default: "Edit"
-#: src/quotationtool/categorization/browser/menu.zcml:217
-msgid "category-edit-navigation"
-msgstr "Ändern"
-
-#. Default: "Classification System"
-#: src/quotationtool/categorization/browser/menu.zcml:233
-msgid "catgoriescontainer-tab"
-msgstr "Klassifikation"
-
-#. Default: "Category Set"
-#: src/quotationtool/categorization/browser/menu.zcml:260
-msgid "categoryset-tab"
-msgstr "Kategorienklasse"
-
-#. Default: "Edit"
-#: src/quotationtool/categorization/browser/menu.zcml:273
-msgid "categoryset-edit-tab"
-msgstr "Ändern"
-
-#. Default: "Category"
-#: src/quotationtool/categorization/browser/menu.zcml:299
-msgid "category-tab"
-msgstr "Kategorie"
-
-#. Default: "Edit"
-#: src/quotationtool/categorization/browser/menu.zcml:312
-msgid "category-edit-tab"
-msgstr "Ändern"
-
-#. Default: "Add Set"
-#: src/quotationtool/categorization/browser/menu.zcml:82
-#: src/quotationtool/categorization/browser/menu.zcml:95
-#: src/quotationtool/categorization/browser/menu.zcml:108
+#. Default: "Add Category Set"
+#: quotationtool/categorization/browser/nav.zcml:87
 msgid "catogoryset-add-navigation"
 msgstr "Klasse hinzufügen"
 
 #. Default: "Classification"
-#: src/quotationtool/categorization/browser/menu.zcml:9
+#: quotationtool/categorization/browser/nav.zcml:9
+#: quotationtool/categorization/browser/nav.zcml:76
 msgid "catgoriescontainer-navigation"
 msgstr "Klassifikation"
 
+#. Default: "Categorizable Items"
+#: quotationtool/categorization/browser/nav.zcml:98
+msgid "catgorizableitemdescriptions-navigation"
+msgstr "Klassifizierbare Items"
+
+#. Default: "Edit"
+#: quotationtool/categorization/browser/tabs.zcml:19
+msgid "categoryset-edit-tab"
+msgstr "Ändern"
+
+#. Default: "Add Category"
+#: quotationtool/categorization/browser/tabs.zcml:29
+msgid "category-add-tab"
+msgstr "Kategorie hinzufügen"
+
+#. Default: "Edit"
+#: quotationtool/categorization/browser/tabs.zcml:50
+msgid "category-edit-tab"
+msgstr "Ändern"
+
+#. Default: "Classification"
+#: quotationtool/categorization/browser/tabs.zcml:61
+msgid "classification"
+msgstr "Klassifikation"
+
+#. Default: "Categories"
+#: quotationtool/categorization/browser/tabs.zcml:9
+#: quotationtool/categorization/browser/tabs.zcml:40
+msgid "categoryset-tab"
+msgstr "Kategorienklasse"
+
 #. Default: "Title"
-#: src/quotationtool/categorization/interfaces.py:105
+#: quotationtool/categorization/interfaces.py:105
 msgid "icategoryset-title-title"
 msgstr "Name"
 
 #. Default: "How should the set of categories be named?"
-#: src/quotationtool/categorization/interfaces.py:107
+#: quotationtool/categorization/interfaces.py:107
 msgid "icategoryset-title-desc"
 msgstr "Wie soll die Klasse heißen?"
 
 #. Default: "Description"
-#: src/quotationtool/categorization/interfaces.py:113
+#: quotationtool/categorization/interfaces.py:113
 msgid "icategoryset-description-title"
 msgstr "Beschreibung"
 
 #. Default: "Short description or explanation."
-#: src/quotationtool/categorization/interfaces.py:115
+#: quotationtool/categorization/interfaces.py:115
 msgid "icategoryset-description-desc"
 msgstr "Kurze Beschreibung oder Erklärung."
 
 #. Default: "Used for"
-#: src/quotationtool/categorization/interfaces.py:121
-#: src/quotationtool/categorization/interfaces.py:123
+#: quotationtool/categorization/interfaces.py:121
+#: quotationtool/categorization/interfaces.py:123
 msgid "icategoryset-usedfor-title"
 msgstr "Für"
 
 #. Default: "Class"
-#: src/quotationtool/categorization/interfaces.py:127
+#: quotationtool/categorization/interfaces.py:127
 msgid "icategoryset-usedfor-choice-title"
 msgstr "Klasse"
 
 #. Default: "Mode"
-#: src/quotationtool/categorization/interfaces.py:134
+#: quotationtool/categorization/interfaces.py:134
 msgid "icategoryset-mode-title"
 msgstr "Modus"
 
 #. Default: "Choose if the categories of this set are mutually exclusive or non-exclusive. This field has exclusive options--ether `exclusive' or `non-exclusive'--while the options of ``Used For'' are non-exclusive."
-#: src/quotationtool/categorization/interfaces.py:136
+#: quotationtool/categorization/interfaces.py:136
 msgid "icategoryset-mode-desc"
 msgstr ""
 "Bestimmen Sie, ob die Kategorien dieser Klasse sich wechselseitig "
@@ -479,12 +2026,12 @@ msgstr ""
 "die Werte im Feld ``Für'' nicht-exklusiv sind."
 
 #. Default: "Inherit"
-#: src/quotationtool/categorization/interfaces.py:144
+#: quotationtool/categorization/interfaces.py:144
 msgid "icategoryset-inherit-title"
 msgstr "Vererbung"
 
 #. Default: "Inherit categorization from related item."
-#: src/quotationtool/categorization/interfaces.py:146
+#: quotationtool/categorization/interfaces.py:146
 msgid "icategoryset-inherit-desc"
 msgstr ""
 "Soll bei der Klassierung eines Datenbankeintrags die Klassierung eines "
@@ -492,97 +2039,98 @@ msgstr ""
 "als Voreinstellung übernommen werden?"
 
 #. Default: "Open"
-#: src/quotationtool/categorization/interfaces.py:153
+#: quotationtool/categorization/interfaces.py:153
 msgid "icategoryset-opentousers-title"
 msgstr "Offen"
 
 #. Default: "If checked other users will be allowed to add categories to this set."
-#: src/quotationtool/categorization/interfaces.py:155
+#: quotationtool/categorization/interfaces.py:155
 msgid "icategoryset-opentousers-desc"
 msgstr "Dürfen andere Benutzer Kategorien zu dieser Klasse hinzufügen?"
 
 #. Default: "Complete"
-#: src/quotationtool/categorization/interfaces.py:162
+#: quotationtool/categorization/interfaces.py:162
 msgid "icategoryset-complete-title"
 msgstr ""
 "Ist diese Klasse abgeschlossen? Sollen keine weiteren Kategorien mehr "
 "hinzugefügt werden können?"
 
 #. Default: "If checked it is impossible to add new categories to this set."
-#: src/quotationtool/categorization/interfaces.py:164
+#: quotationtool/categorization/interfaces.py:164
 msgid "icategoryset-complete-desc"
 msgstr ""
 "Soll es möglich sein, weitere Kategorien zu dieser Klasse hinzuzufügen?"
 
 #. Default: "Category Set"
-#: src/quotationtool/categorization/interfaces.py:234
+#: quotationtool/categorization/interfaces.py:234
 msgid "iattribution-attribution-keytype-title"
-msgstr ""
+msgstr "Kategorien-Klasse"
 
 #. Default: "Choose set of categories."
-#: src/quotationtool/categorization/interfaces.py:236
+#: quotationtool/categorization/interfaces.py:236
 msgid "iattribution-attribution-keytype-desc"
-msgstr ""
+msgstr "Wahl einer Klasse von Kategorien"
 
 #. Default: "Attribution of Category/Categories from set"
-#: src/quotationtool/categorization/interfaces.py:243
+#: quotationtool/categorization/interfaces.py:243
 msgid "iattribution-attribution-valuetype-title"
 msgstr ""
+"Attribution einer Kategorie/mehrer Kategorie aus einer Kategorien-Klasse"
 
 #. Default: "Choose one or more attributions depending on mode."
-#: src/quotationtool/categorization/interfaces.py:245
+#: quotationtool/categorization/interfaces.py:245
 msgid "iattribution-attribution-valuetype-desc"
-msgstr ""
+msgstr "Wahl einer oder mehrer Attributionen (je nach Modus)"
 
 #. Default: "Category"
-#: src/quotationtool/categorization/interfaces.py:248
+#: quotationtool/categorization/interfaces.py:248
 msgid "iattribution-attribution-valuetype-tuplevaluetype-title"
-msgstr ""
+msgstr "Kategorie"
 
 #. Default: "A single Category."
-#: src/quotationtool/categorization/interfaces.py:250
+#: quotationtool/categorization/interfaces.py:250
 msgid "iattribution-attribution-valuetype-tuplevaluetype-desc"
-msgstr ""
+msgstr "Einzelne Kategorie"
 
 #. Default: "Attribution"
-#: src/quotationtool/categorization/interfaces.py:261
+#: quotationtool/categorization/interfaces.py:261
 msgid "iattribution-attribution-title"
-msgstr ""
+msgstr "Attribution"
 
 #. Default: "Attribute categories to item."
-#: src/quotationtool/categorization/interfaces.py:263
+#: quotationtool/categorization/interfaces.py:263
 msgid "iattribution-attribution-desc"
-msgstr ""
+msgstr "Attribution von Kategorien in Bezug auf das Item"
 
 #. Default: "Interface"
-#: src/quotationtool/categorization/interfaces.py:31
+#: quotationtool/categorization/interfaces.py:31
 msgid "icategorizableitemdescription-interface-title"
 msgstr "Interface"
 
 #. Default: "Choose an ZOPE-Interface from the list."
-#: src/quotationtool/categorization/interfaces.py:33
+#: quotationtool/categorization/interfaces.py:33
 msgid "icategorizableitemdescription-interface-desc"
 msgstr ""
 "Ein Typ von klassifizierbaren Einträgen wird mittels eines ZOPE-Interface "
 "bestimmt."
 
 #. Default: "Label"
-#: src/quotationtool/categorization/interfaces.py:40
+#: quotationtool/categorization/interfaces.py:40
 msgid "icategorizableitemdescription-label-title"
 msgstr "Label"
 
 #. Default: "Descriptive term for the interface which users can understand."
-#: src/quotationtool/categorization/interfaces.py:42
+#: quotationtool/categorization/interfaces.py:42
 msgid "icategorrizableitemdescription-label-description"
 msgstr "Ausdruck, den `Normal'-Benutzer verstehen können."
 
 #. Default: "Weight"
-#: src/quotationtool/categorization/interfaces.py:65
+#: quotationtool/categorization/interfaces.py:65
 msgid "icategory-weight-title"
 msgstr "Gewicht"
 
 #. Default: "Give a numerical value to indicate where in the list of categories this one should appear. They will be displayed in ascending order."
-#: src/quotationtool/categorization/interfaces.py:67
+#: quotationtool/categorization/interfaces.py:67
 msgid "icategory-weight-desc"
 msgstr ""
 "Ganzzahliger Wert, der angibt, wo die Kategorien(klasse) im "
@@ -590,521 +2138,188 @@ msgstr ""
 "weiter unten steht."
 
 #. Default: "Title"
-#: src/quotationtool/categorization/interfaces.py:81
+#: quotationtool/categorization/interfaces.py:81
 msgid "icategory-title-title"
 msgstr "Name"
 
 #. Default: "How should the category be named?"
-#: src/quotationtool/categorization/interfaces.py:83
+#: quotationtool/categorization/interfaces.py:83
 msgid "icategory-title-desc"
 msgstr "Wie soll die Kategorie heißen?"
 
 #. Default: "Description"
-#: src/quotationtool/categorization/interfaces.py:89
+#: quotationtool/categorization/interfaces.py:89
 msgid "icategory-description-title"
 msgstr "Beschreibung"
 
 #. Default: "Short description or explanation."
-#: src/quotationtool/categorization/interfaces.py:91
+#: quotationtool/categorization/interfaces.py:91
 msgid "icategory-description-desc"
 msgstr "Kurze Beschreibung oder Erklärung."
 
 #. Default: "exclusive"
-#: src/quotationtool/categorization/mode.py:10
+#: quotationtool/categorization/mode.py:10
 msgid "quotationtool.categorization.mode.exclusive"
 msgstr "exklusiv"
 
 #. Default: "non-exclusive"
-#: src/quotationtool/categorization/mode.py:12
+#: quotationtool/categorization/mode.py:12
 msgid "quotationtool.categorization.mode.non-exclusive"
 msgstr "nicht-exklusiv"
 
 #. Default: "Add a category or set of categories"
-#: src/quotationtool/categorization/permissions.zcml:11
+#: quotationtool/categorization/permissions.zcml:11
 msgid "add-category-permission-title"
 msgstr "Kategorie oder Kategorienklasse hinzufügen"
 
 #. Default: "Edit categories"
-#: src/quotationtool/categorization/permissions.zcml:17
+#: quotationtool/categorization/permissions.zcml:17
 msgid "edit-category-permission-title"
 msgstr "Kategorien ändern"
 
 #. Default: "Manage categorizations on a Zope3 level"
-#: src/quotationtool/categorization/permissions.zcml:23
+#: quotationtool/categorization/permissions.zcml:23
 msgid "manage-categorization-permission-title"
 msgstr "Kategorien verwalten auf ZOPE-Level"
 
 #. Default: "Attribute categories to an item."
-#: src/quotationtool/categorization/permissions.zcml:5
+#: quotationtool/categorization/permissions.zcml:5
 msgid "do-attribution-permission-title"
 msgstr "Klassifizieren von Objekten"
 
-#. Default: "Search for Examples"
-#: src/quotationtool/collectanea/browser/collectanea.py:32
-#: src/quotationtool/figures/browser/examplecontainer.py:30
-#: src/quotationtool/figuresng/browser/examplecontainer.py:60
-msgid "search-form-label"
-msgstr "Beispiel-Suche"
-
-#. Default: "List of Quotations"
-#: src/quotationtool/collectanea/browser/quotation.py:164
-msgid "quotations-in-uniformtitle-label1"
-msgstr ""
-
-#. Default: "In Uniform Title"
-#: src/quotationtool/collectanea/browser/quotation.py:167
-msgid "quotations-in-uniformtitle-label2"
-msgstr ""
-
-#. Default: "Reference"
-#: src/quotationtool/collectanea/interfaces.py:37
-msgid "iquotation-reference-title"
-msgstr ""
-
-#. Default: "The publication this quotation is taken from."
-#: src/quotationtool/collectanea/interfaces.py:39
-msgid "iquotation-reference-desc"
-msgstr ""
-
-#. Default: "Quotation"
-#: src/quotationtool/collectanea/interfaces.py:46
-msgid "iquotation-quotation-title"
-msgstr ""
-
-#. Default: "The quotation from the document."
-#: src/quotationtool/collectanea/interfaces.py:47
-msgid "iquotation-quotation-desc"
-msgstr ""
-
-#. Default: "Text Format"
-#: src/quotationtool/collectanea/interfaces.py:59
-msgid "iquotation-source-type-title"
-msgstr ""
-
-#. Default: "Choose text format"
-#: src/quotationtool/collectanea/interfaces.py:60
-msgid "iquotation-source-type-desc"
-msgstr ""
-
-#. Default: "Position"
-#: src/quotationtool/collectanea/interfaces.py:69
-msgid "iquotation-distance-position"
-msgstr ""
-
-#. Default: "Page (for Books); Date and Page (for Newspaper Articles); Time (for Audio or Video Files)."
-#: src/quotationtool/collectanea/interfaces.py:70
-msgid "iquotation-position-desc"
-msgstr ""
-
-#. Default: "Quotation"
-#: src/quotationtool/collectanea/interfaces.py:91
-msgid "iquotationindexcatalog-quotation-title"
-msgstr ""
-
-#. Default: "Search by words from the quotation field."
-#: src/quotationtool/collectanea/interfaces.py:92
-msgid "iquotationindexcatalog-quotation-desc"
-msgstr ""
-
-#. Default: "Plain Text"
-#: src/quotationtool/collectanea/plaintext.py:34
-#: src/quotationtool/figuresng/plaintext.py:67
-msgid "quotation-plaintext-factory-title"
-msgstr "Unformatierter Text"
-
-#. Default: "The text passage is cited in plain text, i.e. without formatting commands."
-#: src/quotationtool/collectanea/plaintext.py:37
-#: src/quotationtool/figuresng/plaintext.py:70
-msgid "quotation-plaintext-factory-desc"
-msgstr "Die Textstelle wird ohne Formatierung angezeigt."
-
-#. Default: "[See Reference]"
-#: src/quotationtool/commentary/browser/aboutreference_@@details.pt:16
-msgid "reference-link"
-msgstr "[zur Reference]"
-
-#. Default: "Add a new Comment"
-#: src/quotationtool/commentary/browser/aboutreference_add.pt:6
-#: src/quotationtool/commentary/browser/comments_about_reference.pt:31
-#: src/quotationtool/commentary/browser/comments_about_commentable.pt:79
+#. Default: "Add a Comment"
+#: quotationtool/commentary/browser/comments.pt:15
 msgid "add-comment"
 msgstr "Kommentar hinzufügen"
 
-#. Default: "About Reference"
-#: src/quotationtool/commentary/browser/aboutreference_edit.pt:10
-msgid "about-reference-label"
-msgstr "Kommentiere Publikation"
-
-#. Default: "Edit Comment"
-#: src/quotationtool/commentary/browser/aboutreference_edit.pt:6
-#: src/quotationtool/commentary/browser/comment_edit.pt:8
-msgid "edit-comment-label"
-msgstr "Kommentar ändern"
-
-#. Default: "Edit"
-#: src/quotationtool/commentary/browser/aboutreference_frontpage.pt:13
-msgid "edit-button"
-msgstr "Ändern"
-
-#. Default: "Comment"
-#: src/quotationtool/commentary/browser/aboutreference_frontpage.pt:4
-#: src/quotationtool/commentary/browser/comment_frontpage.pt:6
-msgid "comment-frontpage-label"
-msgstr "Kommentar"
-
-#. Default: ""
-#.  "${creator},\n"
-#.  "    ${date}"
-#: src/quotationtool/commentary/browser/comment_@@creator.pt:9
-msgid "comment-creator"
-msgstr "${creator}, ${date}"
-
-#. Default: ""
-#.  "Add a new Comment about\n"
-#.  "\t${about_type}"
-#: src/quotationtool/commentary/browser/comment_add.pt:8
-msgid "add-comment-label"
-msgstr "${about_type}-Kommentar hinzufügen"
-
-#. Default: "[Return to/See Commented Item]"
-#: src/quotationtool/commentary/browser/comment_frontpage.pt:24
-#: src/quotationtool/commentary/browser/comment_@@details.pt:21
-msgid "commentable-object-link"
-msgstr "[(Zurück) Zum kommentierten Eintrag]"
-
 #. Default: "Commentary"
-#: src/quotationtool/commentary/browser/commentcontainer.pt:4
+#: quotationtool/commentary/browser/container.pt:3
 msgid "commentcontainer-label"
 msgstr "Kommentare"
 
 #. Default: "Comments are accessible in the context of items only."
-#: src/quotationtool/commentary/browser/commentcontainer.pt:6
+#: quotationtool/commentary/browser/container.pt:5
 msgid "commentcontainer-desc"
 msgstr ""
 "Die Kommentare sind im Kontext (siehe Reiter) einzelner Datenbankeinträge "
 "verfügbar."
 
+#. Default: "[Return to/See Commented Item]"
+#: quotationtool/commentary/browser/details.pt:42
+msgid "commentable-object-link"
+msgstr "[(Zurück) Zum kommentierten Eintrag]"
+
+#. Default: "Add a comment"
+#: quotationtool/commentary/browser/form.py:29
+msgid "comment-add-label"
+msgstr "Kommentar erstellen"
+
+#. Default: "Change comment"
+#: quotationtool/commentary/browser/form.py:65
+msgid "comment-edit-label"
+msgstr "Kommentar bearbeiten"
+
+#. Default: "Number of Comments"
+#: quotationtool/commentary/browser/iscommented.pt:4
+msgid "iscommented-abbr"
+msgstr "Anzahl der Kommentare"
+
+#. Default: "[Read more]"
+#: quotationtool/commentary/browser/list.pt:10
+#: quotationtool/categorization/browser/attribution.pt:23
+#: quotationtool/categorization/browser/attribution.pt:51
+msgid "more-link"
+msgstr "[mehr]"
+
+#. Default: "${creator}, ${date}"
+#: quotationtool/commentary/browser/meta.pt:11
+msgid "comment-creator"
+msgstr "${creator}, ${date}"
+
+#: quotationtool/commentary/browser/pagelet.py:62
+msgid "Invalid object ID"
+msgstr "Ungültige ID"
+
 #. Default: "Comments"
-#: src/quotationtool/commentary/browser/commentcontainer_@@breadcrumb.pt:1
-msgid "commentcontainer-breadcrumb"
-msgstr "Kommentare"
-
-#. Default: "There are no comments on this item yet."
-#: src/quotationtool/commentary/browser/comments_about_commentable.pt:12
-msgid "comments-about-commentable-none"
-msgstr "Es liegen noch keine Kommentare vor."
-
-#. Default: "Comments"
-#: src/quotationtool/commentary/browser/comments_about_commentable.pt:6
-msgid "comments-about-commentable-label"
-msgstr "Kommentare"
-
-#. Default: "Comments on this item."
-#: src/quotationtool/commentary/browser/comments_about_commentable.pt:8
-msgid "comments-about-commentable-desc"
-msgstr "Kommentare zu diesem Eintrag."
-
-#. Default: "Comments"
-#: src/quotationtool/commentary/browser/comments_about_reference.pt:5
-msgid "comments-about-reference-label"
-msgstr "Kommentare"
-
-#. Default: "Comments"
-#: src/quotationtool/commentary/browser/menu.zcml:112
-msgid "comments-in-commentable-tabs"
+#: quotationtool/commentary/browser/tabs.zcml:8
+msgid "itemtabs-commentable-comments"
 msgstr "Kommentare"
 
 #. Default: "Comment"
-#: src/quotationtool/commentary/browser/menu.zcml:44
-msgid "comment-navigation"
+#: quotationtool/commentary/browser/view.py:26
+msgid "comment-label"
 msgstr "Kommentar"
 
-#. Default: "Edit"
-#: src/quotationtool/commentary/browser/menu.zcml:57
-msgid "comment-edit-navigation"
-msgstr "Ändern"
-
 #. Default: "Comment"
-#: src/quotationtool/commentary/browser/menu.zcml:73
-#: src/quotationtool/commentary/browser/menu.zcml:86
-msgid "comment-tabs"
-msgstr "Kommentar"
-
-#. Default: "Comments"
-#: src/quotationtool/commentary/browser/menu.zcml:9
-msgid "commentary-navigation"
-msgstr "Kommentare"
-
-#. Default: "Commentary"
-#: src/quotationtool/commentary/browser/menu.zcml:99
-msgid "commentcontainer-tabs"
-msgstr "Kommentare"
-
-#. Default: "Figure"
-#: src/quotationtool/commentary/interfaces.py:102
-msgid "icommentaboutfigure-figure-title"
-msgstr "Figur"
-
-#. Default: "The item, the comment is about."
-#: src/quotationtool/commentary/interfaces.py:104
-msgid "icommentaboutfigure-figure-desc"
-msgstr "Die Figur (Beispiel), auf den sich der Kommentare bezieht."
-
-#. Default: "Comment"
-#: src/quotationtool/commentary/interfaces.py:22
+#: quotationtool/commentary/interfaces.py:22
 msgid "isimplecomment-comment-title"
 msgstr "Kommentar"
 
 #. Default: "The comment text."
-#: src/quotationtool/commentary/interfaces.py:24
+#: quotationtool/commentary/interfaces.py:24
 msgid "isimplecomment-comment-desc"
 msgstr "Kommentar-Text"
 
 #. Default: "Text Format"
-#: src/quotationtool/commentary/interfaces.py:30
+#: quotationtool/commentary/interfaces.py:30
 msgid "isimplecomment-sourcetype-title"
 msgstr "Text-Format"
 
 #. Default: "Choose text format"
-#: src/quotationtool/commentary/interfaces.py:31
+#: quotationtool/commentary/interfaces.py:31
 msgid "isimplecomment-sourcetype-desc"
 msgstr "Formatierungsart des Textes auswählen."
 
 #. Default: "About"
-#: src/quotationtool/commentary/interfaces.py:59
+#: quotationtool/commentary/interfaces.py:59
 msgid "icomment-about-title"
 msgstr "Über"
 
 #. Default: "The item the comment is about."
-#: src/quotationtool/commentary/interfaces.py:61
+#: quotationtool/commentary/interfaces.py:61
 msgid "icomment-about-desc"
 msgstr "Der Eintrag, auf den der Kommentar sich bezieht."
 
-#. Default: "Reference"
-#: src/quotationtool/commentary/interfaces.py:80
-msgid "icommentaboutreference-reference-title"
-msgstr "Ausgabe"
+#. Default: "Count"
+#: quotationtool/commentary/interfaces.py:74
+msgid "icommentcontainer-count-title"
+msgstr "Anzahl"
+
+#. Default: "Number of comments yet added. This is used to choose the name of a comment. It is never decremented on comment deletion."
+#: quotationtool/commentary/interfaces.py:76
+msgid "icommentcontainer-count-desc"
+msgstr "Die Anzahl der überhaupt vorhandenen Kommentare."
+
+#. Default: "Figure"
+#: quotationtool/commentary/interfaces.py:92
+#: quotationtool/commentary/interfaces.py:113
+msgid "icommentaboutfigure-figure-title"
+msgstr "Figur"
+
+#. Default: "The item, the comment is about."
+#: quotationtool/commentary/interfaces.py:94
+#: quotationtool/commentary/interfaces.py:115
+msgid "icommentaboutfigure-figure-desc"
+msgstr "Die Figur (Beispiel), auf den sich der Kommentare bezieht."
 
 #. Default: "Edit commentaries"
-#: src/quotationtool/commentary/permissions.zcml:11
+#: quotationtool/commentary/permissions.zcml:11
 msgid "edit-comment-permission-title"
 msgstr "Kommentare ändern"
 
 #. Default: "Write a commentary"
-#: src/quotationtool/commentary/permissions.zcml:5
+#: quotationtool/commentary/permissions.zcml:5
 msgid "add-comment-permission-title"
 msgstr "Kommentare hinzufügen"
 
-#. Default: "Plain Text"
-#: src/quotationtool/commentary/plaintext.py:67
-msgid "commentary-plaintext-factory-title"
-msgstr "Unformatierter Text"
-
-#. Default: "Without any formatting."
-#: src/quotationtool/commentary/plaintext.py:70
-msgid "commentary-plaintext-factory-desc"
-msgstr "Kommentar ohne Textformatierung"
-
-#. Default: "ReStructured Text"
-#: src/quotationtool/commentary/rest.py:63
-#: src/quotationtool/figuresng/rest.py:63
-msgid "quotationtool-renderer-rest-title"
-msgstr ""
-
-#. Default: "Simple formatting syntax."
-#: src/quotationtool/commentary/rest.py:66
-#: src/quotationtool/figuresng/rest.py:66
-msgid "quotationtool-renderer-rest-desc"
-msgstr "Einfache Formatierungssyntax."
-
-#: src/quotationtool/container/integernamescontainer.py:52
-msgid "An empty name was provided. Names cannot be empty."
-msgstr ""
-
-#: src/quotationtool/container/integernamescontainer.py:63
-msgid "The given name is already being used"
-msgstr ""
-
-#. Default: "Example Details"
-#: src/quotationtool/figures/browser/example.py:114
-#: src/quotationtool/figuresng/browser/example.py:118
-#: src/quotationtool/figuresng/browser/example_frontpage.pt:4
+#. Default: "Example"
+#: quotationtool/figuresng/browser/example.py:157
+#: quotationtool/figuresng/browser/example_frontpage.pt:3
 msgid "example-frontpage-label"
 msgstr "Beispiel"
 
-#. Default: "List of Examples"
-#: src/quotationtool/figures/browser/example.py:141
-msgid "examples-in-quotation-label1"
-msgstr "Beispiele"
-
-#. Default: "In Quotation"
-#: src/quotationtool/figures/browser/example.py:144
-msgid "examples-in-quotation-label2"
-msgstr ""
-
-#. Default: "List of Examples"
-#: src/quotationtool/figures/browser/example.py:223
-#: src/quotationtool/figuresng/browser/example.py:183
-msgid "examples-in-uniformtitle-label1"
-msgstr "Beispiele aus diesem Einheitssachtitel"
-
-#. Default: "In Uniform Title"
-#: src/quotationtool/figures/browser/example.py:226
-msgid "examples-in-uniformtitle-label2"
-msgstr ""
-
-#. Default: "Example"
-#: src/quotationtool/figures/iexample.py:26
-#: src/quotationtool/figuresng/iexample.py:26
-msgid "iexample-quid-title"
-msgstr "Beispiel"
-
-#. Default: "What is the example?"
-#: src/quotationtool/figures/iexample.py:28
-#: src/quotationtool/figuresng/iexample.py:28
-msgid "iexample-quid-desc"
-msgstr "Was wird als Beispiel aufgeführt?"
-
-#. Default: "Rule"
-#: src/quotationtool/figures/iexample.py:36
-#: src/quotationtool/figuresng/iexample.py:36
-msgid "iexample-proquo-title"
-msgstr "Bedeutung / Gemeintes"
-
-#. Default: "Which rule or general sentence does the example illustrate?"
-#: src/quotationtool/figures/iexample.py:38
-#: src/quotationtool/figuresng/iexample.py:38
-msgid "iexample-proquo-desc"
-msgstr "Womit wird das Beispiel in Verbindung gebracht oder wofür steht es?"
-
-#. Default: "Marker"
-#: src/quotationtool/figures/iexample.py:46
-#: src/quotationtool/figuresng/iexample.py:46
-msgid "iexample-marker-title"
-msgstr "Markierung"
-
-#. Default: "Examples are often marked by 'e.g.', 'for instance' etc."
-#: src/quotationtool/figures/iexample.py:48
-#: src/quotationtool/figuresng/iexample.py:48
-msgid "iexample-marker-desc"
-msgstr "Wie wird das Beispiel angezeigt? (\"z.B.\", Parenthese etc.)"
-
-#. Default: "Ether 'Example' or 'rule' must be given!"
-#: src/quotationtool/figures/iexample.py:59
-#: src/quotationtool/figuresng/iexample.py:59
-msgid "netherquidnorproquo"
-msgstr ""
-"Von den Feldern Beispiel und Bedeutung/Gemeintes muss mindestens eins "
-"angegeben werden!"
-
-#. Default: "Example"
-#: src/quotationtool/figures/iexample.py:68
-#: src/quotationtool/figuresng/iexample.py:68
-msgid "iexampleindexcatalog-quid-title"
-msgstr "Beispiel"
-
-#. Default: "Search by example."
-#: src/quotationtool/figures/iexample.py:70
-#: src/quotationtool/figuresng/iexample.py:70
-msgid "iexampleindexcatalog-quid-desc"
-msgstr "Suche im Feld 'Beispiel'."
-
-#. Default: "Rule"
-#: src/quotationtool/figures/iexample.py:77
-#: src/quotationtool/figuresng/iexample.py:77
-msgid "iexampleindexcatalog-proquo-title"
-msgstr "Bedeutung/Gemeintes"
-
-#. Default: "Search by the rule or general sentence illustrated by the example."
-#: src/quotationtool/figures/iexample.py:79
-#: src/quotationtool/figuresng/iexample.py:79
-msgid "iexampleindexcatalog-proquo-desc"
-msgstr "Suche im Feld 'Bedeutung/Gemeintes'."
-
-#. Default: "Example OR Rule"
-#: src/quotationtool/figures/iexample.py:86
-#: src/quotationtool/figuresng/iexample.py:86
-msgid "iexampleindexcatalog-quidproquo-title"
-msgstr "Beispiel ODER Bedeutung/Gemeintes"
-
-#. Default: "Search by example OR rule. Matches both fields. Even used for the quick search."
-#: src/quotationtool/figures/iexample.py:88
-#: src/quotationtool/figuresng/iexample.py:88
-msgid "iexampleindexcatalog-quidproquo-desc"
-msgstr ""
-"Suche in der Feldern 'Beispiel' oder 'Bedeutung/Gemeintes'. Treffer in "
-"mindestens einem Feld werden angezeigt. Dieser Index wird auch für die "
-"Schnellsuche verwendet."
-
-#. Default: "Marker"
-#: src/quotationtool/figures/iexample.py:95
-#: src/quotationtool/figuresng/iexample.py:95
-msgid "iexampleindexcatalog-marker-title"
-msgstr "Markierung"
-
-#. Default: "Search by example-marker."
-#: src/quotationtool/figures/iexample.py:97
-#: src/quotationtool/figuresng/iexample.py:97
-msgid "iexampleindexcatalog-marker-desc"
-msgstr "Suche im Feld 'Markierung'."
-
-#. Default: "Token"
-#: src/quotationtool/figures/interfaces.py:17
-msgid "ifigure-token-title"
-msgstr ""
-
-#. Default: "The N-th occurence of token will be highlightened. The token is given herre."
-#: src/quotationtool/figures/interfaces.py:19
-msgid "ifigure-token-desc"
-msgstr ""
-
-#. Default: "Position"
-#: src/quotationtool/figures/interfaces.py:25
-#: src/quotationtool/figuresng/interfaces.py:81
-msgid "ifigure-position-title"
-msgstr "Seite"
-
-#. Default: "The N-th occurence of token will be highlightened. N is given here."
-#: src/quotationtool/figures/interfaces.py:27
-#: src/quotationtool/figures/interfaces.py:47
-#: src/quotationtool/figuresng/interfaces.py:83
-msgid "ifigure-position-desc"
-msgstr "Ohne \"S.\" oder \"Bd.\"; bei Zeitungsartikeln Datum angeben."
-
-#. Default: "Quotation"
-#: src/quotationtool/figures/interfaces.py:37
-#: src/quotationtool/figuresng/interfaces.py:56
-msgid "ifigure-quotation-title"
-msgstr "Textstelle"
-
-#. Default: "The Quotation this is found in (relation)."
-#: src/quotationtool/figures/interfaces.py:39
-#: src/quotationtool/figuresng/interfaces.py:58
-msgid "ifigure-quotation-desc"
-msgstr "Ohne Anführungsstriche, mit Auslassungszeichen [...]"
-
-#. Default: "Position"
-#: src/quotationtool/figures/interfaces.py:46
-msgid "ifigure-distance-position"
-msgstr ""
-
-#. Default: "Selections"
-#: src/quotationtool/figures/interfaces.py:53
-msgid "ifigure-selections-title"
-msgstr ""
-
-#. Default: "A list of text selctions for highlightning the relevant passage in the quotation."
-#: src/quotationtool/figures/interfaces.py:55
-msgid "ifigure-selectios-desc"
-msgstr ""
-
-#. Default: "Selection"
-#: src/quotationtool/figures/interfaces.py:57
-msgid "ifigure-selections-valuetype-tit"
-msgstr ""
-
 #. Default: "Examples in Reference"
-#: src/quotationtool/figuresng/browser/example.py:130
+#: quotationtool/figuresng/browser/example.py:189
 msgid "examples-in-reference-label1"
 msgstr "Beispiele aus dieser Ausgabe"
 
@@ -1113,13 +2328,28 @@ msgstr "Beispiele aus dieser Ausgabe"
 #.  "                 above that were collected so far. There might be\n"
 #.  "                 <a href='${href}' class='content'>more examples in\n"
 #.  "                 other editions, reprints or translations</a>."
-#: src/quotationtool/figuresng/browser/example.py:134
-msgid "examples-in-reference-desc"
+#: quotationtool/figuresng/browser/example.py:193
+msgid "examples-in-reference-desc-OFF"
 msgstr ""
 "Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang gesammelt "
 "worden sind. Möglicherweise gibt es <a class=\"content\" href=\"${href}"
 "\">weitere Beispiele in anderen Ausgaben, Wiederabdrucken oder "
 "Übersetzungen</a>."
+
+#. Default: ""
+#.  "This is a list of the examples from the edition\n"
+#.  "                 above that were collected so far."
+#: quotationtool/figuresng/browser/example.py:202
+msgid "examples-in-reference-desc"
+msgstr ""
+"Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang gesammelt "
+"worden sind. Möglicherweise gibt es weitere Beispiele in anderen Ausgaben, "
+"Wiederabdrucken oder Übersetzungen."
+
+#. Default: "Examples in Uniform Title"
+#: quotationtool/figuresng/browser/example.py:250
+msgid "examples-in-uniformtitle-label1"
+msgstr "Beispiele aus diesem Einheitssachtitel"
 
 # Dies sind die Beispiele aus dem obenstehenden Einheitssachtitel, die bislang gesammelt worden sind. Es handelt sich um die Vereinigungsmenge der Beispiele aus allen <a class="content" href="${href}">Ausgaben</a>.
 #. Default: ""
@@ -1127,1341 +2357,1203 @@ msgstr ""
 #.  "                 collected so far. It is a set union of the examples\n"
 #.  "                 from all <a href='${href}' class='content'>editions\n"
 #.  "                 in use</a>."
-#: src/quotationtool/figuresng/browser/example.py:187
+#: quotationtool/figuresng/browser/example.py:254
 msgid "examples-in-uniformtitle-desc"
 msgstr ""
 "Dies sind die Beispiele aus dem obenstehenden Einheitssachtitel, die bislang "
 "gesammelt wurden. Es handelt sich um die Vereinigungsmenge der Beispiele aus "
 "allen <a class=\"content\" href=\"${href}\">Ausgaben</a>."
 
-#. Default: "Example"
-#: src/quotationtool/figuresng/browser/example_@@type.pt:1
-msgid "iexample-title"
-msgstr "Beispiel"
+#. Default: "Example #$ID"
+#: quotationtool/figuresng/browser/example.py:81
+msgid "example-labelview"
+msgstr "Beispiel #$ID"
 
-#. Default: "Edit Example"
-#: src/quotationtool/figuresng/browser/example_edit.pt:6
-msgid "example-edit-label"
-msgstr "Beispiel-Daten Ändern"
+#. Default: "Add a new Example"
+#: quotationtool/figuresng/browser/example.py:91
+#: quotationtool/figuresng/browser/examples_in_reference.pt:75
+msgid "add-example"
+msgstr "Beispiel hinzufügen"
 
 #. Default: "Edit"
-#: src/quotationtool/figuresng/browser/example_frontpage.pt:13
+#: quotationtool/figuresng/browser/example_frontpage.pt:12
 msgid "edit"
 msgstr "Ändern"
 
-#. Default: "Example"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:119
-msgid "example-navigation"
-msgstr "Beispiel"
-
-#. Default: "Edit"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:133
-msgid "example-edit-navigation"
-msgstr "Ändern"
-
-#. Default: "Examples"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:149
-msgid "examplecontainer-tabs"
-msgstr "Beispiele"
-
-#. Default: "About"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:162
-msgid "examplecontainer-about-tabs"
-msgstr "Über"
-
 #. Default: "Search"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:175
-msgid "examplecontainer-search-tabs"
-msgstr "Suche"
-
-#. Default: "Example"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:189
-msgid "example-tabs"
-msgstr "Beispiel"
-
-#. Default: "Edit"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:202
-msgid "example-edit-tabs"
-msgstr "Ändern"
-
-#. Default: "About"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:66
-#: src/quotationtool/figuresng/browser/example_menu.zcml:92
-msgid "examplecontainer-about-navigation"
-msgstr "Über"
-
-#. Default: "Search"
-#: src/quotationtool/figuresng/browser/example_menu.zcml:79
-#: src/quotationtool/figuresng/browser/example_menu.zcml:105
+#: quotationtool/figuresng/browser/example_nav.zcml:73
 msgid "examplecontainer-search-navigation"
 msgstr "Suche"
 
 #. Default: "Examples"
-#: src/quotationtool/figuresng/browser/examplecontainer.py:46
+#: quotationtool/figuresng/browser/example_nav.zcml:9
+#: quotationtool/figuresng/browser/example_nav.zcml:51
+msgid "examplecontainer-navigation"
+msgstr "Beispiele"
+
+#. Default: "Edit"
+#: quotationtool/figuresng/browser/example_tabs.zcml:19
+msgid "example-edit-tabs"
+msgstr "Ändern"
+
+#. Default: "Examples"
+#: quotationtool/figuresng/browser/example_tabs.zcml:30
+msgid "entry-examples"
+msgstr "Beispiele"
+
+#. Default: "Examples"
+#: quotationtool/figuresng/browser/examplecontainer.py:15
+msgid "examplecontainer-labelview"
+msgstr "Beispiele"
+
+#. Default: "Examples"
+#: quotationtool/figuresng/browser/examplecontainer.py:36
 msgid "example-search-target-label"
 msgstr "Beispielen"
 
 #. Default: "Search for an example by example term, by denotation or meaning, by name of its author, by title, by year etc."
-#: src/quotationtool/figuresng/browser/examplecontainer.py:49
+#: quotationtool/figuresng/browser/examplecontainer.py:39
 msgid "example-search-target-desc"
 msgstr ""
 "Suche nach Beispielen mittels angeführtem Beispiel, Bedeutung, Markierung, "
 "Autor, Titel usw."
 
-#. Default: "Examples"
-#: src/quotationtool/figuresng/browser/examplecontainer_@@breadcrumb.pt:1
-msgid "examplecontainer-breadcrumb"
-msgstr "Beispiele"
-
-#. Default: "Examples"
-#: src/quotationtool/figuresng/browser/examplecontainer_@@type.pt:1
-msgid "iexamplecontainer-title"
-msgstr "Beispiele"
+#. Default: "Search for Examples"
+#: quotationtool/figuresng/browser/examplecontainer.py:50
+msgid "search-form-label"
+msgstr "Beispiel-Suche"
 
 #. Default: "Examples in the Database"
-#: src/quotationtool/figuresng/browser/examplecontainer_container.pt:4
+#: quotationtool/figuresng/browser/examplecontainer_container.pt:3
 msgid "examplecontainer-container-label"
 msgstr "Beispiele im Archiv"
 
+#: quotationtool/figuresng/browser/examplecontainer_container.pt:41
+msgid "flags"
+msgstr "<span lang=\"en\" xml:lang=\"en\">flags</span>"
+
 #. Default: "Examples"
-#: src/quotationtool/figuresng/browser/examplecontainer_frontpage.pt:2
+#: quotationtool/figuresng/browser/examplecontainer_frontpage.pt:1
 msgid "examplecontainer-frontpage-label"
 msgstr "Beispiele"
 
-#. Default: "Add a new Example"
-#: src/quotationtool/figuresng/browser/examples_in_reference.pt:79
-#: src/quotationtool/figuresng/browser/example_add.pt:6
-msgid "add-example"
-msgstr "Beispiel hinzufügen"
+#. Default: "Number of Examples"
+#: quotationtool/figuresng/browser/examplecount.pt:4
+msgid "examplecount-abbr"
+msgstr "Anzahl der Beispiele"
+
+#. Default: ""
+#: quotationtool/figuresng/examplecontainer.py:24
+msgid "You want to use $KEY as key for the example, but it should be $COUNT!"
+msgstr ""
+"Sie wollen $KEY als ID für das Beispiel verwenden, aber es sollte $COUNT "
+"sein."
+
+#. Default: "Example"
+#: quotationtool/figuresng/iexample.py:103
+msgid "iexampleindexcatalog-quid-title"
+msgstr "Beispiel"
+
+#. Default: "Search by example."
+#: quotationtool/figuresng/iexample.py:105
+msgid "iexampleindexcatalog-quid-desc"
+msgstr "Suche im Feld 'Beispiel'."
+
+#. Default: "Denotation/Meaning"
+#: quotationtool/figuresng/iexample.py:112
+msgid "iexampleindexcatalog-proquo-title"
+msgstr "Bedeutung/Gemeintes"
+
+#. Default: "Search by the denotation or meaning (general sentence or rule) illustrated by the example."
+#: quotationtool/figuresng/iexample.py:114
+msgid "iexampleindexcatalog-proquo-desc"
+msgstr "Suche im Feld 'Bedeutung/Gemeintes'."
+
+#. Default: "Example OR Denotation/Meaning"
+#: quotationtool/figuresng/iexample.py:121
+msgid "iexampleindexcatalog-quidproquo-title"
+msgstr "Beispiel ODER Bedeutung/Gemeintes"
+
+#. Default: "Search by example OR denotation/meaning. Matches both fields."
+#: quotationtool/figuresng/iexample.py:123
+msgid "iexampleindexcatalog-quidproquo-desc"
+msgstr ""
+"Suche in der Feldern 'Beispiel' oder 'Bedeutung/Gemeintes'. Treffer in "
+"mindestens einem Feld werden angezeigt. Dieser Index wird auch für die "
+"Schnellsuche verwendet."
+
+#. Default: "Marker"
+#: quotationtool/figuresng/iexample.py:130
+msgid "iexampleindexcatalog-marker-title"
+msgstr "Markierung"
+
+#. Default: "Search by example-marker."
+#: quotationtool/figuresng/iexample.py:132
+msgid "iexampleindexcatalog-marker-desc"
+msgstr "Suche im Feld 'Markierung'."
+
+#. Default: "Count"
+#: quotationtool/figuresng/iexample.py:18
+msgid "iexampelcontainer-count-title"
+msgstr "Anzahl"
+
+#. Default: "How many examples there are"
+#: quotationtool/figuresng/iexample.py:20
+msgid "iexamplecontainer-count-desc"
+msgstr "Anzahl der Beispiele"
+
+#. Default: "Example"
+#: quotationtool/figuresng/iexample.py:39
+msgid "iexample-quid-title"
+msgstr "Beispiel"
+
+#. Default: "What is given as example?"
+#: quotationtool/figuresng/iexample.py:41
+msgid "iexample-quid-desc"
+msgstr "Was wird als Beispiel aufgeführt?"
+
+#. Default: "Denotation/Meaning"
+#: quotationtool/figuresng/iexample.py:49
+msgid "iexample-proquo-title"
+msgstr "Bedeutung / Gemeintes"
+
+#. Default: "What is the example associated with? What does it stand for?"
+#: quotationtool/figuresng/iexample.py:51
+msgid "iexample-proquo-desc"
+msgstr "Womit wird das Beispiel in Verbindung gebracht oder wofür steht es?"
+
+#. Default: "Marker"
+#: quotationtool/figuresng/iexample.py:59
+msgid "iexample-marker-title"
+msgstr "Markierung"
+
+#. Default: "How is the example indicated? ('e.g.', 'for instance', paranthesis etc.)"
+#: quotationtool/figuresng/iexample.py:61
+msgid "iexample-marker-desc"
+msgstr "Wie wird das Beispiel angezeigt? (\"z.B.\", Parenthese etc.)"
+
+#. Default: "Ether 'Example' or 'Denotation/Meaning' must be given!"
+#: quotationtool/figuresng/iexample.py:72
+msgid "netherquidnorproquo"
+msgstr ""
+"Von den Feldern Beispiel und Bedeutung/Gemeintes muss mindestens eins "
+"angegeben werden!"
+
+#. Default: "Missing tags for 'Example' and for 'Denotation/Meaning' in the quotation"
+#: quotationtool/figuresng/iexample.py:87
+msgid "nether-quid-nor-proquo-tag"
+msgstr ""
+"Beispiel und Bedeutung/Gemeintes müssen im Text (mit den Fähnchen) markiert "
+"werden!"
+
+#. Default: "Missing 'Example' tag in the quotation"
+#: quotationtool/figuresng/iexample.py:91
+msgid "no-quid-tag"
+msgstr "Das Beispiel muss im Text (mit dem Fähnchen) markiert werden!"
+
+#. Default: "Missing 'Denotation/Meaning' tag in the quotation"
+#: quotationtool/figuresng/iexample.py:95
+msgid "no-proquo-tag"
+msgstr ""
+"Das Gemeinte/Die Bedeutung muss im Text (mit dem Fähnchen) markiert werden!"
+
+#. Default: "Quotation"
+#: quotationtool/figuresng/interfaces.py:101
+msgid "ifigureindexcatalog-quotation-title"
+msgstr "Textstelle"
+
+#. Default: "Search by words from the quotation field."
+#: quotationtool/figuresng/interfaces.py:102
+msgid "ifigureindexcatalog-quotation-desc"
+msgstr "Suche im Feld 'Textstelle'."
 
 #. Default: "Cited from"
-#: src/quotationtool/figuresng/interfaces.py:47
+#: quotationtool/figuresng/interfaces.py:49
 msgid "ifigure-reference-title"
 msgstr "Ausgabe"
 
 #. Default: "The publication (book, article etc.) the text is taken from"
-#: src/quotationtool/figuresng/interfaces.py:49
+#: quotationtool/figuresng/interfaces.py:51
 msgid "ifigure-reference-desc"
 msgstr "Die verwendete Ausgabe, der das Beispiel entnommen ist."
 
+#. Default: "Quotation"
+#: quotationtool/figuresng/interfaces.py:58
+msgid "ifigure-quotation-title"
+msgstr "Textstelle"
+
+#. Default: "Passage in the text; without quotationmarks."
+#: quotationtool/figuresng/interfaces.py:60
+msgid "ifigure-quotation-desc"
+msgstr "Ohne Anführungsstriche, mit Auslassungszeichen [...]"
+
 #. Default: "Lenght"
-#: src/quotationtool/figuresng/interfaces.py:64
+#: quotationtool/figuresng/interfaces.py:66
 msgid "ifigure-length-title"
 msgstr "Größe"
 
 #. Default: "Length in bytes of the quotation attribute. Calculated automatically when quotation is set."
-#: src/quotationtool/figuresng/interfaces.py:66
+#: quotationtool/figuresng/interfaces.py:68
 msgid "ifigure-length-desc"
 msgstr ""
 "Größe der Textstelle in Bytes. Dies wird automatisch errechnet, wenn die "
 "Textstelle gespeichert wird."
 
 #. Default: "Text Format"
-#: src/quotationtool/figuresng/interfaces.py:72
+#: quotationtool/figuresng/interfaces.py:74
 msgid "ifigure-source-type-title"
 msgstr "Text-Format"
 
 #. Default: "Choose text format"
-#: src/quotationtool/figuresng/interfaces.py:73
+#: quotationtool/figuresng/interfaces.py:75
 msgid "ifigure-source-type-desc"
 msgstr "Art der Formatierung der Textstelle."
 
-#. Default: "Quotation"
-#: src/quotationtool/figuresng/interfaces.py:93
-msgid "ifigureindexcatalog-quotation-title"
-msgstr "Textstelle"
-
-#. Default: "Search by words from the quotation field."
-#: src/quotationtool/figuresng/interfaces.py:94
-msgid "ifigureindexcatalog-quotation-desc"
-msgstr "Suche im Feld 'Textstelle'."
-
-#: src/quotationtool/form/div-form-display.pt:16
-msgid "Data-Fields"
-msgstr "Daten-Felder"
-
-#. Default: "Edit"
-#: src/quotationtool/form/div-form-display.pt:35
-msgid "edit-button-label"
-msgstr "Änderungen Speichern"
-
-#: src/quotationtool/form/form.py:29
-msgid "Add"
-msgstr "Hinzufügen"
-
-#: src/quotationtool/form/form.py:30 src/quotationtool/form/form.py:66
-msgid "Cancel"
-msgstr "Abbrechen"
-
-#: src/quotationtool/form/form.py:65
-msgid "Apply"
-msgstr "Speichern"
-
-#: src/quotationtool/form/multi.py:17 src/quotationtool/form/sequence.py:32
-msgid "Add %s"
-msgstr "%s hinzufügen"
-
-#: src/quotationtool/form/multi.py:20 src/quotationtool/form/sequence.py:35
-msgid "an item"
-msgstr "Einen Eintrag"
-
-#: src/quotationtool/form/multi.py:24
-msgid "Add an item"
-msgstr "Einen Eintrag hinzufügen"
-
-#. Default: "Remove selected items"
-#: src/quotationtool/form/multi.py:38
-msgid "remove-selected-items"
-msgstr "Ausgewählte Einträge löschen"
-
-#: src/quotationtool/form/table-form-display.pt:31
-#: src/quotationtool/form/div-form.pt:30 src/quotationtool/form/div-form.pt:58
-msgid "${DYNAMIC_CONTENT}"
-msgstr ""
-
-#. Default: "Article"
-#: src/quotationtool/referatory/bibtex/article.py:42
-#: src/quotationtool/referatory/bibtex/article.py:54
-msgid "iarticle-title"
-msgstr "Artikel"
-
-#. Default: "An article published in a journal."
-#: src/quotationtool/referatory/bibtex/article.py:55
-msgid "choosearticletoadd-desc"
-msgstr "Ein Artikel aus einer Zeitschrift."
-
-#. Default: "Create a new Article-Reference"
-#: src/quotationtool/referatory/bibtex/article.zcml:19
-msgid "quotationtool.referatory.bibtex.article.Article-desc"
-msgstr "Neuen Nachweis eines Artikels anlegen."
-
-#. Default: "Article"
-#: src/quotationtool/referatory/bibtex/article.zcml:19
-msgid "quotationtool.referatory.bibtex.article.Article-title"
-msgstr "Artikel"
-
-#. Default: "Book"
-#: src/quotationtool/referatory/bibtex/book.py:47
-#: src/quotationtool/referatory/bibtex/book.py:58
-msgid "ibook-title"
-msgstr "Buch"
-
-#. Default: "Recommended for monographs."
-#: src/quotationtool/referatory/bibtex/book.py:59
-msgid "choosebooktoadd-desc"
-msgstr ""
-"Geeignet für Monographien; selbständig erschienene Publikationen, aber nicht "
-"Teile von Gesamtausgaben."
-
-#. Default: "Book"
-#: src/quotationtool/referatory/bibtex/book.zcml:19
-msgid "bibtex-book-factory-title"
-msgstr "Buch"
-
-#. Default: "Create a new Book-Reference"
-#: src/quotationtool/referatory/bibtex/book.zcml:19
-msgid "bibtex-book-factory-desc"
-msgstr "Neuen Nachweis eines Buchs anlegen."
-
-#. Default: "[Uniform Title: ${title} &lt; ${language}. &gt;]"
-#: src/quotationtool/referatory/bibtex/browser/bibtexreference_@@uniformtitle.pt:8
-msgid "reference-uniformtitle-details"
-msgstr "[Einheitssacht.: ${title} &lt; ${language}. &gt;]"
-
-#. Default: "Title"
-#: src/quotationtool/referatory/bibtex/field.py:112
-msgid "bibtex-title-title"
-msgstr "Titel"
-
-#. Default: "Title, maintitle, subtitle, second subtitle etc. They all go into seperate lines. Without trailing dot or comma."
-#: src/quotationtool/referatory/bibtex/field.py:113
-msgid "bibtex-title-desc"
-msgstr ""
-"Titel, Haupttitel, Nebentitel, weitere Titel usw. Jeden in eine separate "
-"Zeile. Stets ohne abschließendes Zeichen wie Punkt oder Komma."
-
-#. Default: "Publisher"
-#: src/quotationtool/referatory/bibtex/field.py:128
-msgid "bibtex-publisher-title"
-msgstr "Verlag"
-
-#. Default: "The name of the publisher or publishing house."
-#: src/quotationtool/referatory/bibtex/field.py:129
-msgid "bibtex-publisher-desc"
-msgstr "Verleger oder Verlagshaus"
-
-#. Default: "Year"
-#: src/quotationtool/referatory/bibtex/field.py:143
-msgid "bibtex-year-title"
-msgstr "Jahr"
-
-#. Default: "The year of publication or, for an unpublished work, the year it was written. Generally it should consist of four numerals, such as 1984, although this website can handle any year whose last four nonpunctuation characters are numerals, such as `(about 1984)'."
-#: src/quotationtool/referatory/bibtex/field.py:144
-msgid "bibtex-year-desc"
-msgstr ""
-"Das Jahr dieser Veröffentlichung; für unveröffentlichte Arbeiten das Jahr "
-"der Entstehung. Allgemein sollte diese Angabe aus vier Ziffern bestehen, wie "
-"``1984'', aber die Datenbank kommt auch mit Angaben zurecht, deren vier "
-"letzte Zeichen (ohne Satzzeichen) Ziffern sind, wie etwa ``(um 1984)''."
-
-#. Default: "Volume"
-#: src/quotationtool/referatory/bibtex/field.py:158
-msgid "bibtex-volume-title"
-msgstr "Band"
-
-#. Default: "The volume of a journal or multivolume book."
-#: src/quotationtool/referatory/bibtex/field.py:159
-msgid "bibtex-volume-desc"
-msgstr "Der Band eines Periodikums oder einer mehrbändigen Buches."
-
-#. Default: "Number"
-#: src/quotationtool/referatory/bibtex/field.py:173
-msgid "bibtex-number-title"
-msgstr "Nummer"
-
-#. Default: "The number of a journal, magazine, technical report, or of a work in a series. An issue of a journal or magazine is usually identified by its volume and number; the organization that issues a technical report usually gives it a number; and sometimes books are given numbers in a named series."
-#: src/quotationtool/referatory/bibtex/field.py:174
-msgid "bibtex-number-desc"
-msgstr ""
-"Die Nummer einer Zeitschrift, eines Magazins, technischen Reports oder die "
-"Nummer einer Publikation in einer Reihe. Ein Heft einer Zeitschrift wird "
-"üblicherweise durch 'Band' und/oder 'Nummer' identifiziert; die Institution, "
-"die einen technischen Report herausgibt, gibt diesem üblicherweise eine "
-"Nummer; manchmal werden Bücher mit einer Nummer in einer Reihe versehen."
-
-#. Default: "Series"
-#: src/quotationtool/referatory/bibtex/field.py:188
-msgid "bibtex-series-title"
-msgstr "Reihe"
-
-#. Default: "The name of a series or set of books. When citing an entire book, then the title field gives its title and an optional series field gives the name of a series or multi-volume set in which the book is published."
-#: src/quotationtool/referatory/bibtex/field.py:189
-msgid "bibtex-series-desc"
-msgstr "Der Name der Reihe eines Buchs."
-
-#. Default: "Address"
-#: src/quotationtool/referatory/bibtex/field.py:203
-msgid "bibtex-address-title"
-msgstr "Veröffentlichungsort"
-
-#. Default: "Usually the address (town) of the publisher or other type of institution. For major publishing houses, van Leunen recommends omitting the information entirely. For small publishers, on the other hand, you can help the reader by giving the complete address."
-#: src/quotationtool/referatory/bibtex/field.py:204
-msgid "bibtex-address-desc"
-msgstr ""
-"Gewöhnlicherweise der Ort (Stadt) des Verlags oder der veröffentlichenden "
-"Institution."
-
-#. Default: "Edition"
-#: src/quotationtool/referatory/bibtex/field.py:218
-msgid "bibtex-edition-title"
-msgstr "Ausgabe/Auflage"
-
-#. Default: "The edition of a book--for example, ``Second''. This should be an ordinal, and should have the first letter capitalized, as shown here; the standard styles convert to lower case when necessary."
-#: src/quotationtool/referatory/bibtex/field.py:219
-msgid "bibtex-edition-desc"
-msgstr ""
-"Die Auflage eines Buches, z.B. ``Second''. Dies sollte eine englische (TODO: "
-"echt?) Ordinalzahl sein, der erste Buchstabe sollte wie im Beispiel groß "
-"sein."
-
-#. Default: "Month"
-#: src/quotationtool/referatory/bibtex/field.py:233
-msgid "bibtex-month-title"
-msgstr "Monat"
-
-#. Default: "The month in which the work was published or, for an unpublished work, in which it was written. You should use the standard three-letter abbreviation, as described in Appendix B.1.3 of the LaTeX book."
-#: src/quotationtool/referatory/bibtex/field.py:234
-msgid "bibtex-month-desc"
-msgstr ""
-"Der Monat der Veröffentlichung, oder bei unveröffentlichten Arbeiten der "
-"Monat der Entstehung. Sie sollten hier die Standard der Drei-Buchstaben-"
-"Abkürzung benutzen, beschrieben in Appendix B.1.3 des LaTeX-Buches. (TODO: "
-"echt?)"
-
-#. Default: "Note"
-#: src/quotationtool/referatory/bibtex/field.py:248
-msgid "bibtex-note-title"
-msgstr "Anmerkung"
-
-#. Default: "Any additional information that can help the reader. The first word should be capitalized."
-#: src/quotationtool/referatory/bibtex/field.py:249
-msgid "bibtex-note-desc"
-msgstr ""
-"Jedwede zusätzliche Information, die helfen kann. Der erste Buchstabe sollte "
-"groß sein."
-
-#. Default: "Journal"
-#: src/quotationtool/referatory/bibtex/field.py:263
-msgid "bibtex-journal-title"
-msgstr "Zeitschrift"
-
-#. Default: "A journal name. Abbreviations are provided for many journals; see the Local Guide."
-#: src/quotationtool/referatory/bibtex/field.py:265
-msgid "bibtex-journal-desc"
-msgstr "Der Name der Zeitschrift."
-
-#. Default: "Pages"
-#: src/quotationtool/referatory/bibtex/field.py:280
-msgid "bibtex-pages-title"
-msgstr "Seiten"
-
-#. Default: "One or more page numbers or range of numbers, such as 42-111 or 7,41,73-97 or 43+ (the `+' in this last example indicates pages following that don't form a simple range). To make it easier to maintain Scribe-compatible databases, the standard styles convert a single dash (as in 7-33) to the double dash used in TeX to denote number ranges (as in 7-33)."
-#: src/quotationtool/referatory/bibtex/field.py:282
-msgid "bibtex-pages-desc"
-msgstr ""
-"Eine oder mehre Seitenangaben oder eine Spanne von Seiten, etwa 42-111 oder "
-"7, 41, 73-97 oder 43+ (das `+' im letzten Beispiel zeigt an, dass die "
-"nachfolgenden Seiten keine einfache Spanne darstellen). Aus Gründen der "
-"Datenverarbeitung bitte immer einfache Trennungszeichen (`minus') bei "
-"Seitenspannen benutzen."
-
-#. Default: "Book Title"
-#: src/quotationtool/referatory/bibtex/field.py:297
-msgid "bibtex-booktitle-title"
-msgstr "Buchtitel"
-
-#. Default: "Title of a book, part of which is being cited."
-#: src/quotationtool/referatory/bibtex/field.py:299
-msgid "bibtex-booktitle-desc"
-msgstr "Der Titel des Buches, dem der nachgewiesene Teil entnommen ist."
-
-#. Default: "Type"
-#: src/quotationtool/referatory/bibtex/field.py:315
-msgid "bibtex-type-title"
-msgstr "Typ"
-
-#. Default: "The type of a technical report--for example, ``Research Note''."
-#: src/quotationtool/referatory/bibtex/field.py:317
-msgid "bibtex-type-desc"
-msgstr "Der Typ, die Art eines technischen Reports, etwa ``Research Notes''."
-
-#. Default: "Language"
-#: src/quotationtool/referatory/bibtex/field.py:33
-msgid "bibtex-language-title"
-msgstr "Sprache"
-
-#. Default: "Chapter"
-#: src/quotationtool/referatory/bibtex/field.py:332
-msgid "bibtex-chapter-title"
-msgstr "Kapitel"
-
-#. Default: "A chapter (or section or whatever) number."
-#: src/quotationtool/referatory/bibtex/field.py:334
-msgid "bibtex-chapter-desc"
-msgstr "Die Kapitel- oder Unterkapitel- oder was auch immer für eine Nummer."
-
-#. Default: "The language of the publication."
-#: src/quotationtool/referatory/bibtex/field.py:34
-msgid "bibtex-language-desc"
-msgstr ""
-"Die Sprache der nachgewiesenen Ausgabe. Bei mehrsprachigen Ausgaben immer "
-"die Hauptsprache angeben; das ist bei Übersetzungen die Sprache der "
-"Übersetzung, nicht die des Originals."
-
-#. Default: "Name"
-#: src/quotationtool/referatory/bibtex/field.py:50
-msgid "bibtex-name-title"
-msgstr "Name"
-
-#. Default: "Enter <i>last name, first name</i>."
-#: src/quotationtool/referatory/bibtex/field.py:51
-msgid "bibtex-name-desc"
-msgstr "<i>Nachname, Vorname</i> eingeben."
-
-#. Default: "Author"
-#: src/quotationtool/referatory/bibtex/field.py:65
-msgid "bibtex-author-title"
-msgstr "Autor"
-
-#. Default: "Enter <i>last name, first name</i>. Each name goes into a seperate line."
-#: src/quotationtool/referatory/bibtex/field.py:66
-msgid "bibtex-author-desc"
-msgstr ""
-"<i>Nachname, Vorname</i> eingeben. Bei mehreren Autoren jeden in eine "
-"separate Zeile."
-
-#. Default: "Editor"
-#: src/quotationtool/referatory/bibtex/field.py:81
-msgid "bibtex-editor-title"
-msgstr "Herausgeber"
-
-#. Default: "Enter <i>last name, first name</i>. Each name goes into a seperate line. If there is also an author field, then the editor field gives the editor of the book or collection in which the reference appears."
-#: src/quotationtool/referatory/bibtex/field.py:82
-msgid "bibtex-editor-desc"
-msgstr ""
-"<i>Nachname, Vorname</i> eingeben. Bei mehreren Herausgebern jeden in eine "
-"eigene Zeile. Falls es auch ein Autor-Feld gibt und dort Angaben gemacht "
-"worden sind, dann wird das Herausgeber-Feld als Herausgeber des Buches oder "
-"des Sammelbandes, in dem der nachgewiesene Text veröffentlicht ist, "
-"verstanden."
-
-#. Default: "Title"
-#: src/quotationtool/referatory/bibtex/field.py:97
-msgid "bibtex-titleitem-title"
-msgstr "Titel"
-
-#. Default: "Without trailing dot or comma."
-#: src/quotationtool/referatory/bibtex/field.py:98
-msgid "bibtex-titleitem-desc"
-msgstr "Ohne abschließendes Satzzeichen wie Punkt oder Komma."
-
-#. Default: "Incollection"
-#: src/quotationtool/referatory/bibtex/incollection.py:50
-#: src/quotationtool/referatory/bibtex/incollection.py:62
-msgid "iincollection-title"
-msgstr "'Incollection'"
-
-#. Default: "Recommended for articles in editor books, writings in collected works or the like."
-#: src/quotationtool/referatory/bibtex/incollection.py:63
-msgid "chooseincollectiontoadd-desc"
-msgstr ""
-"Geeignet für Artikel aus Sammelbänden, Schriften aus Gesamtausgaben und "
-"andere nicht selbständig erschienene Ausgaben."
-
-#. Default: "Create a new Incollection-Reference"
-#: src/quotationtool/referatory/bibtex/incollection.zcml:19
-msgid "quotationtool.referatory.bibtex.incollection.Incollection-desc"
-msgstr ""
-"Nachweis eines 'Incollection' (nicht selbständig erschienene Ausgabe) "
-"anlegen."
-
-#. Default: "Incollection"
-#: src/quotationtool/referatory/bibtex/incollection.zcml:19
-msgid "quotationtool.referatory.bibtex.incollection.Incollection-title"
-msgstr "'Incollection'"
-
-#. Default: "."
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:12
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:19
-msgid "title-title-sep"
-msgstr ""
-
-#. Default: ", in:"
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:15
-msgid "unit-sep+in"
-msgstr ""
-
-#. Default: ","
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:22
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:31
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:35
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:39
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:43
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:48
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:52
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:56
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:60
-msgid "unit-sep"
-msgstr ""
-
-#. Default: "hg. von"
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:24
-msgid "ed-by"
-msgstr ""
-
-#. Default: "/"
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:27
-msgid "editor-editor-sep"
-msgstr ""
-
-#. Default: ":"
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:41
-msgid "address-publisher-sep"
-msgstr ""
-
-#. Default: ""
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:45
-msgid "publisher-year-sep"
-msgstr ""
-
-#. Default: "/"
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:5
-msgid "author-author-sep"
-msgstr ""
-
-#. Default: "(="
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:64
-msgid "series_pre"
-msgstr ""
-
-#. Default: ")"
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:66
-msgid "series_post"
-msgstr ""
-
-#. Default: ":"
-#: src/quotationtool/referatory/bibtex/incollection_@@details.pt:8
-msgid "author-title-sep"
-msgstr ""
-
-#. Default: "Bibliographical references"
-#: src/quotationtool/referatory/browser/referatory.py:33
-msgid "referatory-search-target-label"
-msgstr "Ausgaben"
-
-#. Default: "Search for a bibliographical reference (i.e. a book, an article etc.) by the name of its author, by title, by year etc."
-#: src/quotationtool/referatory/browser/referatory.py:36
-msgid "referatory-search-target-desc"
-msgstr "Suche in der Bibliographie."
-
-#. Default: "Search for Bibliographical References"
-#: src/quotationtool/referatory/browser/referatory.py:45
-msgid "referatory-search-form-label"
-msgstr "Bibliographie-Suche"
-
-#: src/quotationtool/referatory/browser/referatory.zcml:92
-msgid "Add a Referatory."
-msgstr ""
-
-#: src/quotationtool/referatory/browser/referatory.zcml:92
-msgid "Referatory"
-msgstr ""
-
-#. Default: "Bibliography"
-#: src/quotationtool/referatory/browser/referatory_@@breadcrumb.pt:1
-msgid "referatory-breadcrumb"
-msgstr "Bibliographie"
-
-#. Default: "Bibliography"
-#: src/quotationtool/referatory/browser/referatory_container.pt:4
-msgid "referatory-container-label"
-msgstr "Bibliographie"
-
-#. Default: ""
-#.  "This folder contains bibliographic metadata of the\n"
-#.  "      books, articles, collections ..."
-#: src/quotationtool/referatory/browser/referatory_container.pt:7
-#: src/quotationtool/referatory/browser/referatory_frontpage.pt:7
-msgid "referatory-desc"
-msgstr ""
-"Die Bibliographie enthält Angaben zu den verwendeten Büchern, Artikeln, "
-"Sammelbänden usw."
-
-#. Default: "Bibliography"
-#: src/quotationtool/referatory/browser/referatory_frontpage.pt:4
-msgid "referatory-frontpage-label"
-msgstr "Bibliographie"
-
-#. Default: "Reference"
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:116
-msgid "reference-navigation"
-msgstr "Nachweis"
-
-#. Default: "Bibliography"
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:147
-msgid "referatory-tabs"
-msgstr "Bibliographie"
-
-#. Default: "About"
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:160
-msgid "referatory-about-tabs"
-msgstr "Über"
-
-#. Default: "Search"
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:173
-msgid "referatory-search-tabs"
-msgstr "Suche"
-
-#. Default: "Reference"
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:186
-msgid "reference-tabs"
-msgstr "Nachweis"
-
-#. Default: "About"
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:64
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:90
-msgid "referatory-about-navigation"
-msgstr "Über"
-
-#. Default: "Search"
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:77
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:103
-msgid "referatory-search-navigation"
-msgstr "Suche"
-
-#. Default: "Bibliography"
-#: src/quotationtool/referatory/browser/referatory_menu.zcml:9
-msgid "referatory-navigation"
-msgstr "Bibliographie"
-
-#. Default: "Can't determine field name!"
-#: src/quotationtool/referatory/browser/reference.py:193
-msgid "edit-field-error"
-msgstr "Fehler: Kann den Feldnamen nicht bestimmen."
-
-#: src/quotationtool/referatory/browser/reference.py:200
-msgid "Field not allowed!"
-msgstr "Feld nicht erlaubt!"
-
-#. Default: "You have to choose a reference type!"
-#: src/quotationtool/referatory/browser/reference.py:85
-msgid "choose-reference-type-error"
-msgstr "Sie müssen eine Publikationsart auswählen!"
-
-#. Default: "Add a new Reference"
-#: src/quotationtool/referatory/browser/reference_add.pt:6
-#: src/quotationtool/referatory/browser/reference_choose.pt:3
-msgid "add-reference"
-msgstr "Ausgabe hinzufügen"
-
-#. Default: "Choose a reference type!"
-#: src/quotationtool/referatory/browser/reference_choose.pt:4
-msgid "choose-reference-type"
-msgstr "Wählen Sie eine Publikationsart aus!"
-
-#. Default: "Add"
-#: src/quotationtool/referatory/browser/reference_choose_manager.pt:10
-msgid "add"
-msgstr "Hinzufügen"
-
-#. Default: "Other Editions, Reprints, Translations ..."
-#: src/quotationtool/referatory/browser/reference_display.pt:18
-msgid "other-editions-link"
-msgstr "Andere Ausgaben, Wiederabdrucke, Übersetzungen ..."
-
-#. Default: "${type}-Reference"
-#: src/quotationtool/referatory/browser/reference_display.pt:7
-msgid "reference-display-label"
-msgstr "${type}-Nachweis"
-
-#. Default: ""
-#.  "Edit\n"
-#.  "\t${type}-Reference"
-#: src/quotationtool/referatory/browser/reference_editfields.pt:8
-msgid "reference-edit-label"
-msgstr "${type}-Nachweis Ändern"
-
-#. Default: "Uniform Title"
-#: src/quotationtool/referatory/browser/uniformtitle.py:128
-msgid "uniformtitle-display-label"
-msgstr "Einheitssachtitel"
-
-#. Default: "Add a new Uniform-Title"
-#: src/quotationtool/referatory/browser/uniformtitle.py:70
-#: src/quotationtool/referatory/browser/uniformtitle_add.pt:7
-#: src/quotationtool/referatory/browser/uniformtitlecontainer_container.pt:31
-msgid "add-uniformtitle"
-msgstr "Einheitssachtitel hinzufügen"
-
-#. Default: "/"
-#: src/quotationtool/referatory/browser/uniformtitle_@@author.pt:5
-msgid "author_author_sep"
-msgstr ""
-
-#. Default: "${author}: ${title} [${year}]"
-#: src/quotationtool/referatory/browser/uniformtitle_@@list.pt:10
-msgid "uniformtitle-details"
-msgstr "${author}: ${title} [${year}]"
-
-#. Default: "-"
-#: src/quotationtool/referatory/browser/uniformtitle_@@year.pt:4
-msgid "post_ante_sep"
-msgstr "-"
-
-#. Default: ""
-#.  "A Uniform Title (dt. Einheitssachtitel) is required to keep\n"
-#.  "\ttrack of various editions and translations of a writing and to\n"
-#.  "\timprove database searching. The form below asks for data of\n"
-#.  "\tthe first publication: the original language, the author name\n"
-#.  "\tand the title in this language and wants to know the date of\n"
-#.  "\torigin."
-#: src/quotationtool/referatory/browser/uniformtitle_add.pt:10
-msgid "add-uniformtitle-desc"
-msgstr ""
-"Das <i>Archiv des Beispiels</i> benötigt Einheitssachtitel, weil nicht "
-"normativ festgelegt ist, welche Ausgaben zitierfähig sind. Es müssen und "
-"werden also nicht alle die gleiche Ausgabe verwenden. Aber dennoch ist es "
-"nötig, den verschiedenen Ausgaben auf der Spur zu bleiben. Das ist die "
-"Leistung des Einheitssachtitels. <br/>Das folgende Formular fragt nach der "
-"Sprache des Originals, nach dem Namen der Autorin sowie dem Titel in dieser "
-"Sprache. Außerdem muss eine Angabe zum Jahr der Erstveröffentlichung bzw. "
-"zum Entstehungszeitraum gemacht werden. Eine sinnvolle Entscheidung, ob es "
-"bei der Zeitangabe auf die Erstveröffentlichung oder die Entstehung ankommt, "
-"liegt im Ermessen des Nutzers."
-
-#. Default: "Edit Uniform Title"
-#: src/quotationtool/referatory/browser/uniformtitle_editfields.pt:6
-msgid "edit-uniformtitle-label"
-msgstr "Einheitssachtitel Ändern"
-
-#. Default: "Uniform Title"
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:116
-msgid "uniformtitle-navigation"
-msgstr "Einheitssachtitel"
-
-#. Default: "Editions"
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:143
-msgid "uniformtitles-in-reference-navigation"
-msgstr "Ausgaben"
-
-#. Default: "Uniform Titles"
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:160
-msgid "uniformtitlecontainer-tabs"
-msgstr "Einheitssachtitel"
-
-#. Default: "About"
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:173
-msgid "uniformtitlecontainer-about-tabs"
-msgstr "Über"
-
-#. Default: "Uniform Title"
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:199
-msgid "uniformtitle-tabs"
-msgstr "Einheitssachtitel"
-
-#. Default: "Editions"
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:225
-msgid "uniformtitles-in-reference-tabs"
-msgstr "Ausgaben"
-
-#. Default: "About"
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:64
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:90
-msgid "uniformtitlecontainer-about-navigation"
-msgstr "Über"
-
-#. Default: "Uniform Titles"
-#: src/quotationtool/referatory/browser/uniformtitle_menu.zcml:9
-msgid "uniformtitlecontainer-navigation"
-msgstr "Einheitssachtitel"
-
-#. Default: ""
-#.  "The list below shows the editions, reprints or translations that\n"
-#.  "      are in use so far. By collecting them under a uniform title (see\n"
-#.  "      above) database searching is improved."
-#: src/quotationtool/referatory/browser/uniformtitle_references.pt:10
-msgid "uniformtitle-references-desc"
-msgstr ""
-"Die folgende Liste zeigt diejenigen Ausgaben zum obigen Einheitssachtitel, "
-"die bereits in Benutzung sind. Indem die Ausgaben unter einem "
-"Einheitssachtitel versammelt sind, wird die Suche in der Datenbank "
-"verbessert."
-
-#. Default: "Add an Edition"
-#: src/quotationtool/referatory/browser/uniformtitle_references.pt:34
-msgid "add-edition"
-msgstr "Ausgabe hinzufügen"
-
-#. Default: "Editions"
-#: src/quotationtool/referatory/browser/uniformtitle_references.pt:4
-msgid "uniformtitle-references-label"
-msgstr "Ausgaben unter Einheitssachtitel"
-
-#: src/quotationtool/referatory/browser/uniformtitlecontainer.zcml:54
-msgid "Add a UniformTitleContainer."
-msgstr ""
-
-#: src/quotationtool/referatory/browser/uniformtitlecontainer.zcml:54
-msgid "UniformTitleContainer"
-msgstr ""
-
-#. Default: "Uniform Titles"
-#: src/quotationtool/referatory/browser/uniformtitlecontainer_@@breadcrumb.pt:1
-msgid "uniformtitlecontainer-breadcrumb"
-msgstr "Einheitssachtitel"
-
-#. Default: "Uniform Titles"
-#: src/quotationtool/referatory/browser/uniformtitlecontainer_container.pt:4
-msgid "uniformtitlecontainer-container-label"
-msgstr "Einheitssachtitel"
-
-#. Default: "Uniform Titles"
-#: src/quotationtool/referatory/browser/uniformtitlecontainer_frontpage.pt:3
-msgid "uniformtitlecontainer-frontpage-label"
-msgstr "Einheitssachtitel"
-
-#. Default: ""
-#.  "This website makes use of uniform titles in order to keep track\n"
-#.  "      of various edtions, reprints and translations of a writing."
-#: src/quotationtool/referatory/browser/uniformtitlecontainer_frontpage.pt:5
-#: src/quotationtool/referatory/browser/uniformtitlecontainer_container.pt:7
-msgid "uniformtitles-desc"
-msgstr ""
-"Das <i>Archiv des Beispiels</i> macht keine normativen Vorgaben hinsichtlich "
-"der verwendeten Ausgaben. Vermutlich werden verschiedene Benutzer "
-"verschiedene Ausgaben zitieren. Mittels des Einheitssachtitels fasst die "
-"Datenbank verschiedene Ausgaben eines Textes (und Übersetzungen) unter einem "
-"Datum zusammen. <br/>Zum Einheitssachtitel gehören wichtige Angaben etwa zur "
-"Erstveröffentlichung oder zur Entstehungszeit."
-
-#. Default: "Original Language"
-#: src/quotationtool/referatory/interfaces.py:190
-msgid "iuniformtitle-language-title"
-msgstr "Sprache des Originals"
-
-#. Default: "The language in which this title was originally published/written."
-#: src/quotationtool/referatory/interfaces.py:192
-msgid "iuniformtitle-language-desc"
-msgstr "Die Sprache, in der das Original verfasst bzw. publiziert wurde."
-
-#. Default: "Author"
-#: src/quotationtool/referatory/interfaces.py:200
-msgid "iuniformtitle-uniformauthor-title"
-msgstr "Autor"
-
-#. Default: "Name(s) of the Author(s) in the original's language. Enter <i>last name, first name</i> for sorting reasons. For names of acient writers a uniform name is required if we want to keep track of all quotations in the database. You may enter the name in more than one language, e.g. the greek, latin name of Aristotle."
-#: src/quotationtool/referatory/interfaces.py:202
-msgid "iuniformtitle-uniformauthor-desc"
-msgstr ""
-"<i>Nachname, Vorname</i> zum Zwecke der alphabetischen Sortierung. Die Namen "
-"antiker oder fremdsprachiger Autoren bitte in der Sprache des Originals (z."
-"B. ``Aristoteles'' statt ``Aristotle'' wenn man Engländer ist). Bei mehreren "
-"Namen jeden in eine einzelne Zeile."
-
-#. Default: "Author Name"
-#: src/quotationtool/referatory/interfaces.py:204
-msgid "iuniformtitle-uniformauthor-item-title"
-msgstr "Name"
-
-#. Default: "Format: <i>Lastname, Firstname</i>"
-#: src/quotationtool/referatory/interfaces.py:206
-msgid "iuniformtitle-uniformauthor-item-desc"
-msgstr "Eingabeformat: <i>Nachname, Vorname</i>"
-
-#. Default: "Uniform Title"
-#: src/quotationtool/referatory/interfaces.py:214
-msgid "iuniformtitle-uniformtitle-title"
-msgstr "Einheitssachtitel"
-
-#. Default: "The uniform title is required to keep track of the quotations taken form other editions or from tranlations of this writing. You may enter the title in more than one language, e.g. <i>t\303\250chne rhetorik\303\251</i> and <i>De arte rhetorica</i> for an edition of Aristotle's writing on rhetorics. Only the first title given will be shown most of the time."
-#: src/quotationtool/referatory/interfaces.py:216
-msgid "iuniformtitle-uniformtitle-desc"
-msgstr ""
-"Titel des Originals. Möglicherweise in mehr als einer Sprache, etwa ``tèchne "
-"rhetoriké'' und ``De arte rhetorica'' für Aristoteles' Rhetorik -- das hilft "
-"eventuell bei Suchanfragen. Nur der erste Titel wird angezeigt. Also in "
-"Fällen wie bie Foucaults ``Histoire de la sexualité, 1: La volonté de "
-"savoir'' eine längere Titelangabe in einer Zeile."
-
-#. Default: "Title"
-#: src/quotationtool/referatory/interfaces.py:220
-msgid "iuniformtitle-uniformtitle-item-title"
-msgstr "Titel"
-
-#. Default: "Year First Published"
-#: src/quotationtool/referatory/interfaces.py:228
-msgid "iuniformtitle-year-title"
-msgstr "Jahr der Erstveröffentl."
-
-#. Default: "The date of origin as gregorian year. Alternatively give a terminus post quem and a terminus ante quem."
-#: src/quotationtool/referatory/interfaces.py:230
-msgid "iuniformtitle-year-desc"
-msgstr ""
-"Jahr der Erstveröffentlichung oder Jahr der Entstehung im Gregorianischen "
-"Kalender. (Bei Verwendung verschiedener Kalender sind keine zeitlichen "
-"Schnitte möglich.)"
-
-#. Default: "Terminus Post Quem"
-#: src/quotationtool/referatory/interfaces.py:237
-msgid "iuniformtitle-post-title"
-msgstr "Terminus Post Quem"
-
-#. Default: "The lower bounding year. The writing was published (written) after this year."
-#: src/quotationtool/referatory/interfaces.py:239
-msgid "iuniformtitle-post-desc"
-msgstr ""
-"Zeitpunkt, nach dem der Text publiziert oder verfasst worden sein muss. "
-"Untere Grenze."
-
-#. Default: "Terminus Ante Quem"
-#: src/quotationtool/referatory/interfaces.py:246
-msgid "iuniformtitle-ante-title"
-msgstr "Terminus Ante Quem"
-
-#. Default: "The upper bounding year. The writing was first published (written) before this year."
-#: src/quotationtool/referatory/interfaces.py:248
-msgid "iuniformtitle-ante-desc"
-msgstr ""
-"Zeitpunkt, vor dem er publiziert oder verfasst worden sein muss. Obere "
-"Grenze."
-
-#. Default: "ETHER 'year first published' OR both, 'terminus post quem' and 'terminus ante quem' have to be entered."
-#: src/quotationtool/referatory/interfaces.py:259
-#: src/quotationtool/referatory/interfaces.py:271
-msgid "yearpostanteerror-repr"
-msgstr ""
-"ENTWEDER das Feld 'Jahr' ODER beide Felder 'Terminus Post Quem' und "
-"'Terminus Ante Quem' müssen angegeben werden."
-
-#. Default: "The value of 'terminus post quem' must not exceed the value for 'terminus ante quem'."
-#: src/quotationtool/referatory/interfaces.py:264
-msgid "postexceedsanteerror-repr"
-msgstr "Terminus Post Quem darf den Terminus Ante Quem nicht übersteigen."
-
-#. Default: "Author"
-#: src/quotationtool/referatory/interfaces.py:281
-msgid "iuniformtitleindexcatalog-author-title"
-msgstr "Autor"
-
-#. Default: "Search by Author."
-#: src/quotationtool/referatory/interfaces.py:283
-msgid "iuniformtitleindexcatalog-author-desc"
-msgstr "Suche im Feld 'Autor'."
-
-#. Default: "Title"
-#: src/quotationtool/referatory/interfaces.py:290
-msgid "iuniformtitleindexcatalog-title-title"
-msgstr "Titel"
-
-#. Default: "Search by Title."
-#: src/quotationtool/referatory/interfaces.py:292
-msgid "iuniformtitleindexcatalog-title-desc"
-msgstr "Suche im Feld 'Titel'."
-
-#. Default: "Uniform Title"
-#: src/quotationtool/referatory/interfaces.py:424
-msgid "ireference-uniformtitle-title"
-msgstr "Einheitssachtitel"
-
-#. Default: "Information on the origin (date of origin, language, title)."
-#: src/quotationtool/referatory/interfaces.py:426
-msgid "ireference-uniformtitle-dec"
-msgstr "Informationen zur Entstehungszeit bzw. Zeit der Erstveröffentlichung."
-
-#. Default: "Author / Uniform Author"
-#: src/quotationtool/referatory/interfaces.py:439
-msgid "ireferenceindexcatalog-author-title"
-msgstr "Autor/Autor d. Einheitssacht."
-
-#. Default: "Search by author. Even matches the author-field of the uniform title."
-#: src/quotationtool/referatory/interfaces.py:441
-msgid "ireferenceindexcatalog-author-desc"
-msgstr ""
-"Suche im Feld 'Autor'. Sucht auch im Autor-Feld des Einheitssachtitels."
-
-#. Default: "Title / Uniform Title"
-#: src/quotationtool/referatory/interfaces.py:448
-msgid "ireferenceindexcatalog-title-title"
-msgstr "Titel/Einheitssachtitel"
-
-#. Default: "Search by title or uniform title."
-#: src/quotationtool/referatory/interfaces.py:450
-msgid "ireferenceindexercatalog-title-desc"
-msgstr "Suche im Feld 'Titel' bzw. 'Einheitssachtitel'."
-
-#. Default: "Published/Written After"
-#: src/quotationtool/referatory/interfaces.py:458
-msgid "ireferenceindexcatalog-post-title"
-msgstr "Terminus Post Quem"
-
-#. Default: "Matches, if published after."
-#: src/quotationtool/referatory/interfaces.py:460
-msgid "ireferenceindexcatalog-post-desc"
-msgstr "Findet alles nach dem angegebenen Zeitpunkt."
-
-#. Default: "Published/Writter Before"
-#: src/quotationtool/referatory/interfaces.py:466
-msgid "ireferenceindexcatalog-ante-title"
-msgstr "Terminus Ante Quem"
-
-#. Default: "Matsches, if published before."
-#: src/quotationtool/referatory/interfaces.py:468
-msgid "ireferenceindexcatalog-ante-desc"
-msgstr "Findet alles vor dem angegebenen Zeitpunkt."
-
-#. Default: "Year first published"
-#: src/quotationtool/referatory/interfaces.py:474
-msgid "ireferenceindexcatalog-year-title"
-msgstr "Jahr d. Erstveröffentl."
-
-#. Default: "Matches the exact year of origin."
-#: src/quotationtool/referatory/interfaces.py:476
-msgid "ireferenceindexcatalog-year-desc"
-msgstr "Findet alles in dem Jahr veröffentlichte."
-
-#. Default: "Language / Original Language"
-#: src/quotationtool/referatory/interfaces.py:482
-msgid "ireferenceindexcatalog-language-title"
-msgstr "Sprache/Sprache des Origin."
-
-#. Default: "Search for items by language."
-#: src/quotationtool/referatory/interfaces.py:484
-msgid "ireferenceindexcatalog-language-desc"
-msgstr "Sucht im Feld 'Sprache' sowie bei Einheitssachtitel."
-
-#. Default: "Year of edition"
-#: src/quotationtool/referatory/interfaces.py:491
-msgid "irefenceindexer-editionyear-title"
-msgstr "Jahr d. Ausgabe"
-
-#. Default: "Matches the year of the edition."
-#: src/quotationtool/referatory/interfaces.py:493
-msgid "ireferenceindexcatalog-edtionyear-desc"
-msgstr ""
-"Sucht im Feld 'Jahr'; keine Berücksichtigung der Angaben zum "
-"Einheitssachtitel."
-
-#. Default: "Editor"
-#: src/quotationtool/referatory/interfaces.py:499
-msgid "ireferenceindexcatalog-editor-title"
-msgstr "Herausgeber"
-
-#. Default: "Search by editor."
-#: src/quotationtool/referatory/interfaces.py:501
-msgid "ireferenceindexcatalog-editor-desc"
-msgstr "Sucht im Index der Herausgeber."
-
-#. Default: "Publisher"
-#: src/quotationtool/referatory/interfaces.py:508
-msgid "ireferenceindexcatalog-publisher-title"
-msgstr "Verlag"
-
-#. Default: "Search by publisher."
-#: src/quotationtool/referatory/interfaces.py:510
-msgid "ireferenceindexcatalog-publisher-desc"
-msgstr "Sucht im Index der Verlage."
-
-#. Default: "Address"
-#: src/quotationtool/referatory/interfaces.py:517
-msgid "ireferenceindexcatalog-address-title"
-msgstr "Ort"
-
-#. Default: "Search by address of edition (place of publication)."
-#: src/quotationtool/referatory/interfaces.py:519
-msgid "ireferenceindexcatalog-address-desc"
-msgstr "Sucht im Index der Veröffentlichungsorte."
-
-#. Default: "Edit content of the referatory"
-#: src/quotationtool/referatory/permissions.zcml:10
-msgid "edit-reference-permission-title"
-msgstr "Bibliographie ändern."
-
-#. Default: "Add a reference or uniform title"
-#: src/quotationtool/referatory/permissions.zcml:5
-msgid "add-reference-permission-title"
-msgstr "Bibliographie ergänzen."
-
-#: src/quotationtool/relation/interfaces.py:15
+#. Default: "Page"
+#: quotationtool/figuresng/interfaces.py:83
+msgid "ifigure-position-title"
+msgstr "Seite"
+
+#. Default: "Without ''p.''; date for newspaper articles."
+#: quotationtool/figuresng/interfaces.py:85
+msgid "ifigure-position-desc"
+msgstr "Ohne \"S.\" oder \"Bd.\"; bei Zeitungsartikeln Datum angeben."
+
+#: quotationtool/figuresng/permissions.zcml:10
+msgid "Edit a figure e.g. example item."
+msgstr "Ändern eines Beispiels"
+
+#: quotationtool/figuresng/permissions.zcml:5
+msgid "Add a figures e.g. examples to the database."
+msgstr "Hinzufügen eines Beispiels"
+
+#: quotationtool/relation/interfaces.py:15
 msgid "Invalid relation! The precondition violated."
 msgstr "Unzulässige Relation!"
 
-#: src/quotationtool/security/browser/signupform.py:15
-#: src/quotationtool/user/browser/signupform.py:25
-msgid "Configure signup principal folder"
+#: quotationtool/renderer/html.py:15
+msgid "HTML"
+msgstr "HTML"
+
+#: quotationtool/renderer/html.py:16
+msgid "Text with html formatting syntax."
+msgstr "Text mit Formatierungen in HTML-Syntax"
+
+#: quotationtool/renderer/plaintext.py:17
+msgid "Plain text"
+msgstr "Einfacher Text"
+
+#: quotationtool/renderer/plaintext.py:18
+msgid "Text without any formatting syntax."
+msgstr "Text ohne Formatierungs-Syntax"
+
+#: quotationtool/renderer/rest.py:16
+msgid "ReST"
+msgstr "ReST (Re-Structered Text)"
+
+#: quotationtool/renderer/rest.py:17
+msgid "ReStructured Text"
+msgstr "Text mit Formatierungen in ReST-Syntax"
+
+#. Default: "Search"
+#: quotationtool/search/browser/choose_search_target.pt:15
+msgid "search-button-label"
+msgstr "Suchen"
+
+#. Default: "Search"
+#: quotationtool/search/browser/choose_search_target.pt:3
+msgid "choose-search-target-label"
+msgstr "Suche"
+
+#. Default: "Choose the search target!"
+#: quotationtool/search/browser/choose_search_target.pt:5
+msgid "choose-search-target-prompt"
+msgstr "Wonach wollen Sie suchen?"
+
+#. Default: "Search"
+#: quotationtool/search/browser/configure.zcml:21
+msgid "quotationtool-search-navigation"
+msgstr "Suche"
+
+#. Default: "Index ${index} not found!"
+#: quotationtool/search/browser/search.py:112
+msgid "search-invalid-index-error"
+msgstr "Such-Index ${index} nicht vorhanden!"
+
+#. Default: "Invalid query for ${index}"
+#: quotationtool/search/browser/search.py:119
+msgid "search-query-type-error"
+msgstr "Ungültige Such-Anfrage für ${index}!"
+
+#. Default: "Please choose a search target!"
+#: quotationtool/search/browser/search.py:187
+msgid "choose-search-target"
+msgstr "Suche"
+
+#. Default: "Find!"
+#: quotationtool/search/browser/search_form.pt:47
+msgid "find-button-label"
+msgstr "Suchen!"
+
+#. Default: "About search options"
+#: quotationtool/search/browser/search_form.pt:54
+msgid "search-options-label"
+msgstr "Optionen bei der Suche"
+
+#. Default: "Jokers"
+#: quotationtool/search/browser/search_form.pt:56
+msgid "search-jokers-label"
+msgstr "Jokerzeichen/Trunkierung"
+
+#. Default: "Replaces arbitrary many characters"
+#: quotationtool/search/browser/search_form.pt:61
+msgid "asterix-joker-desc"
+msgstr "Ersetzt beliebig viele Zeichen"
+
+#. Default: "Replaces exactly one character"
+#: quotationtool/search/browser/search_form.pt:66
+msgid "questionmark-joker-desc"
+msgstr "Ersetzt genau ein Zeichen"
+
+#. Default: "Indices"
+#: quotationtool/search/browser/search_form.pt:70
+msgid "search-indices-label"
+msgstr "Such-Indices"
+
+#. Default: "Find!"
+#: quotationtool/search/browser/search_quick.pt:20
+msgid "value find-button-label"
+msgstr "Suchen!"
+
+#. Default: "full-fledged search form"
+#: quotationtool/search/browser/search_quick.pt:24
+msgid "full-fledged-search-link"
+msgstr "Erweiterte Suche"
+
+#. Default: "Quick Search"
+#: quotationtool/search/browser/search_quick.pt:3
+msgid "quick-search-label"
+msgstr "Schnellsuche"
+
+#. Default: "Search query:"
+#: quotationtool/search/browser/search_result_page.pt:10
+msgid "search-query"
+msgstr "Such-Anfrage"
+
+#. Default: "Search Result"
+#: quotationtool/search/browser/search_result_page.pt:5
+msgid "search-result-label"
+msgstr "Such-Ergebnisse"
+
+#. Default: "Conjunction"
+#: quotationtool/search/interfaces.py:13
+msgid "iquery-conjunction-title"
+msgstr "Konjunktion"
+
+#. Default: "and / or"
+#: quotationtool/search/interfaces.py:15
+msgid "iquery-conjunction-desc"
+msgstr "Logische Verknüpfung."
+
+#. Default: "Quality"
+#: quotationtool/search/interfaces.py:23
+msgid "iquery-quality-title"
+msgstr "Logische Qualität"
+
+#. Default: "(yes) / not; Position or Negation"
+#: quotationtool/search/interfaces.py:25
+msgid "iquery-quality-desc"
+msgstr "Position oder Negation"
+
+#. Default: "Index"
+#: quotationtool/search/interfaces.py:35
+msgid "iquery-index-title"
+msgstr "Such-Index"
+
+#. Default: "The name of the index to be searched."
+#: quotationtool/search/interfaces.py:37
+msgid "iquery-index-desc"
+msgstr "Durchsuchten Index auswählen."
+
+#. Default: "Target"
+#: quotationtool/search/interfaces.py:67
+msgid "imultiindexquery-catalog-title"
+msgstr "Such-Ergebnis"
+
+#. Default: "What are you searching for?"
+#: quotationtool/search/interfaces.py:69
+msgid "imultiindexquery-catalog-desc"
+msgstr "Wonach soll gesucht werden?"
+
+#. Default: "Queries"
+#: quotationtool/search/interfaces.py:76
+msgid "imultiindexquery-queries-title"
+msgstr "Suchanfragen"
+
+#. Default: "A List of query objects."
+#: quotationtool/search/interfaces.py:78
+msgid "imultiindexquery-queries-desc"
+msgstr "Liste kombinierter Suchanfragen."
+
+#. Default: "Query"
+#: quotationtool/search/interfaces.py:80
+msgid "imultiindexquery-queries-object-title"
+msgstr "Anfrage"
+
+#. Default: "An Editor of the quotationtool website"
+#: quotationtool/security/roles.zcml:11
+msgid "editor-role-title"
+msgstr "Editor in Quotationtool-Anwendung"
+
+#. Default: "A member of the quotationtool website"
+#: quotationtool/security/roles.zcml:17
+msgid "member-role-title"
+msgstr "Mitglied der Quotationtool-Anwendung"
+
+#. Default: "The creator of a content item"
+#: quotationtool/security/roles.zcml:23
+msgid "creator-role-title"
 msgstr ""
+"Autor eines bestimmten Datenbankeintrags; derjenige, der den "
+"Datenbankeintrag erstellt hat"
 
-#: src/quotationtool/security/interfaces.py:13
-#: src/quotationtool/user/interfaces.py:13
-msgid "Roles for new principals"
+#. Default: "Visitor of the quotationtool website"
+#: quotationtool/security/roles.zcml:5
+msgid "visitor-role-title"
+msgstr "Anonymer Besucher der Quotationtool-Anwendung"
+
+#: quotationtool/skin/browser/authentication/login.pt:3
+msgid "Login successful!"
+msgstr "Anmeldung erfolgreich!"
+
+#. Default: "You are now logged in as ${name}"
+#: quotationtool/skin/browser/authentication/login.pt:7
+msgid "logged-in-as"
+msgstr "Sie sind jetzt angemeldet als ${name}"
+
+#: quotationtool/skin/browser/authentication/login_failed.pt:3
+msgid "Login Failed!"
+msgstr "Anmeldung fehlgeschlagen!"
+
+#: quotationtool/skin/browser/authentication/login_failed.pt:7
+msgid "You cancelled the login procedure. <a href=\"${DYNAMIC_CONTENT}\">x</a>"
 msgstr ""
+"Sie haben die Anmeldung abgebrochen. <a href=\\\"${DYNAMIC_CONTENT}\\\">x</"
+"a><a href=\\\"${DYNAMIC_CONTENT}\\\">x</a>"
 
-#: src/quotationtool/security/interfaces.py:14
-#: src/quotationtool/user/interfaces.py:14
-msgid "These roles will be assigned to new principals."
+#: quotationtool/skin/browser/authentication/login_failed.pt:7
+msgid "Click here to return."
+msgstr "Hier gelangen Sie zurück."
+
+#: quotationtool/skin/browser/authentication/loginform.pt:16
+msgid "Login"
+msgstr "Benutzername"
+
+#: quotationtool/skin/browser/authentication/loginform.pt:23
+#: quotationtool/user/browser/login.pt:26
+msgid "Password"
+msgstr "Passwort"
+
+#: quotationtool/skin/browser/authentication/loginform.pt:3
+msgid "Please provide Login Information"
+msgstr "Bitte geben Sie Benutzernamen und Passwort an"
+
+#. Default: "Log in"
+#: quotationtool/skin/browser/authentication/loginform.pt:30
+#: quotationtool/user/browser/login_viewlet.pt:12
+msgid "login-button"
+msgstr "[Anmelden]"
+
+#: quotationtool/skin/browser/authentication/loginform.pt:6
+msgid ""
+"You are not authorized to perform this action. However, you may login as a "
+"different user who is authorized."
 msgstr ""
+"Sie sind nicht berechtigt, diese Aktion auszuführen. Sie können sich "
+"allerdings als ein anderer Benutzer anmelden."
 
-#. Default: "QuotationTool"
-#: src/quotationtool/site/browser/breadcrumb.pt:1
-msgid "quotationtoolsite-breadcrumb"
-msgstr "QuotationTool"
+#: quotationtool/skin/browser/authentication/logout.pt:3
+msgid "Logout successful!"
+msgstr "Abmeldung erfolgreich!"
 
-#. Default: "Start"
-#: src/quotationtool/site/browser/configure.zcml:19
-msgid "quotationtool-start-navigation"
-msgstr "Startseite"
+#: quotationtool/skin/browser/authentication/logout.pt:5
+msgid "You are now logged out."
+msgstr "Sie sind jetzt von dieser Internetseite abgemeldet."
 
-#. Default: "Start"
-#: src/quotationtool/site/browser/configure.zcml:31
-msgid "quotationtool-start-tabs"
-msgstr "Startseite"
+#: quotationtool/skin/browser/authentication/logout.pt:7
+#: quotationtool/skin/browser/authentication/login.pt:10
+msgid "Back to the main page."
+msgstr "Zurück zur Ausgangsseite."
 
-#. Default: "FAQ"
-#: src/quotationtool/site/browser/configure.zcml:56
-msgid "quotationtool-faq-navigation"
-msgstr "FAQ"
+#: quotationtool/skin/browser/diags.pt:3
+msgid "Diagnostics"
+msgstr "Diagnose"
 
-#: src/quotationtool/site/browser/configure.zcml:79
-msgid "Quotationtool Site"
-msgstr ""
+#. Default: "Format:"
+#: quotationtool/skin/browser/div-form.pt:37
+msgid "input-format"
+msgstr "Format:"
 
-#: src/quotationtool/site/browser/configure.zcml:79
-msgid "Add a new quotationtool site with the quotationtool app."
-msgstr ""
+#. Default: "Example:"
+#: quotationtool/skin/browser/div-form.pt:43
+msgid "input-example"
+msgstr "Beispiel:"
 
-#. Default: "Quotationtool"
-#: src/quotationtool/site/browser/frontpage.pt:3
-msgid "site-frontpage-label"
-msgstr ""
+#. Default: "User Error"
+#: quotationtool/skin/browser/exception.py:10
+msgid "usererror-label"
+msgstr "User Error (Eingabe-Fehler)"
 
-#. Default: "Welcome the Quotationtool Application!"
-#: src/quotationtool/site/browser/frontpage.pt:4
-msgid "site-frontpage-text"
-msgstr ""
+#. Default: "login"
+#: quotationtool/skin/browser/layout.pt:61
+msgid "layout-login-link"
+msgstr "anmelden"
 
-#: src/quotationtool/user/browser/change_password.pt:17
-#: src/quotationtool/user/browser/signup.pt:24
+#. Default: "Logged in as: ${user}"
+#: quotationtool/skin/browser/layout.pt:73
+msgid "layout-loggedin-info"
+msgstr "Angemeldet als: ${user}"
+
+#. Default: "logout"
+#: quotationtool/skin/browser/layout.pt:76
+msgid "layout-logout-link"
+msgstr "abmelden"
+
+#: quotationtool/skin/browser/layout.pt:89
+msgid "Help"
+msgstr "Hilfe"
+
+#: quotationtool/skin/browser/mainnavitem.pt:7
+#: quotationtool/skin/browser/mainnavitem.pt:11
+#: quotationtool/categorization/browser/attribution.pt:41
+msgid "${DYNAMIC_CONTENT}"
+msgstr "${DYNAMIC_CONTENT}"
+
+#: quotationtool/skin/browser/meta.pt:16
+msgid "Created on ${date} by ${name}"
+msgstr "Erstellt am ${date} von ${name}."
+
+#: quotationtool/user/browser/change_password.pt:15
+#: quotationtool/user/browser/signup.pt:22
 msgid "Full name:"
 msgstr "Vollständiger Name:"
 
-#: src/quotationtool/user/browser/change_password.pt:26
-#: src/quotationtool/user/browser/signup.pt:32
+#: quotationtool/user/browser/change_password.pt:24
+#: quotationtool/user/browser/signup.pt:30
 msgid "Password:"
 msgstr "Passwort:"
 
-#: src/quotationtool/user/browser/change_password.pt:34
-#: src/quotationtool/user/browser/signup.pt:40
-msgid "Confirm password:"
-msgstr "Passwort bestätigen:"
-
 #. Default: "Change your user data"
-#: src/quotationtool/user/browser/change_password.pt:4
+#: quotationtool/user/browser/change_password.pt:3
 msgid "change-password-label"
 msgstr "Änderung Ihrer Benutzerdaten"
 
+#: quotationtool/user/browser/change_password.pt:32
+#: quotationtool/user/browser/signup.pt:38
+msgid "Confirm password:"
+msgstr "Passwort bestätigen:"
+
 #. Default: "Change"
-#: src/quotationtool/user/browser/change_password.pt:42
+#: quotationtool/user/browser/change_password.pt:40
 msgid "button-change"
 msgstr "Änderungen speichern"
 
-#. Default: ""
-#.  "Please DON'T use your precious password form your private machine,\n"
-#.  "    email account or the like. Passwords are currently stored in\n"
-#.  "    plaintext format. Passwords are hidden from the other users but\n"
-#.  "    they are not secure in terms of IT security."
-#: src/quotationtool/user/browser/change_password.pt:7
-#: src/quotationtool/user/browser/signup.pt:6
+#. Default: "Please DON'T use your precious password form your private machine, email account or the like. Passwords are transmitted in plaintext format. So they are not secure in terms of IT security."
+#: quotationtool/user/browser/change_password.pt:6
+#: quotationtool/user/browser/signup.pt:5
 msgid "password-advice"
 msgstr ""
 "Bitte verwenden Sie NICHT das wertvolles Passwort ihres Heim-Computers, "
-"email-Faches oder dergleichen. Das Passwort wird erstens unverschlüsselt "
-"übertragen und zweitens zur Zeit auch noch unverschlüsselt im System "
-"gespeichert. Es ist zwar für andere nicht einsehbar, aber dennoch nach den "
-"Maßstäben der IT-Sicherheit nicht sicher."
+"email-Faches oder dergleichen. Das Passwort wird unverschlüsselt übertragen. "
+"Daher ist es nach den Maßstäben der IT-Sicherheit nicht sicher."
 
-#: src/quotationtool/user/browser/configure.zcml:79
-msgid "Sign-up Principal Folder"
-msgstr ""
+#: quotationtool/user/browser/login.pt:19
+msgid "User Name"
+msgstr "Benutzername"
 
-#. Default: "Edit"
-#: src/quotationtool/user/browser/configure.zcml:93
-msgid "label-edit"
-msgstr "Ändern"
+#. Default: "Please provide Login Information"
+#: quotationtool/user/browser/login.pt:4
+msgid "login-notloggedin-challenge"
+msgstr "Bitte geben Sie Ihre Benutzerdaten an."
 
-#. Default: ""
-#.  "You are not authorized to perform this action. However, you may\n"
-#.  "    login as a different user who is authorized."
-#: src/quotationtool/user/browser/login.pt:10
+#. Default: "You are not authorized to perform this action. However, you may login as a different user who is authorized."
+#: quotationtool/user/browser/login.pt:9
 msgid "login-loggedin-challenge"
 msgstr ""
 "Sie sind nicht berechtigt, diese Aktion auszuführen. Jedoch haben Sie die "
 "Gelegenheit, sich als anderer Benutzer einzuloggen, der berechtigt ist."
 
-#: src/quotationtool/user/browser/login.pt:20
-msgid "User Name"
-msgstr "Benutzername"
-
-#: src/quotationtool/user/browser/login.pt:27
-msgid "Password"
-msgstr "Passwort"
-
-#: src/quotationtool/user/browser/login.pt:43
-msgid "No account yet?"
-msgstr "Haben Sie noch keinen Zugang?"
-
-#. Default: "Please provide Login Information"
-#: src/quotationtool/user/browser/login.pt:5
-msgid "login-notloggedin-challenge"
-msgstr "Bitte geben Sie Ihre Benutzerdaten an."
-
-#: src/quotationtool/user/browser/login_viewlet.pt:10
+#: quotationtool/user/browser/login_viewlet.pt:10
 msgid "Not logged in"
 msgstr "Nicht angemeldet"
 
-#. Default: "[Login]"
-#: src/quotationtool/user/browser/login_viewlet.pt:12
-msgid "login-button"
-msgstr "[Anmelden]"
-
-#: src/quotationtool/user/browser/login_viewlet.pt:19
+#: quotationtool/user/browser/login_viewlet.pt:19
 msgid "Create an account"
 msgstr "Benutzerzugang anlegen"
 
-#: src/quotationtool/user/browser/login_viewlet.pt:30
+#: quotationtool/user/browser/login_viewlet.pt:30
 msgid "Logged in as:"
 msgstr "Angemeldet als:"
 
-#: src/quotationtool/user/browser/login_viewlet.pt:35
+#: quotationtool/user/browser/login_viewlet.pt:35
 msgid "Change user data"
 msgstr "Benutzerdaten ändern"
 
 #. Default: "Login"
-#: src/quotationtool/user/browser/login_viewlet.pt:5
+#: quotationtool/user/browser/login_viewlet.pt:5
 msgid "login-box-label"
 msgstr "Login"
 
-#: src/quotationtool/user/browser/signup.pt:16
+#: quotationtool/user/browser/signup.pt:14
 msgid "Login name:"
 msgstr "Benutzername:"
 
 #. Default: "Sign up"
-#: src/quotationtool/user/browser/signup.pt:4
+#: quotationtool/user/browser/signup.pt:3
 msgid "signup-label"
-msgstr "Benutzerzugang Anlegen"
+msgstr "Benutzer-Konto Anlegen"
 
 #. Default: "Sign up"
-#: src/quotationtool/user/browser/signup.pt:48
+#: quotationtool/user/browser/signup.pt:46
 msgid "button-signup"
 msgstr "anlegen"
 
 #. Default: "Password and confirmation didn't match"
-#: src/quotationtool/user/browser/signup.py:47
-#: src/quotationtool/user/browser/signup.py:75
+#: quotationtool/user/browser/signup.py:58
+#: quotationtool/user/browser/signup.py:86
 msgid "password-confirmation-error"
 msgstr "Passwort und Bestätigung stimmten nicht überein"
 
 #. Default: "This login has already been chosen."
-#: src/quotationtool/user/browser/signup.py:51
+#: quotationtool/user/browser/signup.py:62
 msgid "duplicate-login-error"
 msgstr "Der Benutzername ist schon vergeben."
 
 #. Default: "Can only change the title and password of users who signed up."
-#: src/quotationtool/user/browser/signup.py:82
+#: quotationtool/user/browser/signup.py:93
 msgid "unkown-accoount-error"
 msgstr "Unbekannter Benutzername"
 
-#: src/quotationtool/user/browser/signupform.py:15
-msgid "Add signup principal folder"
-msgstr ""
+#: quotationtool/user/browser/signup_viewlet.pt:2
+msgid "No account yet?"
+msgstr "Haben Sie noch keinen Zugang?"
 
 #. Default: "Welcome to Quotationtool."
-#: src/quotationtool/user/browser/welcome.pt:4
+#: quotationtool/user/browser/welcome.pt:3
 msgid "welcome-label"
 msgstr "Willkommen in der Quotationtool-Anwendung!"
 
-#. Default: ""
-#.  "You can now log in using the login name and password you entered\n"
-#.  "    during the sign-up process."
-#: src/quotationtool/user/browser/welcome.pt:6
+#. Default: "You can now log in using the login name and password you entered during the sign-up process."
+#: quotationtool/user/browser/welcome.pt:5
 msgid "welcome-text"
 msgstr "Sie können sich jetzt mit Ihrem Benutzernamen und Passwort anmelden."
 
+#: quotationtool/user/interfaces.py:13
+msgid "Roles for new principals"
+msgstr "Rollen für neue Benutzer"
+
+#: quotationtool/user/interfaces.py:14
+msgid "These roles will be assigned to new principals."
+msgstr "Diese Rollen werden einem neuen Benutzer automatisch zugewiesen."
+
 #. Default: "Change a principal's password."
-#: src/quotationtool/user/permissions.zcml:11
+#: quotationtool/user/permissions.zcml:11
 msgid "changepassword-permission-title"
-msgstr "Passwort ändern"
+msgstr "Passwort ändern."
 
 #. Default: "Sign up as a user to the site."
-#: src/quotationtool/user/permissions.zcml:5
+#: quotationtool/user/permissions.zcml:5
 msgid "signup-permission-title"
 msgstr "Benutzer anlegen."
 
-#. Default: "An Editor of the quotationtool website"
-#: src/quotationtool/user/roles.zcml:11
-msgid "editor-role-title"
-msgstr "Editor in Quotationtool-Anwendung"
+#~ msgid "Title"
+#~ msgstr "Titel"
 
-#. Default: "A member of the quotationtool website"
-#: src/quotationtool/user/roles.zcml:17
-msgid "member-role-title"
-msgstr "Mitglied der Quotationtool-Anwendung"
+#~ msgid "Welcome to <i>Archiv des Beispiels</i>"
+#~ msgstr "Willkommen im <i>Archiv des Beispiels</i>"
 
-#. Default: "Visitor of the quotationtool website"
-#: src/quotationtool/user/roles.zcml:5
-msgid "visitor-role-title"
-msgstr "Anonymer Besucher der Quotationtool-Anwendung"
+#~ msgid ""
+#~ "You can now log in using the login name and password you entered during "
+#~ "the sign-up process."
+#~ msgstr ""
+#~ "Sie können sich jetzt mit Ihrem Benutzernamen und Passwort in System "
+#~ "anmelden."
 
-#~ msgid "example-about-tabs"
+#~ msgid "breadcrumbs-label"
+#~ msgstr "Standort:"
+
+#~ msgid "navigation-label"
+#~ msgstr "Navigation"
+
+#~ msgid "quotationtool-search-tabs"
+#~ msgstr "Suche"
+
+#~ msgid "categoriescontainer-breadcrumb"
+#~ msgstr "Klassifikation"
+
+#~ msgid "category-display-label"
+#~ msgstr "Kategorie"
+
+#~ msgid "categoryset-display-label"
+#~ msgstr "Kategorienklasse"
+
+#~ msgid "categoryset-navigation"
+#~ msgstr "Kategorienklasse"
+
+#~ msgid "categoryset-edit-navigation"
+#~ msgstr "Ändern"
+
+#~ msgid "category-add-navigation"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "category-navigation"
+#~ msgstr "Kategorie"
+
+#~ msgid "category-edit-navigation"
+#~ msgstr "Ändern"
+
+#~ msgid "category-tab"
+#~ msgstr "Kategorie"
+
+#~ msgid "quotation-plaintext-factory-title"
+#~ msgstr "Unformatierter Text"
+
+#~ msgid "quotation-plaintext-factory-desc"
+#~ msgstr "Die Textstelle wird ohne Formatierung angezeigt."
+
+#~ msgid "reference-link"
+#~ msgstr "[zur Reference]"
+
+#~ msgid "about-reference-label"
+#~ msgstr "Kommentiere Publikation"
+
+#~ msgid "edit-button"
+#~ msgstr "Ändern"
+
+#~ msgid "comment-frontpage-label"
+#~ msgstr "Kommentar"
+
+#~ msgid "commentcontainer-breadcrumb"
+#~ msgstr "Kommentare"
+
+#~ msgid "comments-about-commentable-none"
+#~ msgstr "Es liegen noch keine Kommentare vor."
+
+#~ msgid "comments-about-commentable-label"
+#~ msgstr "Kommentare"
+
+#~ msgid "comments-about-commentable-desc"
+#~ msgstr "Kommentare zu diesem Eintrag."
+
+#~ msgid "comments-about-reference-label"
+#~ msgstr "Kommentare"
+
+#~ msgid "comments-in-commentable-tabs"
+#~ msgstr "Kommentare"
+
+#~ msgid "comment-navigation"
+#~ msgstr "Kommentar"
+
+#~ msgid "comment-edit-navigation"
+#~ msgstr "Ändern"
+
+#~ msgid "commentary-navigation"
+#~ msgstr "Kommentare"
+
+#~ msgid "commentcontainer-tabs"
+#~ msgstr "Kommentare"
+
+#~ msgid "icommentaboutreference-reference-title"
+#~ msgstr "Ausgabe"
+
+#~ msgid "commentary-plaintext-factory-title"
+#~ msgstr "Unformatierter Text"
+
+#~ msgid "commentary-plaintext-factory-desc"
+#~ msgstr "Kommentar ohne Textformatierung"
+
+#~ msgid "quotationtool-renderer-rest-desc"
+#~ msgstr "Einfache Formatierungssyntax."
+
+#~ msgid "examples-in-quotation-label1"
+#~ msgstr "Beispiele"
+
+#~ msgid "iexample-title"
+#~ msgstr "Beispiel"
+
+#~ msgid "example-navigation"
+#~ msgstr "Beispiel"
+
+#~ msgid "example-edit-navigation"
+#~ msgstr "Ändern"
+
+#~ msgid "examplecontainer-search-tabs"
+#~ msgstr "Suche"
+
+#~ msgid "example-tabs"
+#~ msgstr "Beispiel"
+
+#~ msgid "examplecontainer-breadcrumb"
+#~ msgstr "Beispiele"
+
+#~ msgid "Data-Fields"
+#~ msgstr "Daten-Felder"
+
+#~ msgid "edit-button-label"
+#~ msgstr "Änderungen Speichern"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Apply"
+#~ msgstr "Speichern"
+
+#~ msgid "Add %s"
+#~ msgstr "%s hinzufügen"
+
+#~ msgid "an item"
+#~ msgstr "Einen Eintrag"
+
+#~ msgid "remove-selected-items"
+#~ msgstr "Ausgewählte Einträge löschen"
+
+#~ msgid "iarticle-title"
+#~ msgstr "Artikel"
+
+#~ msgid "choosearticletoadd-desc"
+#~ msgstr "Ein Artikel aus einer Zeitschrift."
+
+#~ msgid "quotationtool.referatory.bibtex.article.Article-desc"
+#~ msgstr "Neuen Nachweis eines Artikels anlegen."
+
+#~ msgid "quotationtool.referatory.bibtex.article.Article-title"
+#~ msgstr "Artikel"
+
+#~ msgid "ibook-title"
+#~ msgstr "Buch"
+
+#~ msgid "choosebooktoadd-desc"
+#~ msgstr ""
+#~ "Geeignet für Monographien; selbständig erschienene Publikationen, aber "
+#~ "nicht Teile von Gesamtausgaben."
+
+#~ msgid "bibtex-book-factory-title"
+#~ msgstr "Buch"
+
+#~ msgid "reference-uniformtitle-details"
+#~ msgstr "[Einheitssacht.: ${title} &lt; ${language}. &gt;]"
+
+#~ msgid "bibtex-address-title"
+#~ msgstr "Veröffentlichungsort"
+
+#~ msgid "bibtex-titleitem-title"
+#~ msgstr "Titel"
+
+#~ msgid "bibtex-titleitem-desc"
+#~ msgstr "Ohne abschließendes Satzzeichen wie Punkt oder Komma."
+
+#~ msgid "chooseincollectiontoadd-desc"
+#~ msgstr ""
+#~ "Geeignet für Artikel aus Sammelbänden, Schriften aus Gesamtausgaben und "
+#~ "andere nicht selbständig erschienene Ausgaben."
+
+#~ msgid "quotationtool.referatory.bibtex.incollection.Incollection-desc"
+#~ msgstr ""
+#~ "Nachweis eines 'Incollection' (nicht selbständig erschienene Ausgabe) "
+#~ "anlegen."
+
+#~ msgid "quotationtool.referatory.bibtex.incollection.Incollection-title"
+#~ msgstr "'Incollection'"
+
+#~ msgid "referatory-search-target-label"
+#~ msgstr "Ausgaben"
+
+#~ msgid "referatory-search-target-desc"
+#~ msgstr "Suche in der Bibliographie."
+
+#~ msgid "referatory-breadcrumb"
+#~ msgstr "Bibliographie"
+
+#~ msgid "referatory-container-label"
+#~ msgstr "Bibliographie"
+
+#~ msgid "referatory-desc"
+#~ msgstr ""
+#~ "Die Bibliographie enthält Angaben zu den verwendeten Büchern, Artikeln, "
+#~ "Sammelbänden usw."
+
+#~ msgid "referatory-frontpage-label"
+#~ msgstr "Bibliographie"
+
+#~ msgid "reference-navigation"
+#~ msgstr "Nachweis"
+
+#~ msgid "referatory-tabs"
+#~ msgstr "Bibliographie"
+
+#~ msgid "referatory-about-tabs"
 #~ msgstr "Über"
+
+#~ msgid "referatory-search-tabs"
+#~ msgstr "Suche"
+
+#~ msgid "reference-tabs"
+#~ msgstr "Nachweis"
+
+#~ msgid "referatory-about-navigation"
+#~ msgstr "Über"
+
+#~ msgid "referatory-search-navigation"
+#~ msgstr "Suche"
+
+#~ msgid "referatory-navigation"
+#~ msgstr "Bibliographie"
+
+#~ msgid "edit-field-error"
+#~ msgstr "Fehler: Kann den Feldnamen nicht bestimmen."
+
+#~ msgid "Field not allowed!"
+#~ msgstr "Feld nicht erlaubt!"
+
+#~ msgid "choose-reference-type-error"
+#~ msgstr "Sie müssen eine Publikationsart auswählen!"
+
+#~ msgid "add-reference"
+#~ msgstr "Ausgabe hinzufügen"
+
+#~ msgid "choose-reference-type"
+#~ msgstr "Wählen Sie eine Publikationsart aus!"
+
+#~ msgid "add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "other-editions-link"
+#~ msgstr "Andere Ausgaben, Wiederabdrucke, Übersetzungen ..."
+
+#~ msgid "reference-display-label"
+#~ msgstr "${type}-Nachweis"
+
+#~ msgid "reference-edit-label"
+#~ msgstr "${type}-Nachweis Ändern"
+
+#~ msgid "uniformtitle-display-label"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "add-uniformtitle"
+#~ msgstr "Einheitssachtitel hinzufügen"
+
+#~ msgid "uniformtitle-details"
+#~ msgstr "${author}: ${title} [${year}]"
+
+#~ msgid "post_ante_sep"
+#~ msgstr "-"
+
+#~ msgid "add-uniformtitle-desc"
+#~ msgstr ""
+#~ "Das <i>Archiv des Beispiels</i> benötigt Einheitssachtitel, weil nicht "
+#~ "normativ festgelegt ist, welche Ausgaben zitierfähig sind. Es müssen und "
+#~ "werden also nicht alle die gleiche Ausgabe verwenden. Aber dennoch ist es "
+#~ "nötig, den verschiedenen Ausgaben auf der Spur zu bleiben. Das ist die "
+#~ "Leistung des Einheitssachtitels. <br/>Das folgende Formular fragt nach "
+#~ "der Sprache des Originals, nach dem Namen der Autorin sowie dem Titel in "
+#~ "dieser Sprache. Außerdem muss eine Angabe zum Jahr der "
+#~ "Erstveröffentlichung bzw. zum Entstehungszeitraum gemacht werden. Eine "
+#~ "sinnvolle Entscheidung, ob es bei der Zeitangabe auf die "
+#~ "Erstveröffentlichung oder die Entstehung ankommt, liegt im Ermessen des "
+#~ "Nutzers."
+
+#~ msgid "uniformtitle-navigation"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "uniformtitles-in-reference-navigation"
+#~ msgstr "Ausgaben"
+
+#~ msgid "uniformtitlecontainer-tabs"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "uniformtitlecontainer-about-tabs"
+#~ msgstr "Über"
+
+#~ msgid "uniformtitle-tabs"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "uniformtitles-in-reference-tabs"
+#~ msgstr "Ausgaben"
+
+#~ msgid "uniformtitlecontainer-about-navigation"
+#~ msgstr "Über"
+
+#~ msgid "uniformtitlecontainer-navigation"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "uniformtitle-references-desc"
+#~ msgstr ""
+#~ "Die folgende Liste zeigt diejenigen Ausgaben zum obigen "
+#~ "Einheitssachtitel, die bereits in Benutzung sind. Indem die Ausgaben "
+#~ "unter einem Einheitssachtitel versammelt sind, wird die Suche in der "
+#~ "Datenbank verbessert."
+
+#~ msgid "add-edition"
+#~ msgstr "Ausgabe hinzufügen"
+
+#~ msgid "uniformtitle-references-label"
+#~ msgstr "Ausgaben unter Einheitssachtitel"
+
+#~ msgid "uniformtitlecontainer-breadcrumb"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "uniformtitlecontainer-container-label"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "uniformtitlecontainer-frontpage-label"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "uniformtitles-desc"
+#~ msgstr ""
+#~ "Das <i>Archiv des Beispiels</i> macht keine normativen Vorgaben "
+#~ "hinsichtlich der verwendeten Ausgaben. Vermutlich werden verschiedene "
+#~ "Benutzer verschiedene Ausgaben zitieren. Mittels des Einheitssachtitels "
+#~ "fasst die Datenbank verschiedene Ausgaben eines Textes (und "
+#~ "Übersetzungen) unter einem Datum zusammen. <br/>Zum Einheitssachtitel "
+#~ "gehören wichtige Angaben etwa zur Erstveröffentlichung oder zur "
+#~ "Entstehungszeit."
+
+#~ msgid "iuniformtitle-language-title"
+#~ msgstr "Sprache des Originals"
+
+#~ msgid "iuniformtitle-language-desc"
+#~ msgstr "Die Sprache, in der das Original verfasst bzw. publiziert wurde."
+
+#~ msgid "iuniformtitle-uniformauthor-title"
+#~ msgstr "Autor"
+
+#~ msgid "iuniformtitle-uniformauthor-desc"
+#~ msgstr ""
+#~ "<i>Nachname, Vorname</i> zum Zwecke der alphabetischen Sortierung. Die "
+#~ "Namen antiker oder fremdsprachiger Autoren bitte in der Sprache des "
+#~ "Originals (z.B. ``Aristoteles'' statt ``Aristotle'' wenn man Engländer "
+#~ "ist). Bei mehreren Namen jeden in eine einzelne Zeile."
+
+#~ msgid "iuniformtitle-uniformauthor-item-title"
+#~ msgstr "Name"
+
+#~ msgid "iuniformtitle-uniformauthor-item-desc"
+#~ msgstr "Eingabeformat: <i>Nachname, Vorname</i>"
+
+#~ msgid "iuniformtitle-uniformtitle-title"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "iuniformtitle-uniformtitle-desc"
+#~ msgstr ""
+#~ "Titel des Originals. Möglicherweise in mehr als einer Sprache, etwa "
+#~ "``tèchne rhetoriké'' und ``De arte rhetorica'' für Aristoteles' Rhetorik "
+#~ "-- das hilft eventuell bei Suchanfragen. Nur der erste Titel wird "
+#~ "angezeigt. Also in Fällen wie bie Foucaults ``Histoire de la sexualité, "
+#~ "1: La volonté de savoir'' eine längere Titelangabe in einer Zeile."
+
+#~ msgid "iuniformtitle-uniformtitle-item-title"
+#~ msgstr "Titel"
+
+#~ msgid "iuniformtitle-year-title"
+#~ msgstr "Jahr der Erstveröffentl."
+
+#~ msgid "iuniformtitle-year-desc"
+#~ msgstr ""
+#~ "Jahr der Erstveröffentlichung oder Jahr der Entstehung im Gregorianischen "
+#~ "Kalender. (Bei Verwendung verschiedener Kalender sind keine zeitlichen "
+#~ "Schnitte möglich.)"
+
+#~ msgid "iuniformtitle-post-title"
+#~ msgstr "Terminus Post Quem"
+
+#~ msgid "iuniformtitle-post-desc"
+#~ msgstr ""
+#~ "Zeitpunkt, nach dem der Text publiziert oder verfasst worden sein muss. "
+#~ "Untere Grenze."
+
+#~ msgid "iuniformtitle-ante-title"
+#~ msgstr "Terminus Ante Quem"
+
+#~ msgid "iuniformtitle-ante-desc"
+#~ msgstr ""
+#~ "Zeitpunkt, vor dem er publiziert oder verfasst worden sein muss. Obere "
+#~ "Grenze."
+
+#~ msgid "yearpostanteerror-repr"
+#~ msgstr ""
+#~ "ENTWEDER das Feld 'Jahr' ODER beide Felder 'Terminus Post Quem' und "
+#~ "'Terminus Ante Quem' müssen angegeben werden."
+
+#~ msgid "postexceedsanteerror-repr"
+#~ msgstr "Terminus Post Quem darf den Terminus Ante Quem nicht übersteigen."
+
+#~ msgid "iuniformtitleindexcatalog-title-desc"
+#~ msgstr "Suche im Feld 'Titel'."
+
+#~ msgid "ireference-uniformtitle-title"
+#~ msgstr "Einheitssachtitel"
+
+#~ msgid "ireference-uniformtitle-dec"
+#~ msgstr ""
+#~ "Informationen zur Entstehungszeit bzw. Zeit der Erstveröffentlichung."
+
+#~ msgid "ireferenceindexcatalog-author-title"
+#~ msgstr "Autor/Autor d. Einheitssacht."
+
+#~ msgid "ireferenceindexcatalog-author-desc"
+#~ msgstr ""
+#~ "Suche im Feld 'Autor'. Sucht auch im Autor-Feld des Einheitssachtitels."
+
+#~ msgid "ireferenceindexcatalog-title-title"
+#~ msgstr "Titel/Einheitssachtitel"
+
+#~ msgid "ireferenceindexcatalog-year-title"
+#~ msgstr "Jahr d. Erstveröffentl."
+
+#~ msgid "ireferenceindexcatalog-language-title"
+#~ msgstr "Sprache/Sprache des Origin."
+
+#~ msgid "ireferenceindexcatalog-language-desc"
+#~ msgstr "Sucht im Feld 'Sprache' sowie bei Einheitssachtitel."
+
+#~ msgid "ireferenceindexcatalog-editor-title"
+#~ msgstr "Herausgeber"
+
+#~ msgid "ireferenceindexcatalog-editor-desc"
+#~ msgstr "Sucht im Index der Herausgeber."
+
+#~ msgid "ireferenceindexcatalog-publisher-title"
+#~ msgstr "Verlag"
+
+#~ msgid "ireferenceindexcatalog-publisher-desc"
+#~ msgstr "Sucht im Index der Verlage."
+
+#~ msgid "ireferenceindexcatalog-address-title"
+#~ msgstr "Ort"
+
+#~ msgid "ireferenceindexcatalog-address-desc"
+#~ msgstr "Sucht im Index der Veröffentlichungsorte."
+
+#~ msgid "edit-reference-permission-title"
+#~ msgstr "Bibliographie ändern."
+
+#~ msgid "add-reference-permission-title"
+#~ msgstr "Bibliographie ergänzen."
+
+#~ msgid "quotationtoolsite-breadcrumb"
+#~ msgstr "QuotationTool"
+
+#~ msgid "quotationtool-start-navigation"
+#~ msgstr "Startseite"
+
+#~ msgid "quotationtool-start-tabs"
+#~ msgstr "Startseite"
+
+#~ msgid "quotationtool-faq-navigation"
+#~ msgstr "FAQ"
 
 #~ msgid "iexmaple-title"
 #~ msgstr "Beispiel"

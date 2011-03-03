@@ -46,7 +46,7 @@ setup(
         ],
     extras_require = dict(
         i18n = [
-            'lovely.recipe',
+            'z3c.recipe.i18n',
             'z3c.csvvocabulary',
             'zope.component',
             'zope.i18n',
@@ -66,6 +66,7 @@ setup(
             'quotationtool.commentary',
             'quotationtool.categorization',
             'quotationtool.user',
+            'quotationtool.tinymce',
             ],
         ),
 
