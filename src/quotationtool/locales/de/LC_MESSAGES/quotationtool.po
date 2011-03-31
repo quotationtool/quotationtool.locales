@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quotationtool\n"
-"POT-Creation-Date: Wed Mar  2 23:58:07 2011\n"
-"PO-Revision-Date: 2011-03-03 00:02+0100\n"
+"POT-Creation-Date: Thu Mar 31 17:43:15 2011\n"
+"PO-Revision-Date: 2011-03-31 17:55+0200\n"
 "Last-Translator: Christian Lück <christian.lueck@rub.de>\n"
 "Language-Team: german http://beispiel.germanistik.rub.de\n"
 "MIME-Version: 1.0\n"
@@ -2313,13 +2313,13 @@ msgid "add-comment-permission-title"
 msgstr "Kommentare hinzufügen"
 
 #. Default: "Example"
-#: quotationtool/figuresng/browser/example.py:157
+#: quotationtool/figuresng/browser/example.py:163
 #: quotationtool/figuresng/browser/example_frontpage.pt:3
 msgid "example-frontpage-label"
 msgstr "Beispiel"
 
 #. Default: "Examples in Reference"
-#: quotationtool/figuresng/browser/example.py:189
+#: quotationtool/figuresng/browser/example.py:195
 msgid "examples-in-reference-label1"
 msgstr "Beispiele aus dieser Ausgabe"
 
@@ -2328,7 +2328,7 @@ msgstr "Beispiele aus dieser Ausgabe"
 #.  "                 above that were collected so far. There might be\n"
 #.  "                 <a href='${href}' class='content'>more examples in\n"
 #.  "                 other editions, reprints or translations</a>."
-#: quotationtool/figuresng/browser/example.py:193
+#: quotationtool/figuresng/browser/example.py:199
 msgid "examples-in-reference-desc-OFF"
 msgstr ""
 "Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang gesammelt "
@@ -2339,7 +2339,7 @@ msgstr ""
 #. Default: ""
 #.  "This is a list of the examples from the edition\n"
 #.  "                 above that were collected so far."
-#: quotationtool/figuresng/browser/example.py:202
+#: quotationtool/figuresng/browser/example.py:208
 msgid "examples-in-reference-desc"
 msgstr ""
 "Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang gesammelt "
@@ -2347,7 +2347,7 @@ msgstr ""
 "Wiederabdrucken oder Übersetzungen."
 
 #. Default: "Examples in Uniform Title"
-#: quotationtool/figuresng/browser/example.py:250
+#: quotationtool/figuresng/browser/example.py:256
 msgid "examples-in-uniformtitle-label1"
 msgstr "Beispiele aus diesem Einheitssachtitel"
 
@@ -2357,7 +2357,7 @@ msgstr "Beispiele aus diesem Einheitssachtitel"
 #.  "                 collected so far. It is a set union of the examples\n"
 #.  "                 from all <a href='${href}' class='content'>editions\n"
 #.  "                 in use</a>."
-#: quotationtool/figuresng/browser/example.py:254
+#: quotationtool/figuresng/browser/example.py:260
 msgid "examples-in-uniformtitle-desc"
 msgstr ""
 "Dies sind die Beispiele aus dem obenstehenden Einheitssachtitel, die bislang "
@@ -2374,6 +2374,23 @@ msgstr "Beispiel #$ID"
 #: quotationtool/figuresng/browser/examples_in_reference.pt:75
 msgid "add-example"
 msgstr "Beispiel hinzufügen"
+
+#. Default: "The <span class=\"quotationtool-example-quid\">example</span> and its <span class=\"quotationtool-example-proquo\">denotation/meaning</span> have to be tagged in the quotation using the flags. If a marker is present, please tag the <span class=\"quotationtool-example-marker\">marker</span>, too.<br/>Then fill in the example, the denotation/meaning and--if present--the marker fields. The denotation/meaning field should not be used for repeating theorems most accurately, but for the term that is in question. The same with the example field. The input data should serve searching the database but not hermeneutics. If you would like to give more accurate information then please write a comment after submitting the form."
+#: quotationtool/figuresng/browser/example.py:93
+msgid "add-example-info"
+msgstr ""
+"Das <span class=\\\"quotationtool-example-quid\\\">Beispiel</span> und\n"
+"seine <span\n"
+"class=\\\"quotationtool-example-quidpro\\\">Bedeutung/Gemeintes</span>\n"
+"müssen in der Textstelle mit den Fähnchen markiert werden. Bitte\n"
+"markieren Sie gegebenenfalls auch den <span\n"
+"class=\\\"quotationtool-example-marker\\\">Marker</span>.<br/>Füllen Sie\n"
+"dann bitte die Felder Beispiel, Bedeutung/Gemeintes und\n"
+"Marker aus. Das Feld Bedeutung/Gemeintes soll <em>nicht</em> möglichst\n"
+"akkurat ein Theorem wiedergeben, sondern den fraglichen Begriff (oder\n"
+"ein Klassem) aufführen. Die Eingaben sollen der Datenbanksuche\n"
+"angepasst sein, und müssen nicht hermeneutischen Ansprüchen gerecht\n"
+"werden. Entsprechendes gilt für das Feld Beispiel."
 
 #. Default: "Edit"
 #: quotationtool/figuresng/browser/example_frontpage.pt:12
@@ -2890,14 +2907,19 @@ msgid "Diagnostics"
 msgstr "Diagnose"
 
 #. Default: "Format:"
-#: quotationtool/skin/browser/div-form.pt:37
+#: quotationtool/skin/browser/div-form.pt:36
 msgid "input-format"
 msgstr "Format:"
 
 #. Default: "Example:"
-#: quotationtool/skin/browser/div-form.pt:43
+#: quotationtool/skin/browser/div-form.pt:42
 msgid "input-example"
 msgstr "Beispiel:"
+
+#. Default: "Note:"
+#: quotationtool/skin/browser/div-form.pt:6
+msgid "form-info"
+msgstr "Info:"
 
 #. Default: "User Error"
 #: quotationtool/skin/browser/exception.py:10
