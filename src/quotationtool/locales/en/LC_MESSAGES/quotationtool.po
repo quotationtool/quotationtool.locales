@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quotationtool\n"
-"POT-Creation-Date: Thu Jun  2 18:12:47 2011\n"
+"POT-Creation-Date: Thu Jun  2 19:16:51 2011\n"
 "PO-Revision-Date: 2011-03-31 18:21+0200\n"
 "Last-Translator: Christian L&uuml;ck <christian.lueck@rub.de>\n"
 "Language-Team: english http://beispiel.germanistik.tu-dortmund.de>\n"
@@ -2288,6 +2288,16 @@ msgstr ""
 msgid "editorial-statusflag"
 msgstr ""
 
+#. Default: "Editorial Status"
+#: quotationtool/editorial/browser/tabs.zcml:20
+msgid "editorial-changeeditorialstatus"
+msgstr ""
+
+#. Default: "Revision History"
+#: quotationtool/editorial/browser/tabs.zcml:9
+msgid "editorial-revisionhistory"
+msgstr ""
+
 #. Default: "Status"
 #: quotationtool/editorial/interfaces.py:59
 msgid "ieditorialstatus-status-title"
@@ -2306,6 +2316,15 @@ msgstr ""
 #. Default: "Please write a short description of the editorial work you invested on this item."
 #: quotationtool/editorial/interfaces.py:71
 msgid "ieditorialstatus-comment-desc"
+msgstr ""
+
+#: quotationtool/editorial/permissions.zcml:10
+msgid ""
+"Change the editorial status of an item, i.e. write to its revision history."
+msgstr ""
+
+#: quotationtool/editorial/permissions.zcml:5
+msgid "Read the revision history and current editorial status of an item."
 msgstr ""
 
 #. Default: "Needs Revision"

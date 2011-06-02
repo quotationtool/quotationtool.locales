@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quotationtool\n"
-"POT-Creation-Date: Thu Jun  2 18:12:47 2011\n"
-"PO-Revision-Date: 2011-06-02 18:36+0200\n"
+"POT-Creation-Date: Thu Jun  2 19:16:51 2011\n"
+"PO-Revision-Date: 2011-06-02 19:20+0200\n"
 "Last-Translator: Christian Lück <christian.lueck@rub.de>\n"
 "Language-Team: german http://beispiel.germanistik.rub.de\n"
 "Language: \n"
@@ -2353,6 +2353,16 @@ msgstr "Redaktionellen Status bearbeiten"
 msgid "editorial-statusflag"
 msgstr "red"
 
+#. Default: "Editorial Status"
+#: quotationtool/editorial/browser/tabs.zcml:20
+msgid "editorial-changeeditorialstatus"
+msgstr "Redaktioneller Status"
+
+#. Default: "Revision History"
+#: quotationtool/editorial/browser/tabs.zcml:9
+msgid "editorial-revisionhistory"
+msgstr "Redaktionsgeschichte"
+
 #. Default: "Status"
 #: quotationtool/editorial/interfaces.py:59
 msgid "ieditorialstatus-status-title"
@@ -2371,7 +2381,18 @@ msgstr "Kommentar"
 #. Default: "Please write a short description of the editorial work you invested on this item."
 #: quotationtool/editorial/interfaces.py:71
 msgid "ieditorialstatus-comment-desc"
-msgstr "Bitte geben Sie eine kurze Beschreibung der Redaktionsarbeit, die Sie in diesen Eintrag investiert haben."
+msgstr ""
+"Bitte geben Sie eine kurze Beschreibung der Redaktionsarbeit, die Sie in "
+"diesen Eintrag investiert haben."
+
+#: quotationtool/editorial/permissions.zcml:10
+msgid ""
+"Change the editorial status of an item, i.e. write to its revision history."
+msgstr "Ändern des redaktionellen Status eines Eintrags, d.h. einen Redaktionsbericht zu seiner Redaktionsgeschichte hinzufügen."
+
+#: quotationtool/editorial/permissions.zcml:5
+msgid "Read the revision history and current editorial status of an item."
+msgstr "Lesen der Redaktionsgeschichte und des aktuellen redaktionellen Status eines Eintrags."
 
 #. Default: "Needs Revision"
 #: quotationtool/editorial/vocabulary.py:10
@@ -2381,7 +2402,8 @@ msgstr "Redaktion nötig"
 #. Default: "The item was not yet revised."
 #: quotationtool/editorial/vocabulary.py:12
 msgid "status-needsrevision-desc"
-msgstr "Dieser Datenbank-Eintrag wurde noch nicht redaktionell gesichtet/bearbeitet."
+msgstr ""
+"Dieser Datenbank-Eintrag wurde noch nicht redaktionell gesichtet/bearbeitet."
 
 #. Default: "Revised"
 #: quotationtool/editorial/vocabulary.py:16
@@ -2391,17 +2413,22 @@ msgstr "OK"
 #. Default: "The item was editorialy revised and corrected. It is now locked for editing."
 #: quotationtool/editorial/vocabulary.py:18
 msgid "status-revised-desc"
-msgstr "Der Eintrag wurde redaktionell gesichtet und gegebenenfalls korrigiert. Er ist jetzt für Änderungen gesperrt."
+msgstr ""
+"Der Eintrag wurde redaktionell gesichtet und gegebenenfalls korrigiert. Er "
+"ist jetzt für Änderungen gesperrt."
 
 #. Default: "Reopened"
 #: quotationtool/editorial/vocabulary.py:22
 msgid "status-reopened-title"
-msgstr "Redaktion erneut notwendig"
+msgstr "Redaktion erneut nötig"
 
 #. Default: "The item was revised and locked already but errors were still found. It is thus reopened for editing."
 #: quotationtool/editorial/vocabulary.py:24
 msgid "status-reopened-desc"
-msgstr "Der Eintrag wurde schon einmal redaktionell bearbeitet und dann gesperrt. Aber es sind noch weitere Fehler aufgefallen, weshalb er wieder für die Bearbeitung geöffnet wurde."
+msgstr ""
+"Der Eintrag wurde schon einmal redaktionell bearbeitet und dann gesperrt. "
+"Aber es sind noch weitere Fehler aufgefallen, weshalb er wieder für die "
+"Bearbeitung geöffnet wurde."
 
 #. Default: "Example"
 #: quotationtool/figuresng/browser/example.py:169

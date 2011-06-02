@@ -67,6 +67,7 @@ setup(
             'quotationtool.categorization',
             'quotationtool.user',
             'quotationtool.tinymce',
+            'quotationtool.editorial',
             ],
         ),
 
