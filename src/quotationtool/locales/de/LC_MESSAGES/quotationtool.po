@@ -14,10 +14,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quotationtool\n"
-"POT-Creation-Date: Thu Mar 31 17:43:15 2011\n"
-"PO-Revision-Date: 2011-03-31 18:26+0200\n"
+"POT-Creation-Date: Thu Jun  2 18:12:47 2011\n"
+"PO-Revision-Date: 2011-06-02 18:36+0200\n"
 "Last-Translator: Christian Lück <christian.lueck@rub.de>\n"
 "Language-Team: german http://beispiel.germanistik.rub.de\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2192,11 +2193,6 @@ msgstr "Klassifizieren von Objekten"
 msgid "add-comment"
 msgstr "Kommentar hinzufügen"
 
-#. Default: "Commentary"
-#: quotationtool/commentary/browser/container.pt:3
-msgid "commentcontainer-label"
-msgstr "Kommentare"
-
 #. Default: "Comments are accessible in the context of items only."
 #: quotationtool/commentary/browser/container.pt:5
 msgid "commentcontainer-desc"
@@ -2236,7 +2232,7 @@ msgstr "[mehr]"
 msgid "comment-creator"
 msgstr "${creator}, ${date}"
 
-#: quotationtool/commentary/browser/pagelet.py:62
+#: quotationtool/commentary/browser/pagelet.py:66
 msgid "Invalid object ID"
 msgstr "Ungültige ID"
 
@@ -2249,6 +2245,12 @@ msgstr "Kommentare"
 #: quotationtool/commentary/browser/view.py:26
 msgid "comment-label"
 msgstr "Kommentar"
+
+#. Default: "Comments"
+#: quotationtool/commentary/browser/view.py:32
+#: quotationtool/commentary/browser/container.pt:3
+msgid "commentcontainer-label"
+msgstr "Kommentare"
 
 #. Default: "Comment"
 #: quotationtool/commentary/interfaces.py:22
@@ -2312,14 +2314,103 @@ msgstr "Kommentare ändern"
 msgid "add-comment-permission-title"
 msgstr "Kommentare hinzufügen"
 
+#. Default: "Revision History"
+#: quotationtool/editorial/browser/changestatus.pt:9
+msgid "revision-history-alt"
+msgstr "Redaktionsgeschichte"
+
+#. Default: "Editorial Status: $STATUS"
+#: quotationtool/editorial/browser/flags.py:27
+msgid "editorial-statusflag-title"
+msgstr "Redaktioneller Status: $STATUS"
+
+#. Default: "Editorial status: $TITLE - $DESCRIPTION"
+#: quotationtool/editorial/browser/form.py:22
+msgid "editorialstatus-formmessage"
+msgstr "Redaktioneller Status: $TITLE - $DESCRIPTION"
+
+#. Default: "Revision by ${revisor} on ${date}."
+#: quotationtool/editorial/browser/revisionhistory.pt:22
+msgid "revisionhistory-revisionmeta"
+msgstr "Redaktion durch ${revisor} am ${date}."
+
+#. Default: "Editorial Status: ${title} &mdash; ${description}"
+#: quotationtool/editorial/browser/revisionhistory.pt:39
+msgid "revisionhistory-editorialstatus"
+msgstr "Redaktioneller Status: ${title} &mdash; ${description}"
+
+#: quotationtool/editorial/browser/revisionhistory.pt:4
+msgid "Revision History (reversed order)"
+msgstr "Redaktionsgeschichte (letzte zuerst)"
+
+#. Default: "Change Editorial Status"
+#: quotationtool/editorial/browser/status.py:22
+msgid "changeEditorialStatus-label"
+msgstr "Redaktionellen Status bearbeiten"
+
+#. Default: "ed"
+#: quotationtool/editorial/browser/statusflag.pt:1
+msgid "editorial-statusflag"
+msgstr "red"
+
+#. Default: "Status"
+#: quotationtool/editorial/interfaces.py:59
+msgid "ieditorialstatus-status-title"
+msgstr "Status"
+
+#. Default: "The editorial status of this database item."
+#: quotationtool/editorial/interfaces.py:61
+msgid "ieditorialstatus-status-desc"
+msgstr "Redaktioneller Status dieses Datenbank-Items."
+
+#. Default: "Comment"
+#: quotationtool/editorial/interfaces.py:69
+msgid "ieditorialstatus-comment-title"
+msgstr "Kommentar"
+
+#. Default: "Please write a short description of the editorial work you invested on this item."
+#: quotationtool/editorial/interfaces.py:71
+msgid "ieditorialstatus-comment-desc"
+msgstr "Bitte geben Sie eine kurze Beschreibung der Redaktionsarbeit, die Sie in diesen Eintrag investiert haben."
+
+#. Default: "Needs Revision"
+#: quotationtool/editorial/vocabulary.py:10
+msgid "status-needsrevision-title"
+msgstr "Redaktion nötig"
+
+#. Default: "The item was not yet revised."
+#: quotationtool/editorial/vocabulary.py:12
+msgid "status-needsrevision-desc"
+msgstr "Dieser Datenbank-Eintrag wurde noch nicht redaktionell gesichtet/bearbeitet."
+
+#. Default: "Revised"
+#: quotationtool/editorial/vocabulary.py:16
+msgid "status-revised-title"
+msgstr "OK"
+
+#. Default: "The item was editorialy revised and corrected. It is now locked for editing."
+#: quotationtool/editorial/vocabulary.py:18
+msgid "status-revised-desc"
+msgstr "Der Eintrag wurde redaktionell gesichtet und gegebenenfalls korrigiert. Er ist jetzt für Änderungen gesperrt."
+
+#. Default: "Reopened"
+#: quotationtool/editorial/vocabulary.py:22
+msgid "status-reopened-title"
+msgstr "Redaktion erneut notwendig"
+
+#. Default: "The item was revised and locked already but errors were still found. It is thus reopened for editing."
+#: quotationtool/editorial/vocabulary.py:24
+msgid "status-reopened-desc"
+msgstr "Der Eintrag wurde schon einmal redaktionell bearbeitet und dann gesperrt. Aber es sind noch weitere Fehler aufgefallen, weshalb er wieder für die Bearbeitung geöffnet wurde."
+
 #. Default: "Example"
-#: quotationtool/figuresng/browser/example.py:163
+#: quotationtool/figuresng/browser/example.py:169
 #: quotationtool/figuresng/browser/example_frontpage.pt:3
 msgid "example-frontpage-label"
 msgstr "Beispiel"
 
 #. Default: "Examples in Reference"
-#: quotationtool/figuresng/browser/example.py:195
+#: quotationtool/figuresng/browser/example.py:201
 msgid "examples-in-reference-label1"
 msgstr "Beispiele aus dieser Ausgabe"
 
@@ -2328,18 +2419,18 @@ msgstr "Beispiele aus dieser Ausgabe"
 #.  "                 above that were collected so far. There might be\n"
 #.  "                 <a href='${href}' class='content'>more examples in\n"
 #.  "                 other editions, reprints or translations</a>."
-#: quotationtool/figuresng/browser/example.py:199
+#: quotationtool/figuresng/browser/example.py:205
 msgid "examples-in-reference-desc-OFF"
 msgstr ""
 "Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang gesammelt "
-"worden sind. Möglicherweise gibt es <a class=\"content\" href=\"${href}"
-"\">weitere Beispiele in anderen Ausgaben, Wiederabdrucken oder "
+"worden sind. Möglicherweise gibt es <a class=\"content\" href="
+"\"${href}\">weitere Beispiele in anderen Ausgaben, Wiederabdrucken oder "
 "Übersetzungen</a>."
 
 #. Default: ""
 #.  "This is a list of the examples from the edition\n"
 #.  "                 above that were collected so far."
-#: quotationtool/figuresng/browser/example.py:208
+#: quotationtool/figuresng/browser/example.py:214
 msgid "examples-in-reference-desc"
 msgstr ""
 "Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang gesammelt "
@@ -2347,7 +2438,7 @@ msgstr ""
 "Wiederabdrucken oder Übersetzungen."
 
 #. Default: "Examples in Uniform Title"
-#: quotationtool/figuresng/browser/example.py:256
+#: quotationtool/figuresng/browser/example.py:262
 msgid "examples-in-uniformtitle-label1"
 msgstr "Beispiele aus diesem Einheitssachtitel"
 
@@ -2357,7 +2448,7 @@ msgstr "Beispiele aus diesem Einheitssachtitel"
 #.  "                 collected so far. It is a set union of the examples\n"
 #.  "                 from all <a href='${href}' class='content'>editions\n"
 #.  "                 in use</a>."
-#: quotationtool/figuresng/browser/example.py:260
+#: quotationtool/figuresng/browser/example.py:266
 msgid "examples-in-uniformtitle-desc"
 msgstr ""
 "Dies sind die Beispiele aus dem obenstehenden Einheitssachtitel, die bislang "
@@ -2365,18 +2456,18 @@ msgstr ""
 "allen <a class=\"content\" href=\"${href}\">Ausgaben</a>."
 
 #. Default: "Example #$ID"
-#: quotationtool/figuresng/browser/example.py:81
+#: quotationtool/figuresng/browser/example.py:82
 msgid "example-labelview"
 msgstr "Beispiel #$ID"
 
 #. Default: "Add a new Example"
-#: quotationtool/figuresng/browser/example.py:91
+#: quotationtool/figuresng/browser/example.py:92
 #: quotationtool/figuresng/browser/examples_in_reference.pt:75
 msgid "add-example"
 msgstr "Beispiel hinzufügen"
 
 #. Default: "The <span class=\"quotationtool-example-quid\">example</span> and its <span class=\"quotationtool-example-proquo\">denotation/meaning</span> have to be tagged in the quotation using the flags. If a marker is present, please tag the <span class=\"quotationtool-example-marker\">marker</span>, too.<br/>Then fill in the example, the denotation/meaning and--if present--the marker fields. The denotation/meaning field should not be used for repeating theorems most accurately, but for the term that is in question. The same with the example field. The input data should serve searching the database but not hermeneutics. If you would like to give more accurate information then please write a comment after submitting the form."
-#: quotationtool/figuresng/browser/example.py:93
+#: quotationtool/figuresng/browser/example.py:94
 msgid "add-example-info"
 msgstr ""
 "Das <span class=\"quotationtool-example-quid\">Beispiel</span> und\n"
@@ -2418,27 +2509,41 @@ msgstr "Ändern"
 msgid "entry-examples"
 msgstr "Beispiele"
 
+#. Default: "Example #$ID does not exist"
+#: quotationtool/figuresng/browser/examplecontainer.py:102
+msgid "example-by-id-failure"
+msgstr "Beispiel #$ID existiert nicht."
+
 #. Default: "Examples"
-#: quotationtool/figuresng/browser/examplecontainer.py:15
+#: quotationtool/figuresng/browser/examplecontainer.py:23
 msgid "examplecontainer-labelview"
 msgstr "Beispiele"
 
 #. Default: "Examples"
-#: quotationtool/figuresng/browser/examplecontainer.py:36
+#: quotationtool/figuresng/browser/examplecontainer.py:44
 msgid "example-search-target-label"
 msgstr "Beispielen"
 
 #. Default: "Search for an example by example term, by denotation or meaning, by name of its author, by title, by year etc."
-#: quotationtool/figuresng/browser/examplecontainer.py:39
+#: quotationtool/figuresng/browser/examplecontainer.py:47
 msgid "example-search-target-desc"
 msgstr ""
 "Suche nach Beispielen mittels angeführtem Beispiel, Bedeutung, Markierung, "
 "Autor, Titel usw."
 
 #. Default: "Search for Examples"
-#: quotationtool/figuresng/browser/examplecontainer.py:50
+#: quotationtool/figuresng/browser/examplecontainer.py:58
 msgid "search-form-label"
 msgstr "Beispiel-Suche"
+
+#. Default: "Example by ID (unique Number)"
+#: quotationtool/figuresng/browser/examplecontainer.py:80
+msgid "example-by-id-label"
+msgstr "Beispiel nach ID"
+
+#: quotationtool/figuresng/browser/examplecontainer.py:98
+msgid "Show!"
+msgstr "Zeige!"
 
 #. Default: "Examples in the Database"
 #: quotationtool/figuresng/browser/examplecontainer_container.pt:3
@@ -2688,52 +2793,52 @@ msgid "choose-search-target-prompt"
 msgstr "Wonach wollen Sie suchen?"
 
 #. Default: "Search"
-#: quotationtool/search/browser/configure.zcml:21
+#: quotationtool/search/browser/configure.zcml:29
 msgid "quotationtool-search-navigation"
 msgstr "Suche"
 
 #. Default: "Index ${index} not found!"
-#: quotationtool/search/browser/search.py:112
+#: quotationtool/search/browser/search.py:121
 msgid "search-invalid-index-error"
 msgstr "Such-Index ${index} nicht vorhanden!"
 
 #. Default: "Invalid query for ${index}"
-#: quotationtool/search/browser/search.py:119
+#: quotationtool/search/browser/search.py:128
 msgid "search-query-type-error"
 msgstr "Ungültige Such-Anfrage für ${index}!"
 
 #. Default: "Please choose a search target!"
-#: quotationtool/search/browser/search.py:187
+#: quotationtool/search/browser/search.py:196
 msgid "choose-search-target"
 msgstr "Suche"
 
 #. Default: "Find!"
-#: quotationtool/search/browser/search_form.pt:47
+#: quotationtool/search/browser/search_form.pt:49
 msgid "find-button-label"
 msgstr "Suchen!"
 
 #. Default: "About search options"
-#: quotationtool/search/browser/search_form.pt:54
+#: quotationtool/search/browser/search_form.pt:56
 msgid "search-options-label"
 msgstr "Optionen bei der Suche"
 
 #. Default: "Jokers"
-#: quotationtool/search/browser/search_form.pt:56
+#: quotationtool/search/browser/search_form.pt:58
 msgid "search-jokers-label"
 msgstr "Jokerzeichen/Trunkierung"
 
 #. Default: "Replaces arbitrary many characters"
-#: quotationtool/search/browser/search_form.pt:61
+#: quotationtool/search/browser/search_form.pt:63
 msgid "asterix-joker-desc"
 msgstr "Ersetzt beliebig viele Zeichen"
 
 #. Default: "Replaces exactly one character"
-#: quotationtool/search/browser/search_form.pt:66
+#: quotationtool/search/browser/search_form.pt:68
 msgid "questionmark-joker-desc"
 msgstr "Ersetzt genau ein Zeichen"
 
 #. Default: "Indices"
-#: quotationtool/search/browser/search_form.pt:70
+#: quotationtool/search/browser/search_form.pt:72
 msgid "search-indices-label"
 msgstr "Such-Indices"
 
@@ -2763,57 +2868,57 @@ msgid "search-result-label"
 msgstr "Such-Ergebnisse"
 
 #. Default: "Conjunction"
-#: quotationtool/search/interfaces.py:13
+#: quotationtool/search/interfaces.py:20
 msgid "iquery-conjunction-title"
 msgstr "Konjunktion"
 
 #. Default: "and / or"
-#: quotationtool/search/interfaces.py:15
+#: quotationtool/search/interfaces.py:22
 msgid "iquery-conjunction-desc"
 msgstr "Logische Verknüpfung."
 
 #. Default: "Quality"
-#: quotationtool/search/interfaces.py:23
+#: quotationtool/search/interfaces.py:30
 msgid "iquery-quality-title"
 msgstr "Logische Qualität"
 
 #. Default: "(yes) / not; Position or Negation"
-#: quotationtool/search/interfaces.py:25
+#: quotationtool/search/interfaces.py:32
 msgid "iquery-quality-desc"
 msgstr "Position oder Negation"
 
 #. Default: "Index"
-#: quotationtool/search/interfaces.py:35
+#: quotationtool/search/interfaces.py:42
 msgid "iquery-index-title"
 msgstr "Such-Index"
 
 #. Default: "The name of the index to be searched."
-#: quotationtool/search/interfaces.py:37
+#: quotationtool/search/interfaces.py:44
 msgid "iquery-index-desc"
 msgstr "Durchsuchten Index auswählen."
 
 #. Default: "Target"
-#: quotationtool/search/interfaces.py:67
+#: quotationtool/search/interfaces.py:74
 msgid "imultiindexquery-catalog-title"
 msgstr "Such-Ergebnis"
 
 #. Default: "What are you searching for?"
-#: quotationtool/search/interfaces.py:69
+#: quotationtool/search/interfaces.py:76
 msgid "imultiindexquery-catalog-desc"
 msgstr "Wonach soll gesucht werden?"
 
 #. Default: "Queries"
-#: quotationtool/search/interfaces.py:76
+#: quotationtool/search/interfaces.py:83
 msgid "imultiindexquery-queries-title"
 msgstr "Suchanfragen"
 
 #. Default: "A List of query objects."
-#: quotationtool/search/interfaces.py:78
+#: quotationtool/search/interfaces.py:85
 msgid "imultiindexquery-queries-desc"
 msgstr "Liste kombinierter Suchanfragen."
 
 #. Default: "Query"
-#: quotationtool/search/interfaces.py:80
+#: quotationtool/search/interfaces.py:87
 msgid "imultiindexquery-queries-object-title"
 msgstr "Anfrage"
 
@@ -2951,10 +3056,6 @@ msgstr "Hilfe"
 msgid "${DYNAMIC_CONTENT}"
 msgstr "${DYNAMIC_CONTENT}"
 
-#: quotationtool/skin/browser/meta.pt:16
-msgid "Created on ${date} by ${name}"
-msgstr "Erstellt am ${date} von ${name}."
-
 #: quotationtool/user/browser/change_password.pt:15
 #: quotationtool/user/browser/signup.pt:22
 msgid "Full name:"
@@ -3087,6 +3188,9 @@ msgstr "Passwort ändern."
 #: quotationtool/user/permissions.zcml:5
 msgid "signup-permission-title"
 msgstr "Benutzer anlegen."
+
+#~ msgid "Created on ${date} by ${name}"
+#~ msgstr "Erstellt am ${date} von ${name}."
 
 #~ msgid "Title"
 #~ msgstr "Titel"
