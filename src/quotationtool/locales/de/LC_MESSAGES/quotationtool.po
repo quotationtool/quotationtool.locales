@@ -14,8 +14,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: quotationtool\n"
-"POT-Creation-Date: Fri Jun  3 23:51:16 2011\n"
-"PO-Revision-Date: 2011-06-03 23:48+0200\n"
+"POT-Creation-Date: Sun Jul  3 14:35:05 2011\n"
+"PO-Revision-Date: 2011-07-03 14:37+0200\n"
 "Last-Translator: Christian Lück <christian.lueck@rub.de>\n"
 "Language-Team: german http://beispiel.germanistik.rub.de\n"
 "Language: \n"
@@ -1583,181 +1583,201 @@ msgstr ""
 
 #. Default: "flags"
 #: quotationtool/bibliography/browser/container.pt:12
+#: quotationtool/bibliography/browser/formattedresult.pt:15
 msgid "bibliography-container-flags-col"
 msgstr "<span lang=\"en\" xml:lang=\"en\">flags</span>"
 
 #. Default: "Title"
 #: quotationtool/bibliography/browser/container.pt:6
+#: quotationtool/bibliography/browser/formattedresult.pt:9
 msgid "bibliography-container-title-col"
 msgstr "Titel"
 
-#. Default: "Add Entry"
-#: quotationtool/bibliography/browser/nav.zcml:54
-msgid "subnav-bibliography-add"
-msgstr "Eintrag erstellen"
+#. Default: "Formatted"
+#: quotationtool/bibliography/browser/nav.zcml:62
+msgid "subnav-bibliography-formatted"
+msgstr "Formatiert"
 
-#. Default: "Search"
-#: quotationtool/bibliography/browser/nav.zcml:65
-msgid "subnav-bibliography-search"
-msgstr "Suchen"
+#. Default: "Tabular"
+#: quotationtool/bibliography/browser/nav.zcml:73
+msgid "subnav-bibliography-table"
+msgstr "Tabellarisch"
 
 #. Default: "Bibliography"
 #: quotationtool/bibliography/browser/nav.zcml:8
 msgid "mainnav-bibliography"
 msgstr "Bibliographie"
 
+#. Default: "Add Entry"
+#: quotationtool/bibliography/browser/nav.zcml:84
+msgid "subnav-bibliography-add"
+msgstr "Eintrag erstellen"
+
 #. Default: "Config"
 #: quotationtool/bibliography/browser/nav.zcml:95
 msgid "subnav-bibliography-configuration"
 msgstr "Konfiguration"
 
-#. Default: "Search for a bibliographic entry by author/editor, title, year etc."
-#: quotationtool/bibliography/browser/search.py:12
-msgid "entries-search-target-description"
-msgstr "Suche nach bibliographischen Eintrag mittels Autor, Titel, Jahr usw."
-
-#. Default: "Search for bibliographic entries"
-#: quotationtool/bibliography/browser/search.py:23
-msgid "bibliography-search-form-label"
-msgstr "Bibliographische Suche"
-
 #. Default: "Bibliographic Entries"
-#: quotationtool/bibliography/browser/search.py:9
-msgid "entries-search-target-label"
+#: quotationtool/bibliography/browser/table.pt:3
+msgid "bibliography-table-label"
 msgstr "Bibliographische Einträge"
 
+#. Default: "ID"
+#: quotationtool/bibliography/browser/table.py:33
+msgid "bibliography-columnheader-id"
+msgstr "ID"
+
+#. Default: "Author"
+#: quotationtool/bibliography/browser/table.py:48
+msgid "bibliography-columnheader-author"
+msgstr "Autor"
+
+#. Default: "Title"
+#: quotationtool/bibliography/browser/table.py:62
+msgid "bibliography-columnheader-title"
+msgstr "Titel"
+
+#. Default: "Year"
+#: quotationtool/bibliography/browser/table.py:76
+msgid "bibliography-columnheader-year"
+msgstr "Jahr"
+
+#. Default: "flags"
+#: quotationtool/bibliography/browser/table.py:88
+msgid "bibliography-columnheader-flags"
+msgstr "flags"
+
 #. Default: "Any field / free"
-#: quotationtool/bibliography/interfaces.py:117
-#: quotationtool/figuresng/interfaces.py:108
+#: quotationtool/bibliography/interfaces.py:136
 msgid "catalog-any-title"
 msgstr "Freitext"
 
 #. Default: "Free text."
-#: quotationtool/bibliography/interfaces.py:119
-#: quotationtool/figuresng/interfaces.py:110
+#: quotationtool/bibliography/interfaces.py:138
 msgid "catalog-any-desc"
 msgstr "freie Eingabe, Suche in allen Feldern"
 
 #. Default: "Author / Editor"
-#: quotationtool/bibliography/interfaces.py:126
+#: quotationtool/bibliography/interfaces.py:145
 msgid "ibibliographycatalog-author-title"
 msgstr "Autor / Herausgeber"
 
 #. Default: "Search by author or editor."
-#: quotationtool/bibliography/interfaces.py:128
+#: quotationtool/bibliography/interfaces.py:147
 msgid "ibibliographycatalog-author-desc"
 msgstr "Suche im Feld 'Autor' bzw. 'Herausgeber."
 
 #. Default: "Title / Uniform Title"
-#: quotationtool/bibliography/interfaces.py:135
+#: quotationtool/bibliography/interfaces.py:154
 msgid "ibibliographycatalog-title-title"
 msgstr "Titel / Einheitssachtitle"
 
 #. Default: "Search by title or uniform title."
-#: quotationtool/bibliography/interfaces.py:137
+#: quotationtool/bibliography/interfaces.py:156
 msgid "ireferenceindexercatalog-title-desc"
 msgstr "Suche im Feld 'Titel' bzw. 'Einheitssachtitel'."
 
 #. Default: "Published/Written After"
-#: quotationtool/bibliography/interfaces.py:145
+#: quotationtool/bibliography/interfaces.py:164
 msgid "ibibliographycatalog-post-title"
 msgstr "Veröffentlicht/Verfasst nach ..."
 
 #. Default: "Matches, if published after."
-#: quotationtool/bibliography/interfaces.py:147
+#: quotationtool/bibliography/interfaces.py:166
 msgid "ibibliographycatalog-post-desc"
 msgstr "Findet alles nach dem angegebenen Zeitpunkt Veröffentlichte."
 
 #. Default: "Published/Writter Before"
-#: quotationtool/bibliography/interfaces.py:153
+#: quotationtool/bibliography/interfaces.py:172
 msgid "ibibliographycatalog-ante-title"
 msgstr "Veröffentlicht vor ..."
 
 #. Default: "Matsches, if published before."
-#: quotationtool/bibliography/interfaces.py:155
+#: quotationtool/bibliography/interfaces.py:174
 msgid "ibibliographycatalog-ante-desc"
 msgstr "Findet alles vor dem angegebenen Zeitpunkt Veröffentlichte."
 
 #. Default: "Year first published"
-#: quotationtool/bibliography/interfaces.py:161
+#: quotationtool/bibliography/interfaces.py:180
 msgid "ibibliographycatalog-year-title"
 msgstr "Jahr (Erstveröffentlichung)"
 
 #. Default: "Matches the exact year of origin."
-#: quotationtool/bibliography/interfaces.py:163
+#: quotationtool/bibliography/interfaces.py:182
 msgid "ibibliographycatalog-year-desc"
 msgstr "Findet alles in dem Jahr Veröffentlichte."
 
 #. Default: "Language / Original Language"
-#: quotationtool/bibliography/interfaces.py:169
+#: quotationtool/bibliography/interfaces.py:188
 msgid "ibibliographycatalog-language-title"
 msgstr "Sprache"
 
 #. Default: "Search for items by language."
-#: quotationtool/bibliography/interfaces.py:171
+#: quotationtool/bibliography/interfaces.py:190
 msgid "ibibliographycatalog-language-desc"
 msgstr "Suche nach Sprache."
 
 #. Default: "Year of edition"
-#: quotationtool/bibliography/interfaces.py:178
+#: quotationtool/bibliography/interfaces.py:197
 msgid "irefenceindexer-editionyear-title"
 msgstr "Jahr der Ausgabe"
 
 #. Default: "Matches the year of the edition."
-#: quotationtool/bibliography/interfaces.py:180
+#: quotationtool/bibliography/interfaces.py:199
 msgid "ibibliographycatalog-edtionyear-desc"
 msgstr "Suche nach Ausgaben, die in diesem Jahr veröffentlicht wurden."
 
 #. Default: "Publisher"
-#: quotationtool/bibliography/interfaces.py:186
+#: quotationtool/bibliography/interfaces.py:205
 msgid "ibibliographycatalog-publisher-title"
 msgstr "Verlag"
 
 #. Default: "Search by publisher."
-#: quotationtool/bibliography/interfaces.py:188
+#: quotationtool/bibliography/interfaces.py:207
 msgid "ibibliographycatalog-publisher-desc"
 msgstr "Suche nach Verleger oder Verlagshaus."
 
 #. Default: "Location"
-#: quotationtool/bibliography/interfaces.py:195
+#: quotationtool/bibliography/interfaces.py:214
 msgid "ibibliographycatalog-location-title"
 msgstr "Ort"
 
 #. Default: "Search by place of publication."
-#: quotationtool/bibliography/interfaces.py:197
+#: quotationtool/bibliography/interfaces.py:216
 msgid "ibibliographycatalog-location-desc"
 msgstr "Suche nach Veröffentlichungsort."
 
 #. Default: "Database Key"
-#: quotationtool/bibliography/interfaces.py:56
+#: quotationtool/bibliography/interfaces.py:57
 msgid "ientry-name-title"
 msgstr "Datenbank-ID"
 
 #. Default: "The unique key of the entry in the database. Typically this should be of the form &lt;name&gt;&lt;year&gt;&lt;counting letter&gt;, e.g. Adelung1808b."
-#: quotationtool/bibliography/interfaces.py:58
+#: quotationtool/bibliography/interfaces.py:59
 msgid "ientry-name-desc"
 msgstr ""
 "Die ID des Eintrags in der Datenbank. Typischer Weise sollte er die Form &lt;"
 "NAME&gt;&lt;JAHR&gt;&lt;buchstabe&gt; haben, z.B. 'Adelung1808a'."
 
-#: quotationtool/bibliography/interfaces.py:86
-#: quotationtool/bibliography/interfaces.py:102
+#: quotationtool/bibliography/interfaces.py:87
+#: quotationtool/bibliography/interfaces.py:103
 #: quotationtool/biblatex/interfaces.py:281
 #: quotationtool/biblatex/interfaces.py:297
 #: quotationtool/biblatex/interfaces.py:307
 msgid "Language"
 msgstr "Sprache"
 
-#: quotationtool/bibliography/interfaces.py:88
+#: quotationtool/bibliography/interfaces.py:89
 #: quotationtool/biblatex/interfaces.py:309
 msgid "The default language of the bibliography"
 msgstr "Die Standard-Sprache (default) der Bibliographie"
 
-#: quotationtool/bibliography/interfaces.py:96
+#: quotationtool/bibliography/interfaces.py:97
 msgid "Available Languages"
 msgstr "Verfügbare Sprachen"
 
-#: quotationtool/bibliography/interfaces.py:98
+#: quotationtool/bibliography/interfaces.py:99
 msgid ""
 "All languages in that the formatted bibliography entries will be available "
 "to the user."
@@ -1779,6 +1799,28 @@ msgstr "Verwalten der Bibliographie (ZOPE-Level)"
 #: quotationtool/bibliography/permissions.zcml:5
 msgid "add-entry-permission-title"
 msgstr "Bibliographische Einträge erstellen"
+
+#. Default: "Bibliographic entries"
+#: quotationtool/bibliography/searcher.py:49
+msgid "BibliographyFilter-title"
+msgstr "Bibliographische Einträge"
+
+#. Default: "Search for entries in the bibliography."
+#: quotationtool/bibliography/searcher.py:50
+msgid "BibliographySearchFilter-desc"
+msgstr "Suche nach Einträgen in der Bibliographie"
+
+#. Default: "Author"
+#: quotationtool/bibliography/searcher.py:59
+#: quotationtool/quotation/searcher.py:69
+msgid "author-fulltext-label"
+msgstr "Autor"
+
+#. Default: "Title"
+#: quotationtool/bibliography/searcher.py:69
+#: quotationtool/quotation/searcher.py:79
+msgid "title-fulltext-label"
+msgstr "Titel"
 
 #. Default: "The form below asks for a categorization of this item. The categories (classes) given in the form were defined by users of this website."
 #: quotationtool/categorization/browser/attribution.pt:18
@@ -2454,71 +2496,41 @@ msgstr ""
 "Aber es sind noch weitere Fehler aufgefallen, weshalb er wieder für die "
 "Bearbeitung geöffnet wurde."
 
-#. Default: "Example"
-#: quotationtool/figuresng/browser/example.py:169
-#: quotationtool/figuresng/browser/example_frontpage.pt:3
-msgid "example-frontpage-label"
-msgstr "Beispiel"
+#. Default: "Number of Examples"
+#: quotationtool/figuresng/browser/count.pt:4
+msgid "examplecount-abbr"
+msgstr "Anzahl der Beispiele"
+
+#: quotationtool/figuresng/browser/details.pt:91
+msgid "Markup caption"
+msgstr "Markup-Legende"
+
+#. Default: "Examples in the Database"
+#: quotationtool/figuresng/browser/examples.pt:3
+msgid "examplecontainer-container-label"
+msgstr "Beispiele im Archiv"
 
 #. Default: "Examples in Reference"
-#: quotationtool/figuresng/browser/example.py:201
+#: quotationtool/figuresng/browser/examples_in_reference.pt:3
 msgid "examples-in-reference-label1"
 msgstr "Beispiele aus dieser Ausgabe"
 
-#. Default: ""
-#.  "This is a list of the examples from the edition\n"
-#.  "                 above that were collected so far. There might be\n"
-#.  "                 <a href='${href}' class='content'>more examples in\n"
-#.  "                 other editions, reprints or translations</a>."
-#: quotationtool/figuresng/browser/example.py:205
-msgid "examples-in-reference-desc-OFF"
-msgstr ""
-"Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang gesammelt "
-"worden sind. Möglicherweise gibt es <a class=\"content\" href="
-"\"${href}\">weitere Beispiele in anderen Ausgaben, Wiederabdrucken oder "
-"Übersetzungen</a>."
-
-#. Default: ""
-#.  "This is a list of the examples from the edition\n"
-#.  "                 above that were collected so far."
-#: quotationtool/figuresng/browser/example.py:214
+#. Default: "This is a list of the examples from the edition above that were collected so far."
+#: quotationtool/figuresng/browser/examples_in_reference.pt:5
 msgid "examples-in-reference-desc"
 msgstr ""
 "Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang gesammelt "
 "worden sind. Möglicherweise gibt es weitere Beispiele in anderen Ausgaben, "
 "Wiederabdrucken oder Übersetzungen."
 
-#. Default: "Examples in Uniform Title"
-#: quotationtool/figuresng/browser/example.py:262
-msgid "examples-in-uniformtitle-label1"
-msgstr "Beispiele aus diesem Einheitssachtitel"
-
-# Dies sind die Beispiele aus dem obenstehenden Einheitssachtitel, die bislang gesammelt worden sind. Es handelt sich um die Vereinigungsmenge der Beispiele aus allen <a class="content" href="${href}">Ausgaben</a>.
-#. Default: ""
-#.  "This is a list of the examples from the uniform title above that were\n"
-#.  "                 collected so far. It is a set union of the examples\n"
-#.  "                 from all <a href='${href}' class='content'>editions\n"
-#.  "                 in use</a>."
-#: quotationtool/figuresng/browser/example.py:266
-msgid "examples-in-uniformtitle-desc"
-msgstr ""
-"Dies sind die Beispiele aus dem obenstehenden Einheitssachtitel, die bislang "
-"gesammelt wurden. Es handelt sich um die Vereinigungsmenge der Beispiele aus "
-"allen <a class=\"content\" href=\"${href}\">Ausgaben</a>."
-
-#. Default: "Example #$ID"
-#: quotationtool/figuresng/browser/example.py:82
-msgid "example-labelview"
-msgstr "Beispiel #$ID"
-
 #. Default: "Add a new Example"
-#: quotationtool/figuresng/browser/example.py:92
-#: quotationtool/figuresng/browser/examples_in_reference.pt:75
+#: quotationtool/figuresng/browser/form.py:19
+#: quotationtool/figuresng/browser/examples_in_reference.pt:18
 msgid "add-example"
 msgstr "Beispiel hinzufügen"
 
 #. Default: "The <span class=\"quotationtool-example-quid\">example</span> and its <span class=\"quotationtool-example-proquo\">denotation/meaning</span> have to be tagged in the quotation using the flags. If a marker is present, please tag the <span class=\"quotationtool-example-marker\">marker</span>, too.<br/>Then fill in the example, the denotation/meaning and--if present--the marker fields. The denotation/meaning field should not be used for repeating theorems most accurately, but for the term that is in question. The same with the example field. The input data should serve searching the database but not hermeneutics. If you would like to give more accurate information then please write a comment after submitting the form."
-#: quotationtool/figuresng/browser/example.py:94
+#: quotationtool/figuresng/browser/form.py:21
 msgid "add-example-info"
 msgstr ""
 "Das <span class=\"quotationtool-example-quid\">Beispiel</span> und\n"
@@ -2534,271 +2546,305 @@ msgstr ""
 "angepasst sein, und müssen nicht hermeneutischen Ansprüchen gerecht\n"
 "werden. Entsprechendes gilt für das Feld Beispiel."
 
-#. Default: "Edit"
-#: quotationtool/figuresng/browser/example_frontpage.pt:12
-msgid "edit"
-msgstr "Ändern"
+#. Default: "Edit Example"
+#: quotationtool/figuresng/browser/form.py:44
+msgid "edit-example-label"
+msgstr "Beispiel bearbeiten"
 
-#. Default: "Search"
-#: quotationtool/figuresng/browser/example_nav.zcml:73
-msgid "examplecontainer-search-navigation"
-msgstr "Suche"
+#: quotationtool/figuresng/browser/list.pt:9
+msgid "Cited from:<br /> ${citation}."
+msgstr "Zitiert aus:<br /> ${citation}."
 
 #. Default: "Examples"
-#: quotationtool/figuresng/browser/example_nav.zcml:9
-#: quotationtool/figuresng/browser/example_nav.zcml:51
+#: quotationtool/figuresng/browser/nav.zcml:9
+#: quotationtool/figuresng/browser/nav.zcml:60
 msgid "examplecontainer-navigation"
 msgstr "Beispiele"
 
 #. Default: "Edit"
-#: quotationtool/figuresng/browser/example_tabs.zcml:19
+#: quotationtool/figuresng/browser/tabs.zcml:19
 msgid "example-edit-tabs"
 msgstr "Ändern"
 
 #. Default: "Examples"
-#: quotationtool/figuresng/browser/example_tabs.zcml:30
+#: quotationtool/figuresng/browser/tabs.zcml:30
 msgid "entry-examples"
 msgstr "Beispiele"
 
-#. Default: "Example #$ID does not exist"
-#: quotationtool/figuresng/browser/examplecontainer.py:102
-msgid "example-by-id-failure"
-msgstr "Beispiel #$ID existiert nicht."
+#. Default: "Example #$ID"
+#: quotationtool/figuresng/browser/view.py:24
+msgid "example-labelview"
+msgstr "Beispiel #$ID"
 
 #. Default: "Examples"
-#: quotationtool/figuresng/browser/examplecontainer.py:23
+#: quotationtool/figuresng/browser/view.py:31
 msgid "examplecontainer-labelview"
 msgstr "Beispiele"
 
-#. Default: "Examples"
-#: quotationtool/figuresng/browser/examplecontainer.py:44
-msgid "example-search-target-label"
-msgstr "Beispielen"
+#. Default: "ID"
+#: quotationtool/figuresng/browser/viewlet.py:26
+msgid "exampleid-field-title"
+msgstr "ID"
 
-#. Default: "Search for an example by example term, by denotation or meaning, by name of its author, by title, by year etc."
-#: quotationtool/figuresng/browser/examplecontainer.py:47
-msgid "example-search-target-desc"
-msgstr ""
-"Suche nach Beispielen mittels angeführtem Beispiel, Bedeutung, Markierung, "
-"Autor, Titel usw."
+#. Default: "Display example by ID-number"
+#: quotationtool/figuresng/browser/viewlet.py:36
+msgid "examplebyidform-label"
+msgstr "Zeige Beispiel anhand ID-Nummer"
 
-#. Default: "Search for Examples"
-#: quotationtool/figuresng/browser/examplecontainer.py:58
-msgid "search-form-label"
-msgstr "Beispiel-Suche"
+#: quotationtool/figuresng/browser/viewlet.py:53
+msgid "Display"
+msgstr "Anzeigen"
 
-#. Default: "Example by ID (unique Number)"
-#: quotationtool/figuresng/browser/examplecontainer.py:80
-msgid "example-by-id-label"
-msgstr "Beispiel nach ID"
-
-#: quotationtool/figuresng/browser/examplecontainer.py:98
-msgid "Show!"
-msgstr "Zeige!"
-
-#. Default: "Examples in the Database"
-#: quotationtool/figuresng/browser/examplecontainer_container.pt:3
-msgid "examplecontainer-container-label"
-msgstr "Beispiele im Archiv"
-
-#: quotationtool/figuresng/browser/examplecontainer_container.pt:41
-msgid "flags"
-msgstr "<span lang=\"en\" xml:lang=\"en\">flags</span>"
-
-#. Default: "Examples"
-#: quotationtool/figuresng/browser/examplecontainer_frontpage.pt:1
-msgid "examplecontainer-frontpage-label"
-msgstr "Beispiele"
-
-#. Default: "Number of Examples"
-#: quotationtool/figuresng/browser/examplecount.pt:4
-msgid "examplecount-abbr"
-msgstr "Anzahl der Beispiele"
-
-#. Default: ""
-#: quotationtool/figuresng/examplecontainer.py:24
-msgid "You want to use $KEY as key for the example, but it should be $COUNT!"
-msgstr ""
-"Sie wollen $KEY als ID für das Beispiel verwenden, aber es sollte $COUNT "
-"sein."
+#. Default: "Example #$ID does not exist"
+#: quotationtool/figuresng/browser/viewlet.py:66
+msgid "example-by-id-failure"
+msgstr "Beispiel #$ID existiert nicht."
 
 #. Default: "Example"
-#: quotationtool/figuresng/iexample.py:103
-msgid "iexampleindexcatalog-quid-title"
-msgstr "Beispiel"
-
-#. Default: "Search by example."
-#: quotationtool/figuresng/iexample.py:105
-msgid "iexampleindexcatalog-quid-desc"
-msgstr "Suche im Feld 'Beispiel'."
-
-#. Default: "Denotation/Meaning"
-#: quotationtool/figuresng/iexample.py:112
-msgid "iexampleindexcatalog-proquo-title"
-msgstr "Bedeutung/Gemeintes"
-
-#. Default: "Search by the denotation or meaning (general sentence or rule) illustrated by the example."
-#: quotationtool/figuresng/iexample.py:114
-msgid "iexampleindexcatalog-proquo-desc"
-msgstr "Suche im Feld 'Bedeutung/Gemeintes'."
-
-#. Default: "Example OR Denotation/Meaning"
-#: quotationtool/figuresng/iexample.py:121
-msgid "iexampleindexcatalog-quidproquo-title"
-msgstr "Beispiel ODER Bedeutung/Gemeintes"
-
-#. Default: "Search by example OR denotation/meaning. Matches both fields."
-#: quotationtool/figuresng/iexample.py:123
-msgid "iexampleindexcatalog-quidproquo-desc"
-msgstr ""
-"Suche in der Feldern 'Beispiel' oder 'Bedeutung/Gemeintes'. Treffer in "
-"mindestens einem Feld werden angezeigt. Dieser Index wird auch für die "
-"Schnellsuche verwendet."
-
-#. Default: "Marker"
-#: quotationtool/figuresng/iexample.py:130
-msgid "iexampleindexcatalog-marker-title"
-msgstr "Markierung"
-
-#. Default: "Search by example-marker."
-#: quotationtool/figuresng/iexample.py:132
-msgid "iexampleindexcatalog-marker-desc"
-msgstr "Suche im Feld 'Markierung'."
-
-#. Default: "Count"
-#: quotationtool/figuresng/iexample.py:18
-msgid "iexampelcontainer-count-title"
-msgstr "Anzahl"
-
-#. Default: "How many examples there are"
-#: quotationtool/figuresng/iexample.py:20
-msgid "iexamplecontainer-count-desc"
-msgstr "Anzahl der Beispiele"
-
-#. Default: "Example"
-#: quotationtool/figuresng/iexample.py:39
+#: quotationtool/figuresng/interfaces.py:34
 msgid "iexample-quid-title"
 msgstr "Beispiel"
 
 #. Default: "What is given as example?"
-#: quotationtool/figuresng/iexample.py:41
+#: quotationtool/figuresng/interfaces.py:36
 msgid "iexample-quid-desc"
 msgstr "Was wird als Beispiel aufgeführt?"
 
 #. Default: "Denotation/Meaning"
-#: quotationtool/figuresng/iexample.py:49
+#: quotationtool/figuresng/interfaces.py:44
 msgid "iexample-proquo-title"
 msgstr "Bedeutung / Gemeintes"
 
 #. Default: "What is the example associated with? What does it stand for?"
-#: quotationtool/figuresng/iexample.py:51
+#: quotationtool/figuresng/interfaces.py:46
 msgid "iexample-proquo-desc"
 msgstr "Womit wird das Beispiel in Verbindung gebracht oder wofür steht es?"
 
 #. Default: "Marker"
-#: quotationtool/figuresng/iexample.py:59
+#: quotationtool/figuresng/interfaces.py:54
 msgid "iexample-marker-title"
 msgstr "Markierung"
 
 #. Default: "How is the example indicated? ('e.g.', 'for instance', paranthesis etc.)"
-#: quotationtool/figuresng/iexample.py:61
+#: quotationtool/figuresng/interfaces.py:56
 msgid "iexample-marker-desc"
 msgstr "Wie wird das Beispiel angezeigt? (\"z.B.\", Parenthese etc.)"
 
-#. Default: "Ether 'Example' or 'Denotation/Meaning' must be given!"
-#: quotationtool/figuresng/iexample.py:72
-msgid "netherquidnorproquo"
+#. Default: "Either 'Example' or 'Denotation/Meaning' must be given!"
+#: quotationtool/figuresng/interfaces.py:67
+msgid "neitherquidnorproquo"
 msgstr ""
-"Von den Feldern Beispiel und Bedeutung/Gemeintes muss mindestens eins "
+"Von den Feldern Beispiel und Bedeutung/Gemeintes muss mindestens eines "
 "angegeben werden!"
 
 #. Default: "Missing tags for 'Example' and for 'Denotation/Meaning' in the quotation"
-#: quotationtool/figuresng/iexample.py:87
+#: quotationtool/figuresng/interfaces.py:82
 msgid "nether-quid-nor-proquo-tag"
 msgstr ""
 "Beispiel und Bedeutung/Gemeintes müssen im Text (mit den Fähnchen) markiert "
 "werden!"
 
 #. Default: "Missing 'Example' tag in the quotation"
-#: quotationtool/figuresng/iexample.py:91
+#: quotationtool/figuresng/interfaces.py:86
 msgid "no-quid-tag"
 msgstr "Das Beispiel muss im Text (mit dem Fähnchen) markiert werden!"
 
 #. Default: "Missing 'Denotation/Meaning' tag in the quotation"
-#: quotationtool/figuresng/iexample.py:95
+#: quotationtool/figuresng/interfaces.py:90
 msgid "no-proquo-tag"
 msgstr ""
 "Das Gemeinte/Die Bedeutung muss im Text (mit dem Fähnchen) markiert werden!"
 
-#. Default: "Quotation"
-#: quotationtool/figuresng/interfaces.py:101
-msgid "ifigureindexcatalog-quotation-title"
-msgstr "Textstelle"
+#. Default: "Examples"
+#: quotationtool/figuresng/searcher.py:51
+msgid "ExampleSearchFilter-title"
+msgstr "Beispiele"
 
-#. Default: "Search by words from the quotation field."
-#: quotationtool/figuresng/interfaces.py:102
-msgid "ifigureindexcatalog-quotation-desc"
-msgstr "Suche im Feld 'Textstelle'."
+#. Default: "Search for examples."
+#: quotationtool/figuresng/searcher.py:52
+msgid "ExampleSearchFilter-desc"
+msgstr ""
+"Suche nach Beispielen mittels angeführtem Beispiel, Bedeutung, Markierung, "
+"Autor, Titel usw."
+
+#. Default: "Example"
+#: quotationtool/figuresng/searcher.py:61
+msgid "quid-fulltext-label"
+msgstr "Beispiel"
+
+#. Default: "Denotation / Meaning"
+#: quotationtool/figuresng/searcher.py:71
+msgid "proquo-fulltext-label"
+msgstr "Bedeutung / Gemeintes"
+
+#. Default: "Marker"
+#: quotationtool/figuresng/searcher.py:81
+msgid "marker-fulltext-label"
+msgstr "Marker"
+
+#. Default: "Number of Quotations"
+#: quotationtool/quotation/browser/count.pt:4
+msgid "quotationcount-abbr"
+msgstr "Anzahl der Zitate"
+
+#. Default: "Add a new Quotation"
+#: quotationtool/quotation/browser/form.py:26
+msgid "add-quotation"
+msgstr "Neues Zitat hinzufügen"
+
+#. Default: "Quotations in the Database"
+#: quotationtool/quotation/browser/quotations.pt:3
+msgid "quotationcontainer-container-label"
+msgstr "Zitate in der Datenbank"
+
+#. Default: "Quotations in Reference"
+#: quotationtool/quotation/browser/quotations_in_reference.pt:3
+msgid "quotations-in-reference-label"
+msgstr "Zitate aus dieser Ausgabe"
+
+#. Default: "This is a list of the quotations from the edition above that were collected so far."
+#: quotationtool/quotation/browser/quotations_in_reference.pt:5
+msgid "quotations-in-reference-desc"
+msgstr ""
+"Liste der Textstellen bzw. Zitate die bislang aus der obenstehenden Ausgabe "
+"gesammelt worden sind:"
+
+#. Default: "Year"
+#: quotationtool/quotation/browser/table.py:102
+msgid "year-column-head"
+msgstr "Jahr"
+
+#. Default: "Author"
+#: quotationtool/quotation/browser/table.py:122
+msgid "author-column-header"
+msgstr "Autor"
+
+#. Default: "Title"
+#: quotationtool/quotation/browser/table.py:142
+msgid "title-column-header"
+msgstr "Titel"
+
+#. Default: "Quotation #$ID"
+#: quotationtool/quotation/browser/view.py:54
+msgid "quotation-labelview"
+msgstr "Zitat #$ID"
+
+#. Default: "Quotations"
+#: quotationtool/quotation/browser/view.py:62
+msgid "quotationcontainer-labelview"
+msgstr "Zitate"
+
+#. Default: "Position within Division/Disposition"
+#: quotationtool/quotation/interfaces.py:100
+msgid "iquotation-position-title"
+msgstr "Position entsprechend Gliederung"
+
+#. Default: "If no page is available one might relocate the quotation by chapter or paragraph. Use this field to help others find the quotation."
+#: quotationtool/quotation/interfaces.py:102
+msgid "iquotation-position-desc"
+msgstr ""
+"Falls keine Paginierung vorhanden ist (und auch sonst), können Sie die "
+"Stelle durch Angabe des Kapitels oder Paragraphen wieder auffindbar machen."
+
+#. Default: "Either page or position must be given."
+#: quotationtool/quotation/interfaces.py:111
+msgid "neitherPageNorPosition"
+msgstr "Seite oder Position (oder beide) müssen angegeben werden."
+
+#. Default: "Count"
+#: quotationtool/quotation/interfaces.py:124
+msgid "iquotationcontainer-count-title"
+msgstr "Anzahl"
+
+#. Default: "How many examples there are"
+#: quotationtool/quotation/interfaces.py:126
+msgid "iquotationcontainer-count-desc"
+msgstr "Die Anzahl der überhaupt vorhandenen Zitatstellen."
 
 #. Default: "Cited from"
-#: quotationtool/figuresng/interfaces.py:49
-msgid "ifigure-reference-title"
-msgstr "Ausgabe"
+#: quotationtool/quotation/interfaces.py:48
+msgid "iquotation-reference-title"
+msgstr "Zitiert aus"
 
 #. Default: "The publication (book, article etc.) the text is taken from"
-#: quotationtool/figuresng/interfaces.py:51
-msgid "ifigure-reference-desc"
-msgstr "Die verwendete Ausgabe, der das Beispiel entnommen ist."
+#: quotationtool/quotation/interfaces.py:50
+msgid "iquotation-reference-desc"
+msgstr "Die Publikation, aus der der Text entnommen ist."
 
 #. Default: "Quotation"
-#: quotationtool/figuresng/interfaces.py:58
-msgid "ifigure-quotation-title"
-msgstr "Textstelle"
+#: quotationtool/quotation/interfaces.py:57
+msgid "iquotation-quotation-title"
+msgstr "Zitat / Textstelle"
 
 #. Default: "Passage in the text; without quotationmarks."
-#: quotationtool/figuresng/interfaces.py:60
-msgid "ifigure-quotation-desc"
+#: quotationtool/quotation/interfaces.py:59
+msgid "iquotation-quotation-desc"
 msgstr "Ohne Anführungsstriche, mit Auslassungszeichen [...]"
 
 #. Default: "Lenght"
-#: quotationtool/figuresng/interfaces.py:66
-msgid "ifigure-length-title"
+#: quotationtool/quotation/interfaces.py:65
+msgid "iquotation-length-title"
 msgstr "Größe"
 
 #. Default: "Length in bytes of the quotation attribute. Calculated automatically when quotation is set."
-#: quotationtool/figuresng/interfaces.py:68
-msgid "ifigure-length-desc"
+#: quotationtool/quotation/interfaces.py:67
+msgid "iquotation-length-desc"
 msgstr ""
 "Größe der Textstelle in Bytes. Dies wird automatisch errechnet, wenn die "
 "Textstelle gespeichert wird."
 
 #. Default: "Text Format"
-#: quotationtool/figuresng/interfaces.py:74
-msgid "ifigure-source-type-title"
+#: quotationtool/quotation/interfaces.py:73
+msgid "iquotation-source-type-title"
 msgstr "Text-Format"
 
 #. Default: "Choose text format"
-#: quotationtool/figuresng/interfaces.py:75
-msgid "ifigure-source-type-desc"
+#: quotationtool/quotation/interfaces.py:74
+msgid "iquotation-source-type-desc"
 msgstr "Art der Formatierung der Textstelle."
 
 #. Default: "Page"
-#: quotationtool/figuresng/interfaces.py:83
-msgid "ifigure-position-title"
+#: quotationtool/quotation/interfaces.py:82
+msgid "iquotation-page-title"
 msgstr "Seite"
 
-#. Default: "Without ''p.''; date for newspaper articles."
-#: quotationtool/figuresng/interfaces.py:85
-msgid "ifigure-position-desc"
-msgstr "Ohne \"S.\" oder \"Bd.\"; bei Zeitungsartikeln Datum angeben."
+#. Default: "Number of page without ''p.''."
+#: quotationtool/quotation/interfaces.py:84
+msgid "iquotation-page-desc"
+msgstr "Seitenzahl ohne 'S.'."
 
-#: quotationtool/figuresng/permissions.zcml:10
-msgid "Edit a figure e.g. example item."
-msgstr "Ändern eines Beispiels"
+#. Default: "Volume"
+#: quotationtool/quotation/interfaces.py:91
+msgid "iquotation-volume-title"
+msgstr "Band"
 
-#: quotationtool/figuresng/permissions.zcml:5
-msgid "Add a figures e.g. examples to the database."
-msgstr "Hinzufügen eines Beispiels"
+#. Default: "Number of Volume without ''vol.''."
+#: quotationtool/quotation/interfaces.py:93
+msgid "iquotation-volume-desc"
+msgstr "Bandnummer ohne 'Bd.'."
+
+#: quotationtool/quotation/permissions.zcml:10
+msgid "Edit an existing quotation item."
+msgstr "Eine vorhandene Textstelle (Zitat) ändern."
+
+#: quotationtool/quotation/permissions.zcml:5
+msgid "Add a quotation to the database."
+msgstr "Eine Textstelle (Zitat) zur Datenbank hinzufügen."
+
+#. Default: "Quotations"
+#: quotationtool/quotation/searcher.py:48
+msgid "QuotationSearchFilter-title"
+msgstr "Textstellen (Zitate)"
+
+#. Default: "Search for quotations."
+#: quotationtool/quotation/searcher.py:49
+msgid "QuotationSearchFilter-desc"
+msgstr "Suche nach Textstellen / Zitaten."
+
+#. Default: "Quotation"
+#: quotationtool/quotation/searcher.py:59
+msgid "quotation-fulltext-label"
+msgstr "Textstelle (Zitat)"
 
 #: quotationtool/relation/interfaces.py:15
 msgid "Invalid relation! The precondition violated."
@@ -2829,149 +2875,135 @@ msgid "ReStructured Text"
 msgstr "Text mit Formatierungen in ReST-Syntax"
 
 #. Default: "Search"
-#: quotationtool/search/browser/choose_search_target.pt:15
-msgid "search-button-label"
-msgstr "Suchen"
-
-#. Default: "Search"
-#: quotationtool/search/browser/choose_search_target.pt:3
-msgid "choose-search-target-label"
-msgstr "Suche"
-
-#. Default: "Choose the search target!"
-#: quotationtool/search/browser/choose_search_target.pt:5
-msgid "choose-search-target-prompt"
-msgstr "Wonach wollen Sie suchen?"
-
-#. Default: "Search"
-#: quotationtool/search/browser/configure.zcml:29
+#: quotationtool/search/browser/nav.zcml:8
 msgid "quotationtool-search-navigation"
 msgstr "Suche"
 
-#. Default: "Index ${index} not found!"
-#: quotationtool/search/browser/search.py:121
-msgid "search-invalid-index-error"
-msgstr "Such-Index ${index} nicht vorhanden!"
+#: quotationtool/search/browser/result.pt:5
+msgid ""
+"For a more detailed presentation of search results please go back to the "
+"search form and choose a more specific search target."
+msgstr ""
+"Eine detailliertere tabellarische Ansicht erhalten Sie, wenn Sie zum Such-"
+"Formular zurückgehen und spezifizieren, nach welchem Item-Typ Sie suchen "
+"wollen."
 
-#. Default: "Invalid query for ${index}"
-#: quotationtool/search/browser/search.py:128
-msgid "search-query-type-error"
-msgstr "Ungültige Such-Anfrage für ${index}!"
+#. Default: "Item type"
+#: quotationtool/search/browser/result.py:56
+msgid "label-column"
+msgstr "Item-Typ"
 
-#. Default: "Please choose a search target!"
-#: quotationtool/search/browser/search.py:196
-msgid "choose-search-target"
-msgstr "Suche"
+#. Default: "Item"
+#: quotationtool/search/browser/result.py:68
+msgid "listview-column"
+msgstr "Item"
 
-#. Default: "Find!"
-#: quotationtool/search/browser/search_form.pt:49
-msgid "find-button-label"
-msgstr "Suchen!"
+#: quotationtool/search/browser/result.py:79
+#: quotationtool/quotation/browser/table.py:196
+#: quotationtool/figuresng/browser/table.py:162
+msgid "flags"
+msgstr "<span lang=\"en\" xml:lang=\"en\">flags</span>"
+
+#: quotationtool/search/browser/resultcount.pt:4
+msgid "Objects found: ${count}"
+msgstr "Gefundene Items: ${count}"
 
 #. Default: "About search options"
-#: quotationtool/search/browser/search_form.pt:56
+#: quotationtool/search/browser/searcher.pt:102
 msgid "search-options-label"
 msgstr "Optionen bei der Suche"
 
 #. Default: "Jokers"
-#: quotationtool/search/browser/search_form.pt:58
+#: quotationtool/search/browser/searcher.pt:104
 msgid "search-jokers-label"
 msgstr "Jokerzeichen/Trunkierung"
 
 #. Default: "Replaces arbitrary many characters"
-#: quotationtool/search/browser/search_form.pt:63
+#: quotationtool/search/browser/searcher.pt:109
 msgid "asterix-joker-desc"
 msgstr "Ersetzt beliebig viele Zeichen"
 
 #. Default: "Replaces exactly one character"
-#: quotationtool/search/browser/search_form.pt:68
+#: quotationtool/search/browser/searcher.pt:114
 msgid "questionmark-joker-desc"
 msgstr "Ersetzt genau ein Zeichen"
 
-#. Default: "Indices"
-#: quotationtool/search/browser/search_form.pt:72
-msgid "search-indices-label"
-msgstr "Such-Indices"
+#: quotationtool/search/browser/searcher.pt:15
+msgid "Delimit search result to:"
+msgstr "Such-Ergebnis begrenzen auf:"
+
+#: quotationtool/search/browser/searcher.pt:74
+msgid "and"
+msgstr "und"
+
+#: quotationtool/search/browser/searcher.pt:76
+msgid "or"
+msgstr "oder"
+
+#: quotationtool/search/browser/searcher.pt:78
+msgid "not"
+msgstr "nicht"
 
 #. Default: "Find!"
-#: quotationtool/search/browser/search_quick.pt:20
-msgid "value find-button-label"
+#: quotationtool/search/browser/searcher.pt:92
+msgid "find-button-label"
 msgstr "Suchen!"
 
-#. Default: "full-fledged search form"
-#: quotationtool/search/browser/search_quick.pt:24
-msgid "full-fledged-search-link"
-msgstr "Erweiterte Suche"
+#: quotationtool/search/browser/searcher.py:102
+msgid "No values provided."
+msgstr "Keine Eingabewerte."
 
-#. Default: "Quick Search"
-#: quotationtool/search/browser/search_quick.pt:3
-msgid "quick-search-label"
-msgstr "Schnellsuche"
+#: quotationtool/search/browser/searcher.py:112
+msgid "One of the search filters is setup improperly."
+msgstr "Ein Suchfilter scheint nicht richtig konfiguriert zu sein."
 
-#. Default: "Search query:"
-#: quotationtool/search/browser/search_result_page.pt:10
-msgid "search-query"
-msgstr "Such-Anfrage"
+#: quotationtool/search/browser/searcher.py:116
+msgid "Invalid search text."
+msgstr "Ungültige Such-Anfrage."
 
-#. Default: "Search Result"
-#: quotationtool/search/browser/search_result_page.pt:5
-msgid "search-result-label"
-msgstr "Such-Ergebnisse"
+#. Default: "Search"
+#: quotationtool/search/browser/searcher.py:18
+msgid "search-form-label"
+msgstr "Suche"
 
-#. Default: "Conjunction"
-#: quotationtool/search/interfaces.py:20
-msgid "iquery-conjunction-title"
-msgstr "Konjunktion"
+#. Default: ""
+#: quotationtool/search/browser/searcher.py:83
+msgid "Bad criterium '$CRITERIUM'."
+msgstr "Ungültiges Such-Kriterium '$CRITERIUM'"
 
-#. Default: "and / or"
-#: quotationtool/search/interfaces.py:22
-msgid "iquery-conjunction-desc"
-msgstr "Logische Verknüpfung."
+#: quotationtool/search/permissions.zcml:5
+msgid "Manage search components."
+msgstr "Administration der Suche"
 
-#. Default: "Quality"
-#: quotationtool/search/interfaces.py:30
-msgid "iquery-quality-title"
-msgstr "Logische Qualität"
+#. Default: "Any content"
+#: quotationtool/search/searcher.py:47
+msgid "QuotationtoolSearchFilter-title"
+msgstr "Alle Inhalte"
 
-#. Default: "(yes) / not; Position or Negation"
-#: quotationtool/search/interfaces.py:32
-msgid "iquery-quality-desc"
-msgstr "Position oder Negation"
+#. Default: "Search for all content types."
+#: quotationtool/search/searcher.py:48
+msgid "QuotationtoolSearchFilter-desc"
+msgstr "Suche im gesamten Inhalt der Datenbank."
 
-#. Default: "Index"
-#: quotationtool/search/interfaces.py:42
-msgid "iquery-index-title"
-msgstr "Such-Index"
+#. Default: "Free Text (Any Field)"
+#: quotationtool/search/searcher.py:57
+msgid "any-fulltext-label"
+msgstr "Freitext (Alle Felder)"
 
-#. Default: "The name of the index to be searched."
-#: quotationtool/search/interfaces.py:44
-msgid "iquery-index-desc"
-msgstr "Durchsuchten Index auswählen."
+#. Default: "Search Target"
+#: quotationtool/search/searcher.py:70
+msgid "type-field-label"
+msgstr "Such-Ziel"
 
-#. Default: "Target"
-#: quotationtool/search/interfaces.py:74
-msgid "imultiindexquery-catalog-title"
-msgstr "Such-Ergebnis"
+#. Default: "ID"
+#: quotationtool/search/searcher.py:84
+msgid "id-field-label"
+msgstr "ID"
 
-#. Default: "What are you searching for?"
-#: quotationtool/search/interfaces.py:76
-msgid "imultiindexquery-catalog-desc"
-msgstr "Wonach soll gesucht werden?"
-
-#. Default: "Queries"
-#: quotationtool/search/interfaces.py:83
-msgid "imultiindexquery-queries-title"
-msgstr "Suchanfragen"
-
-#. Default: "A List of query objects."
-#: quotationtool/search/interfaces.py:85
-msgid "imultiindexquery-queries-desc"
-msgstr "Liste kombinierter Suchanfragen."
-
-#. Default: "Query"
-#: quotationtool/search/interfaces.py:87
-msgid "imultiindexquery-queries-object-title"
-msgstr "Anfrage"
+#. Default: "Search for an item by its unique id-number."
+#: quotationtool/search/searcher.py:86
+msgid "id-field-desc"
+msgstr "Suche nach einem Item anhand seiner ID-Nummer"
 
 #. Default: "An Editor of the quotationtool website"
 #: quotationtool/security/roles.zcml:11
@@ -3109,6 +3141,10 @@ msgstr "Hilfe"
 msgid "${DYNAMIC_CONTENT}"
 msgstr "${DYNAMIC_CONTENT}"
 
+#: quotationtool/skin/browser/table.py:50
+msgid "Sort"
+msgstr "Sortieren"
+
 #: quotationtool/user/browser/change_password.pt:15
 #: quotationtool/user/browser/signup.pt:22
 msgid "Full name:"
@@ -3242,6 +3278,186 @@ msgstr "Passwort ändern."
 msgid "signup-permission-title"
 msgstr "Benutzer anlegen."
 
+#~ msgid "any-fulltext-title"
+#~ msgstr "Freitext"
+
+#~ msgid "Search"
+#~ msgstr "Suche"
+
+#~ msgid "search-button-label"
+#~ msgstr "Suchen"
+
+#~ msgid "choose-search-target-label"
+#~ msgstr "Suche"
+
+#~ msgid "choose-search-target-prompt"
+#~ msgstr "Wonach wollen Sie suchen?"
+
+#~ msgid "search-invalid-index-error"
+#~ msgstr "Such-Index ${index} nicht vorhanden!"
+
+#~ msgid "search-query-type-error"
+#~ msgstr "Ungültige Such-Anfrage für ${index}!"
+
+#~ msgid "choose-search-target"
+#~ msgstr "Suche"
+
+#~ msgid "search-indices-label"
+#~ msgstr "Such-Indices"
+
+#~ msgid "value find-button-label"
+#~ msgstr "Suchen!"
+
+#~ msgid "full-fledged-search-link"
+#~ msgstr "Erweiterte Suche"
+
+#~ msgid "quick-search-label"
+#~ msgstr "Schnellsuche"
+
+#~ msgid "search-query"
+#~ msgstr "Such-Anfrage"
+
+#~ msgid "search-result-label"
+#~ msgstr "Such-Ergebnisse"
+
+#~ msgid "iquery-conjunction-title"
+#~ msgstr "Konjunktion"
+
+#~ msgid "iquery-conjunction-desc"
+#~ msgstr "Logische Verknüpfung."
+
+#~ msgid "iquery-quality-title"
+#~ msgstr "Logische Qualität"
+
+#~ msgid "iquery-quality-desc"
+#~ msgstr "Position oder Negation"
+
+#~ msgid "iquery-index-title"
+#~ msgstr "Such-Index"
+
+#~ msgid "iquery-index-desc"
+#~ msgstr "Durchsuchten Index auswählen."
+
+#~ msgid "imultiindexquery-catalog-title"
+#~ msgstr "Such-Ergebnis"
+
+#~ msgid "imultiindexquery-catalog-desc"
+#~ msgstr "Wonach soll gesucht werden?"
+
+#~ msgid "imultiindexquery-queries-title"
+#~ msgstr "Suchanfragen"
+
+#~ msgid "imultiindexquery-queries-desc"
+#~ msgstr "Liste kombinierter Suchanfragen."
+
+#~ msgid "imultiindexquery-queries-object-title"
+#~ msgstr "Anfrage"
+
+#~ msgid "Ignore Empty Criteria"
+#~ msgstr "Leere Such-Anfrage ignorieren"
+
+#~ msgid "Ignore empty search criteria (white space only) in the search form."
+#~ msgstr "Ignorieren leerer Such-Anfragen (white space) im Suchformular."
+
+#~ msgid "subnav-bibliography-search"
+#~ msgstr "Suchen"
+
+#~ msgid "entries-search-target-description"
+#~ msgstr ""
+#~ "Suche nach bibliographischen Eintrag mittels Autor, Titel, Jahr usw."
+
+#~ msgid "bibliography-search-form-label"
+#~ msgstr "Bibliographische Suche"
+
+#~ msgid "entries-search-target-label"
+#~ msgstr "Bibliographische Einträge"
+
+#~ msgid "example-frontpage-label"
+#~ msgstr "Beispiel"
+
+#~ msgid "examples-in-reference-desc-OFF"
+#~ msgstr ""
+#~ "Dies sind die Beispiele aus der obenstehenden Ausgabe, die bislang "
+#~ "gesammelt worden sind. Möglicherweise gibt es <a class=\"content\" href="
+#~ "\"${href}\">weitere Beispiele in anderen Ausgaben, Wiederabdrucken oder "
+#~ "Übersetzungen</a>."
+
+#~ msgid "examples-in-uniformtitle-label1"
+#~ msgstr "Beispiele aus diesem Einheitssachtitel"
+
+# Dies sind die Beispiele aus dem obenstehenden Einheitssachtitel, die bislang gesammelt worden sind. Es handelt sich um die Vereinigungsmenge der Beispiele aus allen <a class="content" href="${href}">Ausgaben</a>.
+#~ msgid "examples-in-uniformtitle-desc"
+#~ msgstr ""
+#~ "Dies sind die Beispiele aus dem obenstehenden Einheitssachtitel, die "
+#~ "bislang gesammelt wurden. Es handelt sich um die Vereinigungsmenge der "
+#~ "Beispiele aus allen <a class=\"content\" href=\"${href}\">Ausgaben</a>."
+
+#~ msgid "edit"
+#~ msgstr "Ändern"
+
+#~ msgid "examplecontainer-search-navigation"
+#~ msgstr "Suche"
+
+#~ msgid "example-search-target-label"
+#~ msgstr "Beispielen"
+
+#~ msgid "Show!"
+#~ msgstr "Zeige!"
+
+#~ msgid "examplecontainer-frontpage-label"
+#~ msgstr "Beispiele"
+
+#~ msgid ""
+#~ "You want to use $KEY as key for the example, but it should be $COUNT!"
+#~ msgstr ""
+#~ "Sie wollen $KEY als ID für das Beispiel verwenden, aber es sollte $COUNT "
+#~ "sein."
+
+#~ msgid "iexampleindexcatalog-quid-title"
+#~ msgstr "Beispiel"
+
+#~ msgid "iexampleindexcatalog-quid-desc"
+#~ msgstr "Suche im Feld 'Beispiel'."
+
+#~ msgid "iexampleindexcatalog-proquo-title"
+#~ msgstr "Bedeutung/Gemeintes"
+
+#~ msgid "iexampleindexcatalog-proquo-desc"
+#~ msgstr "Suche im Feld 'Bedeutung/Gemeintes'."
+
+#~ msgid "iexampleindexcatalog-quidproquo-title"
+#~ msgstr "Beispiel ODER Bedeutung/Gemeintes"
+
+#~ msgid "iexampleindexcatalog-quidproquo-desc"
+#~ msgstr ""
+#~ "Suche in der Feldern 'Beispiel' oder 'Bedeutung/Gemeintes'. Treffer in "
+#~ "mindestens einem Feld werden angezeigt. Dieser Index wird auch für die "
+#~ "Schnellsuche verwendet."
+
+#~ msgid "iexampleindexcatalog-marker-title"
+#~ msgstr "Markierung"
+
+#~ msgid "iexampleindexcatalog-marker-desc"
+#~ msgstr "Suche im Feld 'Markierung'."
+
+#~ msgid "iexampelcontainer-count-title"
+#~ msgstr "Anzahl"
+
+#~ msgid "iexamplecontainer-count-desc"
+#~ msgstr "Anzahl der Beispiele"
+
+#~ msgid "ifigureindexcatalog-quotation-title"
+#~ msgstr "Textstelle"
+
+#~ msgid "ifigureindexcatalog-quotation-desc"
+#~ msgstr "Suche im Feld 'Textstelle'."
+
+#~ msgid "ifigure-reference-desc"
+#~ msgstr "Die verwendete Ausgabe, der das Beispiel entnommen ist."
+
+#~ msgid "Edit a figure e.g. example item."
+#~ msgstr "Ändern eines Beispiels"
+
 #~ msgid "editorial-revisionhistory"
 #~ msgstr "Redaktionsgeschichte"
 
@@ -3266,9 +3482,6 @@ msgstr "Benutzer anlegen."
 
 #~ msgid "navigation-label"
 #~ msgstr "Navigation"
-
-#~ msgid "quotationtool-search-tabs"
-#~ msgstr "Suche"
 
 #~ msgid "categoriescontainer-breadcrumb"
 #~ msgstr "Klassifikation"
@@ -3296,12 +3509,6 @@ msgstr "Benutzer anlegen."
 
 #~ msgid "category-tab"
 #~ msgstr "Kategorie"
-
-#~ msgid "quotation-plaintext-factory-title"
-#~ msgstr "Unformatierter Text"
-
-#~ msgid "quotation-plaintext-factory-desc"
-#~ msgstr "Die Textstelle wird ohne Formatierung angezeigt."
 
 #~ msgid "reference-link"
 #~ msgstr "[zur Reference]"
@@ -3354,9 +3561,6 @@ msgstr "Benutzer anlegen."
 #~ msgid "commentary-plaintext-factory-desc"
 #~ msgstr "Kommentar ohne Textformatierung"
 
-#~ msgid "quotationtool-renderer-rest-desc"
-#~ msgstr "Einfache Formatierungssyntax."
-
 #~ msgid "examples-in-quotation-label1"
 #~ msgstr "Beispiele"
 
@@ -3380,9 +3584,6 @@ msgstr "Benutzer anlegen."
 
 #~ msgid "Data-Fields"
 #~ msgstr "Daten-Felder"
-
-#~ msgid "edit-button-label"
-#~ msgstr "Änderungen Speichern"
 
 #~ msgid "Add"
 #~ msgstr "Hinzufügen"
@@ -3494,9 +3695,6 @@ msgstr "Benutzer anlegen."
 #~ msgid "referatory-navigation"
 #~ msgstr "Bibliographie"
 
-#~ msgid "edit-field-error"
-#~ msgstr "Fehler: Kann den Feldnamen nicht bestimmen."
-
 #~ msgid "Field not allowed!"
 #~ msgstr "Feld nicht erlaubt!"
 
@@ -3508,9 +3706,6 @@ msgstr "Benutzer anlegen."
 
 #~ msgid "choose-reference-type"
 #~ msgstr "Wählen Sie eine Publikationsart aus!"
-
-#~ msgid "add"
-#~ msgstr "Hinzufügen"
 
 #~ msgid "other-editions-link"
 #~ msgstr "Andere Ausgaben, Wiederabdrucke, Übersetzungen ..."
@@ -3578,16 +3773,10 @@ msgstr "Benutzer anlegen."
 #~ "unter einem Einheitssachtitel versammelt sind, wird die Suche in der "
 #~ "Datenbank verbessert."
 
-#~ msgid "add-edition"
-#~ msgstr "Ausgabe hinzufügen"
-
 #~ msgid "uniformtitle-references-label"
 #~ msgstr "Ausgaben unter Einheitssachtitel"
 
 #~ msgid "uniformtitlecontainer-breadcrumb"
-#~ msgstr "Einheitssachtitel"
-
-#~ msgid "uniformtitlecontainer-container-label"
 #~ msgstr "Einheitssachtitel"
 
 #~ msgid "uniformtitlecontainer-frontpage-label"
@@ -3729,9 +3918,6 @@ msgstr "Benutzer anlegen."
 #~ msgstr "QuotationTool"
 
 #~ msgid "quotationtool-start-navigation"
-#~ msgstr "Startseite"
-
-#~ msgid "quotationtool-start-tabs"
 #~ msgstr "Startseite"
 
 #~ msgid "quotationtool-faq-navigation"
